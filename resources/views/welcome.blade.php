@@ -284,7 +284,7 @@
                                                                     <div class="col-sm-6">
                                                                         <h2
                                                                             class="common__heading font__controls__style">
-                                                                            News</h2>
+                                                                            Activity</h2>
                                                                     </div>
                                                                     <div class="col-sm-6">
                                                                         <a href="./happenings/IITM-in-the-news"

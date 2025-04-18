@@ -185,9 +185,9 @@
             <div class="footer__iitlogosec">
                 <div class="row">
                     <div class="col-sm-5">
-                        <div class="footer__iitlogo" role="img" aria-label="IIT Madras Logo">
-                            <a href="https://www.iitm.ac.in/" title="IIT Madras"><img alt="IIT Madras"
-                                    src="{{ asset('images/logo.png') }}"></a>
+                        <div class="footer__iitlogo" role="img" aria-label="Best College in Kota">
+                            <a href="/" title="Maa Bharti PG College"><img alt="Best College in Kota"
+                                    src="{{ asset('images/logo_white.png') }}"></a>
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -212,11 +212,11 @@
                                 <a href="./sitemap">Sitemap</a>
                             </li>
                         </ul>
-                        <p>&copy; 2020 IIT Madras - All rights reserved</p>
+                        <p>&copy; 2025 <strong>MAA BHARTI PG COLLEGE</strong> - All rights reserved</p>
                     </div>
                     <div class="col-sm-5 col-md-6 text-right">
-                        <p>Powered by</p>
-                        <h5><a href="https://www.whatarage.com/" target="_blank">Rage Communications</a></h5>
+                        <p>Developed by</p>
+                        <h5><a href="/" target="_blank">Jaykishan Rawat</a></h5>
 
                         <p style="padding-top : 5px; font-size:12px;">
                             Website last updated on: 2025-04-15 20:00:02 PM
