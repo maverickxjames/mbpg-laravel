@@ -86,9 +86,10 @@
                                     <a href="#">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">Admission Open</a>
+                                    <a target="_blank" href="https://maps.app.goo.gl/Q7L1RUH5fnny4quW8">Location</a>
                                 </li>
                             </ul>
+                            
                         </div>
                         <div class="col-sm-4">
                             <div class="header__toprightmenu">
