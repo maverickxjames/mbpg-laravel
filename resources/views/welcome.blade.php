@@ -179,91 +179,16 @@
                                                                     <div class="marquee__movecotent">
                                                                         <div id="marqueeContent"
                                                                             class="marquee__content clearfix">
+                                                                            @php
+                                                                                $announcements = DB::table('announcements')->where('status',1)->orderBy('id','DESC')->get();
+                                                                            @endphp
+                                                                            @foreach($announcements as $announcement)
                                                                             <div class="announcements__list">
-                                                                                <a href="https://facapp.iitm.ac.in/ "
-                                                                                    target="_blank">Rolling
-                                                                                    Advertisement No IITM/R/3/2025 Dated
-                                                                                    11.04.2025 visit
-                                                                                    https://facapp.iitm.ac.in/ for
-                                                                                    application</a>
+                                                                                <a href="{{ asset($announcement->link) }}"
+                                                                                    target="_blank">{{ $announcement->topic }}</a>
                                                                             </div>
-                                                                            <div class="announcements__list">
-                                                                                <a
-                                                                                    href="./announcements/crouching-tiger-report-startups-textiles ">The
-                                                                                    Crouching Tiger – A report on
-                                                                                    Startups in Textiles</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="https://ssp.iitm.ac.in/summer-fellowship-registration "
-                                                                                    target="_blank">Summer Fellowship
-                                                                                    2025</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a
-                                                                                    href="./announcements/76th-republic-day-live-streaming ">76th
-                                                                                    Republic Day - Live streaming</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="https://acr.iitm.ac.in/iitmcsrawards2024/ "
-                                                                                    target="_blank">Nominations open for
-                                                                                    IIT Madras CSR Awards 2024 - Apply
-                                                                                    Now</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a
-                                                                                    href="./announcements/78th-independence-day-live-streaming ">78th
-                                                                                    Independence Day - Live
-                                                                                    streaming</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a
-                                                                                    href="./announcements/partition-horrors-remembrance-day-2024-0 ">Partition
-                                                                                    Horrors Remembrance Day 2024</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="./sites/default/files/Others/UG_Orientation_2024.pdf "
-                                                                                    target="_blank">Orientation
-                                                                                    Programme for UG Students – 2024:
-                                                                                    Schedule and Video Link</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="./sites/default/files/Others/PG_Admissions_2024.pdf "
-                                                                                    target="_blank">PG Degree Admissions
-                                                                                    2024-25 Schedule</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a
-                                                                                    href="./announcements/convocation-2024-live-streaming ">Convocation
-                                                                                    2024 - Live Streaming</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="./sites/default/files/Others/IITM_UG_degree_Admission_2024_25_ScheduleJul24.pdf "
-                                                                                    target="_blank">UG Admissions
-                                                                                    2024</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="https://www.askiitm.com/ "
-                                                                                    target="_blank">AskIITM.com for
-                                                                                    JoSAA 2023 doubts &amp; queries</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="https://mst.iitm.ac.in/bs-in-medical-sciences-engineering/ "
-                                                                                    target="_blank">Admissions to 4 year
-                                                                                    Medical Science and Engineering
-                                                                                    Program</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="https://facapp.iitm.ac.in/ "
-                                                                                    target="_blank">Faculty Recruitment
-                                                                                    2023 - Rolling Advertisement for
-                                                                                    Assistant Professor</a>
-                                                                            </div>
-                                                                            <div class="announcements__list">
-                                                                                <a href="https://ge.iitm.ac.in/I2MP/ "
-                                                                                    target="_blank">International
-                                                                                    Interdisciplinary Master’s Program
-                                                                                    (I2MP)</a>
-                                                                            </div>
+                                                                            @endforeach
+                                                                            
                                                                         </div>
                                                                     </div>
                                                                 </div>
