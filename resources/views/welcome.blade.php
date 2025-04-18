@@ -22,7 +22,15 @@
         href="./sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJwdylEOhCAMRdENoV0SQfqcNCnU0Iph92P8OT_3ikQjedk8lkr_JS3L7sgsXm1iLLKOapoaWAqdooGx13KFWE--PNDoKI40hWEZ7QDnU6BMA35Zd5nYvvgueJw-92Z8K_6ukDJD" />
 
 
+<style>
+    .header--links--border{
+        padding-right: 5px !important;
+    }
 
+    .header--links{
+        padding-right: 5px !important;
+    }
+</style>
 
 
 
@@ -104,15 +112,8 @@
 
 
                                 <ul class="header__language">
-                                    <li class="menuitem"><a href="./tamil" class="language-link">தமிழ்</a></li>
-                                    <li hreflang="hi" data-drupal-link-system-path="&lt;front&gt;" class="menuitem"><a
-                                            href="./hi" class="language-link" hreflang="hi"
-                                            data-drupal-link-system-path="&lt;front&gt;">हिन्दी</a></li>
-                                    <li hreflang="en" data-drupal-link-system-path="&lt;front&gt;"
-                                        class="menuitem is-active" aria-current="page"><a href="./"
-                                            class="language-link is-active" hreflang="en"
-                                            data-drupal-link-system-path="&lt;front&gt;" aria-current="page">Eng</a>
-                                    </li>
+                                    <li class="menuitem"><a href="https://uok.ac.in/" class="language-link">Admission Open</a></li>
+                                    
                                 </ul>
 
 
@@ -301,51 +302,27 @@
                                                         <div class="view-content">
                                                             <section class="slider slider__arrowcenter" role="banner">
                                                                 <div class="bannerSlider owl-carousel owl-theme">
+
+                                                                    @php
+                                                                        $banner = DB::table('banner')->where('status' , 1)->orderBy('sort_order')->get();
+                                                                        
+                                                                    @endphp
+                                                                    @foreach($banner as $bannerList)
                                                                     <a href="javascript:;">
                                                                         <div class="slider__imgcontrol"
-                                                                            style="background-image: url(/sites/default/files/banners/home/hero-banner_0.jpg);">
+                                                                            style="background-image: url({{ asset($bannerList->image_path) }});">
                                                                             <div class="container">
-                                                                                <h2 class="banner__heading">The
-                                                                                    Champions of Technology</h2>
+                                                                                <h2 class="banner__heading">
+                                                                                    {{ $bannerList->title }}</h2>
                                                                             </div>
                                                                         </div>
-                                                                    </a>
-                                                                    <a href="javascript:;">
-                                                                        <div class="slider__imgcontrol"
-                                                                            style="background-image: url(/sites/default/files/banners/home/Homepage%20banner%203_0.jpg);">
-                                                                            <div class="container">
-                                                                                <h2 class="banner__heading">Incubating
-                                                                                    Minds</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                    <a href="javascript:;">
-                                                                        <div class="slider__imgcontrol"
-                                                                            style="background-image: url(/sites/default/files/banners/home/homepagebanner-03.jpg);">
-                                                                            <div class="container">
-                                                                                <h2 class="banner__heading">Catalyzing
-                                                                                    Careers</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                    <a href="javascript:;">
-                                                                        <div class="slider__imgcontrol"
-                                                                            style="background-image: url(/sites/default/files/banners/home/homepage%20banner4.jpg);">
-                                                                            <div class="container">
-                                                                                <h2 class="banner__heading">The Best of
-                                                                                    the Best</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                    <a href="javascript:;">
-                                                                        <div class="slider__imgcontrol"
-                                                                            style="background-image: url(/sites/default/files/banners/home/Homepage_NAC2.jpg);">
-                                                                            <div class="container">
-                                                                                <h2 class="banner__heading">No. 1 for 9
-                                                                                    Years Running...</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
+                                                                    </a>  
+                                                                    @endforeach
+
+                                                                    
+
+
+                                                                    
                                                                 </div>
                                                             </section>
 

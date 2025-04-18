@@ -17,8 +17,8 @@
                 <div class="header__search" role="search">
                     <a href="http://naac.gov.in/index.php/en/" target="_blank" title="G20"
                         class="g-20-logo"><img alt="G20" src="{{ asset('images/naac_b.jpeg') }}"></a>
-                    <a href="./the-institute/institute-eminence-centers-excellence"
-                        class="header--links header--links--border ioe-icons">University of Kota</a>
+                    <a href="https://uok.ac.in/"
+                        class="header--links header--links--border">University of Kota</a>
 
 
 
