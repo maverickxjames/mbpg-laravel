@@ -10,7 +10,7 @@
                 </a>
                 <div class="header__logo" role="img" aria-label="IIT Madras">
                     <a href="https://www.iitm.ac.in/" title="IIT Madras" rel="home"><img alt="IIT Madras"
-                            src="{{ asset('images/mbpg_header.png') }}"></a>
+                            src="{{ asset('images/logo.png') }}"></a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-9 col-lg-8">
