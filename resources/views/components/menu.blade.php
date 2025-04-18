@@ -2,8 +2,45 @@
     <div class="container">
         <nav class="navigation__slideShow" aria-label="global header menu">
 
+            
+
             <ul class="navigation__menu">
-                <li class="navigation__submenudropdown ">
+                @php
+                $menus = DB::table('menus')->whereNull('parent_id')->orderBy('sort_order', 'asc')->get();
+                @endphp
+                @foreach($menus as $menu)
+                @php
+                    $submenus = DB::table('menus')->where('parent_id', $menu->id)->orderBy('sort_order', 'asc')->get();
+                @endphp
+                <li class="navigation__submenudropdown">
+                    @if($submenus->isEmpty())
+                        <a href="{{ $menu->url }}">{{ $menu->title }}</a>
+                    @else
+                        <a href="javascript:;">{{ $menu->title }}</a>
+                        <ul class="navigation__submenu">
+                            @foreach($submenus as $submenu)
+                                @php
+                                    $sub_submenus = DB::table('menus')->where('parent_id', $submenu->id)->orderBy('sort_order', 'asc')->get();
+                                @endphp
+                                @if($sub_submenus->isNotEmpty())
+                                    <li class="navigation__innersubmenu">
+                                        <a href="javascript:;">{{ $submenu->title }}</a>
+                                        <ul class="navigation__submenusecond">
+                                            @foreach($sub_submenus as $sub_submenu)
+                                                <li><a href="{{ $sub_submenu->url }}">{{ $sub_submenu->title }}</a></li>
+                                            @endforeach
+                                        </ul>
+                                    </li>
+                                @else
+                                    <li><a href="{{ $submenu->url }}">{{ $submenu->title }}</a></li>
+                                @endif
+                            @endforeach
+                        </ul>
+                    @endif
+                </li>
+            @endforeach
+              
+                {{-- <li class="navigation__submenudropdown ">
                     <a href="javascript:;">About Us</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
@@ -570,7 +607,7 @@
                             <a href="./the-strategic-plan">IITM Strategic Plans</a>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
             </ul>
         </nav>
     </div>
