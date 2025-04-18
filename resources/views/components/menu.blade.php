@@ -4,7 +4,7 @@
 
             <ul class="navigation__menu">
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Academics</a>
+                    <a href="javascript:;">About Us</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./academics/overview">Overview</a>
@@ -156,7 +156,7 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Research</a>
+                    <a href="javascript:;">Academics</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./research/research-highlights">Research Highlights</a>
@@ -242,7 +242,7 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Innovation</a>
+                    <a href="javascript:;">Admission</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./innovation/industrial-consultancy">Industrial Consultancy</a>
@@ -261,7 +261,7 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Research Park</a>
+                    <a href="javascript:;">Courses</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./research-park/iitm-research-park">IITM Research Park</a>
@@ -278,7 +278,7 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Happenings</a>
+                    <a href="javascript:;">Departments</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./happenings/events">Events</a>
@@ -298,7 +298,7 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Recognitions</a>
+                    <a href="javascript:;">IQAC NAAC</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./recognitions/distinguished-professors">Distinguished Professors</a>
@@ -329,7 +329,7 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Campus Life</a>
+                    <a href="javascript:;">Infrastructure</a>
                     <ul class="navigation__submenu">
                         <li class=" ">
                             <a href="./campus-life/overview">Overview</a>
@@ -378,27 +378,104 @@
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">Careers</a>
+                    <a href="javascript:;">Forums</a>
                     <ul class="navigation__submenu">
-                        <li class=" ">
-                            <a href="./careers/overview">Overview</a>
+                        <li class="navigation__innersubmenu ">
+                            <a href="javascript:;">About IIT Madras</a>
+                            <ul class="navigation__submenusecond">
+                                <li class=""><a
+                                        href="./the-institute/about-iit-madras/overview">Overview</a></li>
+                                <li class=""><a href="./the-institute/about-iit-madras/mission">Mission</a>
+                                </li>
+                                <li class=""><a href="./the-institute/about-iit-madras/history">History</a>
+                                </li>
+                                <li class=""><a
+                                        href="./the-institute/about-iit-madras/milestones">Milestones</a>
+                                </li>
+                                <li class=""><a
+                                        href="./the-institute/about-iit-madras/heritage-centre">Heritage
+                                        Centre</a></li>
+                                <li class=""><a
+                                        href="./the-institute/about-iit-madras/archive-of-iit-madras">Archive
+                                        of IIT Madras</a></li>
+                                <li class=""><a
+                                        href="./the-institute/about-iit-madras/publications">Publications</a>
+                                </li>
+                                <li class=""><a href="./the-institute/about-iit-madras/nirf">NIRF</a></li>
+                                <li class=""><a href="./the-institute/about-iit-madras/ariia">ARIIA</a></li>
+                                <li class=""><a href="./the-institute/about-iit-madras/past-directors">Past
+                                        Directors</a></li>
+                            </ul>
+                        </li>
+                        <li class="navigation__innersubmenu ">
+                            <a href="javascript:;">Administration</a>
+                            <ul class="navigation__submenusecond">
+                                <li class=""><a href="./the-institute/administration/overview">Overview</a>
+                                </li>
+                                <li class=""><a
+                                        href="./the-institute/administration/governing-board">Governing
+                                        Board</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/academic-administration">Academic
+                                        Administration</a></li>
+                                <li class=""><a href="./the-institute/administration/senate">Senate</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/administration-section">Administration
+                                        Section</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/building-and-works-committee">Building
+                                        and Works Committee</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/central-administration">Central
+                                        Administration</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/complaint-committee">Complaint
+                                        Committee</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/convenors-and-coordinators">Convenors
+                                        and Coordinators</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/engineering-unit">Engineering
+                                        Unit</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/finance-committee">Finance
+                                        Committee</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/high-power-committee">High
+                                        Power Committee - SC/ST</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/high-power-committee-obc">High
+                                        Power Committee - OBC</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/institutional-ethics-committee">Institutional
+                                        Ethics Committee</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/recruitment-and-promotion-norms">Recruitment
+                                        and Promotion Norms</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/right-to-information">Right to
+                                        Information</a></li>
+                                <li class=""><a
+                                        href="./the-institute/administration/technical-committee">Technical
+                                        Committee</a></li>
+                            </ul>
                         </li>
                         <li class=" ">
-                            <a href="./careers/prospective-faculty">Prospective Faculty</a>
+                            <a href="./the-institute/alumni-relations">Alumni and Corporate Relations</a>
                         </li>
                         <li class=" ">
-                            <a href="./careers/non-teaching-positions">Non Teaching Positions</a>
+                            <a href="./the-institute/global-engagement">Global Engagement</a>
                         </li>
                         <li class=" ">
-                            <a href="./careers/post-doctoral-opportunities">Post Doctoral Opportunities</a>
+                            <a href="./the-institute/climate-action-plan">Climate Action Plan</a>
                         </li>
                         <li class=" ">
-                            <a href="./careers/project-positions">Project Positions</a>
+                            <a href="./the-strategic-plan">IITM Strategic Plans</a>
                         </li>
                     </ul>
                 </li>
                 <li class="navigation__submenudropdown ">
-                    <a href="javascript:;">The Institute</a>
+                    <a href="javascript:;">Students Corner</a>
                     <ul class="navigation__submenu">
                         <li class="navigation__innersubmenu ">
                             <a href="javascript:;">About IIT Madras</a>
