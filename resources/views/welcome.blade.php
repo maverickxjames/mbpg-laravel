@@ -60,22 +60,25 @@
 
                             <ul class="header__topleftmenu">
                                 <li>
-                                    <a href="./students">Students</a>
+                                    <a href="#">Home</a>
                                 </li>
                                 <li>
-                                    <a href="./faculty-staff">Faculty &amp; Staff</a>
+                                    <a href="#">Research &amp; Innovation</a>
                                 </li>
                                 <li>
-                                    <a href="./alumni">Alumni</a>
+                                    <a href="#">NSS</a>
                                 </li>
                                 <li>
-                                    <a href="./industry">Industry</a>
+                                    <a href="#">NCTE</a>
                                 </li>
                                 <li>
-                                    <a href="./directory">Directory</a>
+                                    <a href="#">Photo Gallery</a>
                                 </li>
                                 <li>
-                                    <a href="./contact">Contact</a>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Admission Open</a>
                                 </li>
                             </ul>
                         </div>
