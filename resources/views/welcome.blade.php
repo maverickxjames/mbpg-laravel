@@ -280,7 +280,7 @@
 
                                                         <div class="view-content">
                                                             <!-- News Section Star -->
-                                                            <div class="col-sm-12 col-md-9">
+                                                            <div class="col-sm-12 col-md-12">
                                                                 <div class="row">
                                                                     <div class="col-sm-6">
                                                                         <h2
@@ -294,19 +294,22 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="row display__flexbox">
+
+                                                                    @php
+                                                                        $activities=DB::table('activity')->limit(3)->where('status',1)->orderBy('sort_order','asc')->get();
+                                                                    @endphp
+
+                                                                    @foreach ($activities  as $activity)
                                                                     <div class="col-sm-4">
-                                                                        <a href="./happenings/press-releases-and-coverages/iit-madras-iit-madras-pravartak-foundation-partners-ziroh"
+                                                                        <a target="_blank" href="{{ $activity->link }}"
                                                                             class="block__element">
                                                                             <div class="section__card">
                                                                                 <div class="section__cardimg section__cardimg--center"
                                                                                     role="img">
-                                                                                    <img src="./sites/default/files/styles/img_s5/public/happenings/press_release/pressrelease09_04_2025_14_14.jpg?itok=oOfsHIwG"
+                                                                                    <img src="{{ asset($activity->thumbnail) }}"
                                                                                         alt="IIT Madras &amp; IIT-Madras Pravartak Foundation partners with Ziroh Labs to…" />
                                                                                 </div>
-                                                                                <h3 class="section__cardheading">IIT
-                                                                                    Madras &amp; IIT-Madras Pravartak
-                                                                                    Foundation partners with Ziroh Labs
-                                                                                    to…</h3>
+                                                                                <h3 class="section__cardheading">{{ $activity->topic }}</h3>
                                                                                 <p>Indian Institute of Technology Madras
                                                                                     (IIT Madras) and IITM Pravartak…
                                                                                 <ul class="clearfix divider__list">
@@ -320,58 +323,9 @@
                                                                             </div>
                                                                         </a>
                                                                     </div>
-                                                                    <div class="col-sm-4">
-                                                                        <a href="./happenings/press-releases-and-coverages/iit-madras-researchers-develop-real-time-indoor-mapping"
-                                                                            class="block__element">
-                                                                            <div class="section__card">
-                                                                                <div class="section__cardimg section__cardimg--center"
-                                                                                    role="img">
-                                                                                    <img src="./sites/default/files/styles/img_s5/public/happenings/press_release/pressrelease07_04_2025_14_23.jpg?itok=JwbUieE4"
-                                                                                        alt="IIT Madras Researchers develop Real-Time Indoor Mapping Technology" />
-                                                                                </div>
-                                                                                <h3 class="section__cardheading">IIT
-                                                                                    Madras Researchers develop Real-Time
-                                                                                    Indoor Mapping Technology</h3>
-                                                                                <p>Indian Institute of Technology Madras
-                                                                                    (IIT Madras) have developed an…
-                                                                                <ul class="clearfix divider__list">
-                                                                                    <li
-                                                                                        class="font__fontrols__style font__controls__style">
-                                                                                        7 Apr 2025</li>
-                                                                                    <li
-                                                                                        class="font__fontrols__style font__controls__style">
-                                                                                        Press Release</li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="col-sm-4">
-                                                                        <a href="./happenings/press-releases-and-coverages/iit-madras-partners-rekhi-foundation-establish-centre"
-                                                                            class="block__element">
-                                                                            <div class="section__card">
-                                                                                <div class="section__cardimg section__cardimg--center"
-                                                                                    role="img">
-                                                                                    <img src="./sites/default/files/styles/img_s5/public/happenings/press_release/pressrelease02_04_2025_15_28.jpg?itok=Yu3CsLG7"
-                                                                                        alt="IIT Madras partners with Rekhi Foundation to establish Centre of Excellence for the…" />
-                                                                                </div>
-                                                                                <h3 class="section__cardheading">IIT
-                                                                                    Madras partners with Rekhi
-                                                                                    Foundation to establish Centre of
-                                                                                    Excellence for the…</h3>
-                                                                                <p>Indian Institute of Technology Madras
-                                                                                    (IIT Madras) is partnering with
-                                                                                    Rekhi…
-                                                                                <ul class="clearfix divider__list">
-                                                                                    <li
-                                                                                        class="font__fontrols__style font__controls__style">
-                                                                                        2 Apr 2025</li>
-                                                                                    <li
-                                                                                        class="font__fontrols__style font__controls__style">
-                                                                                        Press Release</li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </a>
-                                                                    </div>
+                                                                    @endforeach
+
+                                                                  
                                                                 </div>
                                                             </div>
 
@@ -382,7 +336,7 @@
 
                                             </div>
                                         </div>
-                                        <div class="views-element-container"
+                                        {{-- <div class="views-element-container"
                                             data-block-plugin-id="views_block:home_page-hpg_events">
 
 
@@ -441,7 +395,7 @@
                                                 </div>
                                             </div>
 
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                                 <div class="layout layout--onecol">

@@ -23,22 +23,22 @@
                 <div class="social__cardsright">
                     <ul class="social__lists">
                         <li>
-                            <a href="https://www.facebook.com/ReachIITM" target="_blank"
+                            <a href="https://www.facebook.com/maa.bharti.106" target="_blank"
                                 title="Visit Our Facebook Page (External Website that opens in a new window)"
                                 class="sprite icon__fb"><span class="sr-only">Facebook</span></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/school/reachiitm/" target="_blank"
+                            <a href="https://www.linkedin.com/school/maa-bharati-pg-college-mahaveer-nagar-iii-kota" target="_blank"
                                 title="Visit Our Linkedin IITM Page (External Website that opens in a new window)"
                                 class="sprite icon__ln"><span class="sr-only">LinkedIn</span></a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="https://twitter.com/iitmadras" target="_blank"
                                 title="Visit Our Twitter IITM Page (External Website that opens in a new window)"
                                 class="sprite icon__tw"><span class="sr-only">Twitter</span></a>
-                        </li>
+                        </li> --}}
                         <li>
-                            <a href="https://www.instagram.com/reachiitm/" target="_blank"
+                            <a href="https://www.instagram.com/maabhartipgcollegekota/" target="_blank"
                                 title="Visit Our Instagram IITM Page (External Website that opens in a new window)"
                                 class="sprite icon__ins"><span class="sr-only">Instagram</span></a>
                         </li>
