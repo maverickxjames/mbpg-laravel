@@ -11,7 +11,7 @@
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./themes/custom/iitm/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/vnd.microsoft.icon" />
     <link rel="alternate" hreflang="en" href="https://www.iitm.ac.in/" />
     <link rel="alternate" hreflang="hi" href="https://www.iitm.ac.in/hi" />
 
@@ -89,7 +89,7 @@
                                     <a target="_blank" href="https://maps.app.goo.gl/Q7L1RUH5fnny4quW8">Location</a>
                                 </li>
                             </ul>
-                            
+
                         </div>
                         <div class="col-sm-4">
                             <div class="header__toprightmenu">
