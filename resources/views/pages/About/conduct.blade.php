@@ -68,59 +68,10 @@
                 <div id="block-iitm-content" data-block-plugin-id="system_main_block">
                     <div class="content block-content">
                         <div class="layout layout--onecol">
-                            {{-- <div class="layout__region layout__region--content">
-                                <div class="common__breadcrumb" data-block-plugin-id="lbk_rich_text">
-                                    <div class="content block-content">
-
-                                        <div class="lbk-rich-text-component container">
-                                            <div class="content block-content">
-                                                <ul role="link">
-                                                    <li><a href="/" title="Home">Home</a></li>
-                                                    <li title="The Institute">The Institute</li>
-                                                    <li title="About IIT Madras">About IIT Madras</li>
-                                                    <li title="About IIT Madras">Overview</li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div> --}}
+                         
                         </div>
                         <div class="layout layout--onecol">
                             <div class="layout__region layout__region--content">
-
-                                <div data-block-plugin-id="inline_block:block_inline_image"
-                                    data-inline-block-uuid="20cd9efd-dbb7-48b1-8124-3efa430bb590">
-
-
-                                    <div class="content block-content">
-                                        <!-- Image Section -->
-
-                                        <!-- Image Bank Sections -->
-
-                                        <!-- instigram Sections -->
-
-                                        <!-- Inline Block details -->
-
-                                        <div class="page__banner "
-                                            style="background-image: url('{{ asset('images/about.png') }}');">
-                                            <div class="container relative">
-                                                <div class="page__bannerInner">
-                                                    <div class="page__bannerContent">
-                                                        <h1>Welcome to MAA BHARTI PG COLLEGE</h1>
-                                                        {{-- <a href="javascript:;" title="Credits"
-                                                            class="credit__tooltip credit__tooltip--white">Credits<span
-                                                                class="credit__toolposition">Gangishetty Shiva Kumar,
-                                                                M.Tech, Civil Engineering</span></a> --}}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                         <section class="content__page">
@@ -136,29 +87,13 @@
 
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
-                                                            <p style="font-weight: 600;font-style:italic;">Nestled in the heart of Kota City, Maa Bharti PG College stands tall as a beacon of academic excellence and holistic development. Since our establishment in 1998, we have remained committed to our vision of excellence in multidisciplinary education, both locally and globally.</p>
+                                                         <iframe 
+                                                             src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/code_of_conduct.pdf#page={{ $page }}" 
+                                                            width="100%" 
+                                                            height="1200px" 
+                                                            style="border: none;">
+                                                        </iframe>
 
-                                                            <p>At Maa Bharti PG College, we believe in empowering students through interdisciplinary programs that foster critical thinking, ethical leadership, and global citizenship. Our mission is to create an inclusive learning environment where students are equipped with the skills and knowledge needed to thrive in an ever-changing world.</p>
-
-                                                    
-
-                                                            <p>With a rich legacy dating back to 1998, our institution operates under the guiding principle of "In Pursuit of Excellence in Education," fostering a learning environment that nurtures both the intellect and character of our students. As part of the esteemed Sumit Bal Vidyalaya Shiksha Vikas Samiti educational society, founded in 1982, we are committed to delivering quality education that transcends boundaries and prepares students for distinguished careers in various fields, including civil services and beyond.</p>
-
-
-                                                            <p>Maa Bharti PG College, Kota, offers a variety of undergraduate and postgraduate programs. The college is affiliated to the University of Kota and is accredited by the National Council for Teacher Education (NCTE). The college offers traditional arts and science programs, as well as professional programs such as B.C.A., B.A. B.Ed., and B.Sc. B.Ed. The college also offers a variety of Master of Science programs in Botany, Chemistry, Physics, Mathematics, and Zoology.
-                                                            </p>
-
-                                                            <p>Our holistic approach to education goes beyond mere academics, focusing on the comprehensive development of each student. Through personalized mentoring, specialized programs for those needing additional support, and ongoing communication with parents, we ensure that every student receives the guidance they need to thrive.</p>
-
-                                                            <p>Central to our mission is our exceptional faculty, comprised of seasoned educators who are not only experts in their fields but also dedicated mentors committed to the success of their students. With their guidance, students are encouraged to think critically, explore new ideas, and embrace a lifelong love of learning.</p>
-
-                                                            {{-- <h3>Insti Lingo</h3> --}}
-
-                                                            <p>Beyond the classroom, Maa Bharti PG College offers a vibrant array of extracurricular activities designed to enrich the student experience and foster personal growth. From sports tournaments to cultural events and student clubs, there are ample opportunities for students to engage with their peers, build friendships, and develop essential life skills.</p>
-
-                                                            <p>Our dedication to innovation and research sets Maa Bharti PG College apart as a hub of intellectual curiosity and discovery. Students are encouraged to pursue independent study projects, collaborate on research initiatives, and engage in internships with industry partners, providing them with real-world experience and the opportunity to make a meaningful impact on society.</p>
-                                                            
-                                                            <p>As we look to the future, Maa Bharti PG College remains steadfast in our commitment to providing accessible, affordable, and high-quality education to all. Whether you're a prospective student, a current member of our community, or an alumnus looking to reconnect, we invite you to join us on this journey of discovery, growth, and excellence.</p>
                                                         </div>
                                                     </div>
 
@@ -171,43 +106,7 @@
                                 </div>
                             </div>
                         </section>
-                        <div class="content__list layout layout--onecol">
-                            <div class="layout__region layout__region--content">
-
-                                <div data-block-plugin-id="field_block:node:page:field_bp_footer_image">
-
-
-                                    <div class="content block-content">
-
-                                        <div>
-                                            <div
-                                                class="paragraph paragraph--type--para-banner paragraph--view-mode--default">
-                                                <div class="content block-content">
-
-                                                    <!-- Image Bank Sections -->
-
-                                                    <!-- Instigram Sections -->
-
-                                                    <!-- Banner Sections -->
-
-                                                    <div class="banner__strip"
-                                                        style="background-image: url('/sites/default/files/image_bank/202005/hostel%20cycle-IMG_7443.jpg');">
-                                                        <div class="container">
-                                                            <div class="banner__stripinner">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-
+                      
 
                     </div>
                 </div>

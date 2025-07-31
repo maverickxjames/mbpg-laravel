@@ -20,7 +20,31 @@
     <link rel="stylesheet" media="all"
         href="/sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJxdyksOwzAIANELOeZIEbFpjIo_ApzWt2_VTaRu3mI0zF6Bv2zmS7idQXD16fsxWTLp_mQH5VQ2p7f_T5kt9Yt0QW-UuoRKmREeLE4aEw7n3sJAxVNxFIOsc6DEu8TZxjyErVAOtsypwoFG4WJ6GfyMtecp9AG11UNp" />
 
+    <style>
+        .chairman-section {
+            overflow: hidden;
+        }
 
+        .chairman-img {
+            float: left;
+            /* margin-left: 20px; */
+            width: 300px;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-right: 20px
+        }
+
+        @media (max-width: 767px) {
+            .chairman-img {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+                width: 100%;
+            }
+        }
+    </style>
 
 
 
@@ -45,7 +69,7 @@
     <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
         <header class="header">
             <!-- Heder Top Menu sections -->
-              <x-TopHeader />
+            <x-TopHeader />
             <!-- EOF - Heder Top Menu sections -->
 
             <!-- Header Utility Links -->
@@ -104,20 +128,17 @@
 
                                         <!-- Inline Block details -->
 
-                                        <div class="page__banner "
+                                        {{-- <div class="page__banner "
                                             style="background-image: url('{{ asset('images/about.png') }}');">
                                             <div class="container relative">
                                                 <div class="page__bannerInner">
                                                     <div class="page__bannerContent">
                                                         <h1>Welcome to MAA BHARTI PG COLLEGE</h1>
-                                                        {{-- <a href="javascript:;" title="Credits"
-                                                            class="credit__tooltip credit__tooltip--white">Credits<span
-                                                                class="credit__toolposition">Gangishetty Shiva Kumar,
-                                                                M.Tech, Civil Engineering</span></a> --}}
+
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
 
@@ -126,87 +147,138 @@
                         <section class="content__page">
                             <div class="container">
                                 <div class="row" data-sticky-container>
-                                    <div class="col-sm-7 col-md-12">
+                                    <div class="col-sm-7 col-md-8">
                                         <div class="main-region">
-
                                             <div data-block-plugin-id="lbk_rich_text">
-
-
                                                 <div class="content block-content">
+                                                    <h1>FROM THE DIRECTOR'S DESK</h1>
 
-                                                    <div class="lbk-rich-text-component container">
+                                                    <div class="lbk-rich-text-component container chairman-section">
+                                                        <img src="{{ asset('images/director.png') }}"
+                                                            alt="Director Dinesh Vijay" class="director-img">
+
                                                         <div class="content block-content">
-                                                            <p style="font-weight: 600;font-style:italic;">Nestled in the heart of Kota City, Maa Bharti PG College stands tall as a beacon of academic excellence and holistic development. Since our establishment in 1998, we have remained committed to our vision of excellence in multidisciplinary education, both locally and globally.</p>
-
-                                                            <p>At Maa Bharti PG College, we believe in empowering students through interdisciplinary programs that foster critical thinking, ethical leadership, and global citizenship. Our mission is to create an inclusive learning environment where students are equipped with the skills and knowledge needed to thrive in an ever-changing world.</p>
-
-                                                    
-
-                                                            <p>With a rich legacy dating back to 1998, our institution operates under the guiding principle of "In Pursuit of Excellence in Education," fostering a learning environment that nurtures both the intellect and character of our students. As part of the esteemed Sumit Bal Vidyalaya Shiksha Vikas Samiti educational society, founded in 1982, we are committed to delivering quality education that transcends boundaries and prepares students for distinguished careers in various fields, including civil services and beyond.</p>
-
-
-                                                            <p>Maa Bharti PG College, Kota, offers a variety of undergraduate and postgraduate programs. The college is affiliated to the University of Kota and is accredited by the National Council for Teacher Education (NCTE). The college offers traditional arts and science programs, as well as professional programs such as B.C.A., B.A. B.Ed., and B.Sc. B.Ed. The college also offers a variety of Master of Science programs in Botany, Chemistry, Physics, Mathematics, and Zoology.
+                                                            <p style="font-weight: 600; font-style: italic;margin-top: 20px;">
+                                                                Dear Parents and Students,
+                                                            </p>
+                                                            <p >
+                                                               Dear Parent/ Guardian Our constant endeavor at Maa Bharti P.G.college has always been to empower our students through education. For this purpose, we have been steadily introducing job-oriented subjects and courses along with the traditional ones they graduate from this institute. We also aspire to turn out well-rounded personalities with a positive outlook, sympathetic heart and a readiness to help others. We sincerely make efforts in this direction. You on your part should also make the best of your stay in the institution. Imbibe values and academic exellence from this institution and step forth confidently to conquer the world.
                                                             </p>
 
-                                                            <p>Our holistic approach to education goes beyond mere academics, focusing on the comprehensive development of each student. Through personalized mentoring, specialized programs for those needing additional support, and ongoing communication with parents, we ensure that every student receives the guidance they need to thrive.</p>
+                                                           
 
-                                                            <p>Central to our mission is our exceptional faculty, comprised of seasoned educators who are not only experts in their fields but also dedicated mentors committed to the success of their students. With their guidance, students are encouraged to think critically, explore new ideas, and embrace a lifelong love of learning.</p>
+                                                          
 
-                                                            {{-- <h3>Insti Lingo</h3> --}}
-
-                                                            <p>Beyond the classroom, Maa Bharti PG College offers a vibrant array of extracurricular activities designed to enrich the student experience and foster personal growth. From sports tournaments to cultural events and student clubs, there are ample opportunities for students to engage with their peers, build friendships, and develop essential life skills.</p>
-
-                                                            <p>Our dedication to innovation and research sets Maa Bharti PG College apart as a hub of intellectual curiosity and discovery. Students are encouraged to pursue independent study projects, collaborate on research initiatives, and engage in internships with industry partners, providing them with real-world experience and the opportunity to make a meaningful impact on society.</p>
-                                                            
-                                                            <p>As we look to the future, Maa Bharti PG College remains steadfast in our commitment to providing accessible, affordable, and high-quality education to all. Whether you're a prospective student, a current member of our community, or an alumnus looking to reconnect, we invite you to join us on this journey of discovery, growth, and excellence.</p>
+                                                            <p><strong>I wish you all the best!<br>Sh. Dinesh Vijay<br>(Director)</strong></p>
                                                         </div>
                                                     </div>
 
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-                                    
+
+                                    <div class="col-sm-5 col-md-4">
+                                        <div class="sidebar-region">
+                                            <div class="content block-content">
+                                                <div class="view-content">
+                                                    <div class="rightside__barsec" data-sticky data-margin-top="20"
+                                                        data-sticky-for="767">
+                                                        <ul class="rightside__barlist">
+
+                                                            {{-- Dynamic: About Us Section --}}
+                                                            <li>
+                                                                <h3 class="rightside__barlisthead">
+                                                                    Maa Bharthi PG College
+                                                                </h3>
+                                                                <div class="rightside__campuslife">
+                                                                    <h6>
+                                                                        An institution of excellence in education,
+                                                                        discipline, and values.
+                                                                    </h6>
+                                                              @foreach ($aboutSection as $item)
+    @php
+        $children = $allItems->where('parent_id', $item->id);
+    @endphp
+
+    @if ($children->isNotEmpty())
+        {{-- Show only children if they exist --}}
+        @foreach ($children as $child)
+            <p>
+                <a href="{{ url($child->url ?? '#') }}" class="rightside__linkarrows">
+                    {{ $child->title }}
+                </a>
+            </p>
+        @endforeach
+    @else
+        {{-- Show parent if no children --}}
+        <p>
+            <a href="{{ url($item->url ?? '#') }}" class="rightside__linkarrows">
+                {{ $item->title }}
+            </a>
+        </p>
+    @endif
+@endforeach
+
+
+
+                                                                </div>
+                                                            </li>
+
+                                                            {{-- Static: Upcoming Events --}}
+                                                            <li class="rightside__spacebrk">
+                                                                <h3 class="rightside__barlisthead">
+                                                                    <span
+                                                                        class="sprite icon__calenderred"></span>Upcoming
+                                                                    Events
+                                                                </h3>
+                                                                <div
+                                                                    class="rightside__evevts rightside__evevts--border">
+                                                                    <a href="#" class="rightside__linkarrows">
+                                                                        <h4><time
+                                                                                datetime="2024-04-18">2024-04-18</time>
+                                                                        </h4>
+                                                                        <p>Some upcoming event title here</p>
+                                                                    </a>
+                                                                </div>
+                                                                <div
+                                                                    class="rightside__evevts rightside__evevts--border">
+                                                                    <a href="#" class="rightside__linkarrows">
+                                                                        <h4><time
+                                                                                datetime="2024-04-11">2024-04-11</time>
+                                                                        </h4>
+                                                                        <p>Another event title</p>
+                                                                    </a>
+                                                                </div>
+                                                            </li>
+
+                                                            {{-- Static: Directory and Map --}}
+                                                            <li class="rightside__spacebrk">
+                                                                <h3 class="rightside__barlisthead">
+                                                                    <span class="sprite icon__telephonered"></span>
+                                                                    <a href="/directory"
+                                                                        class="rightside__linkarrows">Telephone
+                                                                        Directory</a>
+                                                                </h3>
+                                                            </li>
+                                                            <li>
+                                                                <h3 class="rightside__barlisthead">
+                                                                    <span class="sprite icon__campusmapred"></span>
+                                                                    <a href="/campus-map"
+                                                                        class="rightside__linkarrows">Campus Map</a>
+                                                                </h3>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </section>
-                        <div class="content__list layout layout--onecol">
-                            <div class="layout__region layout__region--content">
-
-                                <div data-block-plugin-id="field_block:node:page:field_bp_footer_image">
-
-
-                                    <div class="content block-content">
-
-                                        <div>
-                                            <div
-                                                class="paragraph paragraph--type--para-banner paragraph--view-mode--default">
-                                                <div class="content block-content">
-
-                                                    <!-- Image Bank Sections -->
-
-                                                    <!-- Instigram Sections -->
-
-                                                    <!-- Banner Sections -->
-
-                                                    <div class="banner__strip"
-                                                        style="background-image: url('/sites/default/files/image_bank/202005/hostel%20cycle-IMG_7443.jpg');">
-                                                        <div class="container">
-                                                            <div class="banner__stripinner">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
 
 
                     </div>
@@ -218,7 +290,7 @@
         </main>
 
 
-         <x-Social />
+        <x-Social />
 
         <x-Footer />
 
@@ -313,8 +385,8 @@
         <div class="popup__overlay" data-popup-overlay="popup-overlay" role="search" aria-expanded="false"></div>
 
 
-        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top"
-                style=""><span class="sr-only">Scroll to Top</span></a></span>
+        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top" style=""><span
+                    class="sr-only">Scroll to Top</span></a></span>
 
     </div>
 
