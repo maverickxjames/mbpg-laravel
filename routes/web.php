@@ -17,11 +17,16 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 // About page route
-Route::get('about',[AboutController::class,'about'])->name('about');
-Route::get('about/code-of-conduct/{page}', [AboutController::class, 'conduct'])->name('conduct');
-Route::get('about/chairman_msg',[AboutController::class,'chairman_msg'])->name('chairman_msg');
-Route::get('about/director-msg',[AboutController::class,'director_msg'])->name('director_msg');
-Route::get('about/principal_msg',[AboutController::class,'principal_msg'])->name('principal_msg');
+Route::get('/about',[AboutController::class,'about'])->name('about');
+Route::get('/code-of-conduct/{page}', [AboutController::class, 'conduct'])->name('conduct');
+Route::get('/chairman_msg',[AboutController::class,'chairman_msg'])->name('chairman_msg');
+Route::get('/director-msg',[AboutController::class,'director_msg'])->name('director_msg');
+Route::get('/principal_msg',[AboutController::class,'principal_msg'])->name('principal_msg');
+Route::get('/vision-mission',[AboutController::class,'vision_mission'])->name('vision_mission');
+Route::get('/swoc-analysis', [AboutController::class, 'swoc'])->name('swoc_analysis');
+Route::get('/perspective-plan', [AboutController::class, 'perspective'])->name('perspective_plan');
+Route::get('/organogram', [AboutController::class, 'organogram'])->name('organogram');
+Route::get('/e-governance', [AboutController::class, 'e_governance'])->name('e_governance');
 
 
 Route::middleware('auth')->group(function () {
