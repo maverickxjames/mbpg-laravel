@@ -22,23 +22,21 @@
         href="./sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJwdylEOhCAMRdENoV0SQfqcNCnU0Iph92P8OT_3ikQjedk8lkr_JS3L7sgsXm1iLLKOapoaWAqdooGx13KFWE--PNDoKI40hWEZ7QDnU6BMA35Zd5nYvvgueJw-92Z8K_6ukDJD" />
 
 
-<style>
-    .header--links--border{
-        padding-right: 5px !important;
-    }
+    <style>
+        .header--links--border {
+            padding-right: 5px !important;
+        }
 
-    .header--links{
-        padding-right: 5px !important;
-    }
-</style>
-
-
+        .header--links {
+            padding-right: 5px !important;
+        }
+    </style>
 
 
 
-    <script>
-        (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script",".//www.google-analytics.com/analytics.js","ga");ga("create", "UA-83360942-1", {"cookieDomain":"auto","allowLinker":true});ga("require", "linkid", "linkid.js");ga("require", "linker");ga("linker:autoLink", ["www.iitm.ac.in","www-test.iitm.ac.in"]);ga("set", "anonymizeIp", true);ga("send", "pageview");
-    </script>
+
+
+
 </head>
 
 
@@ -113,8 +111,9 @@
 
 
                                 <ul class="header__language">
-                                    <li class="menuitem"><a href="https://uok.ac.in/" class="language-link">Admission Open</a></li>
-                                    
+                                    <li class="menuitem"><a href="https://uok.ac.in/" class="language-link">Admission
+                                            Open</a></li>
+
                                 </ul>
 
 
@@ -181,15 +180,17 @@
                                                                         <div id="marqueeContent"
                                                                             class="marquee__content clearfix">
                                                                             @php
-                                                                                $announcements = DB::table('announcements')->where('status',1)->orderBy('id','DESC')->get();
+                                                                            $announcements =
+                                                                            DB::table('announcements')->where('status',1)->orderBy('id','DESC')->get();
                                                                             @endphp
                                                                             @foreach($announcements as $announcement)
                                                                             <div class="announcements__list">
                                                                                 <a href="{{ asset($announcement->link) }}"
-                                                                                    target="_blank">{{ $announcement->topic }}</a>
+                                                                                    target="_blank">{{
+                                                                                    $announcement->topic }}</a>
                                                                             </div>
                                                                             @endforeach
-                                                                            
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -230,8 +231,9 @@
                                                                 <div class="bannerSlider owl-carousel owl-theme">
 
                                                                     @php
-                                                                        $banner = DB::table('banner')->where('status' , 1)->orderBy('sort_order')->get();
-                                                                        
+                                                                    $banner = DB::table('banner')->where('status' ,
+                                                                    1)->orderBy('sort_order')->get();
+
                                                                     @endphp
                                                                     @foreach($banner as $bannerList)
                                                                     <a href="javascript:;">
@@ -242,13 +244,13 @@
                                                                                     {{ $bannerList->title }}</h2>
                                                                             </div>
                                                                         </div>
-                                                                    </a>  
+                                                                    </a>
                                                                     @endforeach
 
-                                                                    
 
 
-                                                                    
+
+
                                                                 </div>
                                                             </section>
 
@@ -296,10 +298,10 @@
                                                                 <div class="row display__flexbox">
 
                                                                     @php
-                                                                        $activities=DB::table('activity')->limit(3)->where('status',1)->orderBy('sort_order','asc')->get();
+                                                                    $activities=DB::table('activity')->limit(3)->where('status',1)->orderBy('sort_order','asc')->get();
                                                                     @endphp
 
-                                                                    @foreach ($activities  as $activity)
+                                                                    @foreach ($activities as $activity)
                                                                     <div class="col-sm-4">
                                                                         <a target="_blank" href="{{ $activity->link }}"
                                                                             class="block__element">
@@ -309,7 +311,8 @@
                                                                                     <img src="{{ asset($activity->thumbnail) }}"
                                                                                         alt="IIT Madras &amp; IIT-Madras Pravartak Foundation partners with Ziroh Labs to…" />
                                                                                 </div>
-                                                                                <h3 class="section__cardheading">{{ $activity->topic }}</h3>
+                                                                                <h3 class="section__cardheading">{{
+                                                                                    $activity->topic }}</h3>
                                                                                 <p>Indian Institute of Technology Madras
                                                                                     (IIT Madras) and IITM Pravartak…
                                                                                 <ul class="clearfix divider__list">
@@ -325,7 +328,7 @@
                                                                     </div>
                                                                     @endforeach
 
-                                                                  
+
                                                                 </div>
                                                             </div>
 
@@ -417,13 +420,52 @@
                                                             <!-- Study @ IITM Section Start -->
                                                             <section class="section__block section__block--bgsandal">
                                                                 <div class="container">
-                                                                    <h2 class="common__heading">Study @ IITM</h2>
+                                                                    <h2 class="common__heading">Study @ MBPG</h2>
                                                                     <div class="sectionSlider owl-carousel owl-theme">
+
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/non-campus-bs-programmes">
-                                                                                <h3 class="section__cardheadtext">Online
-                                                                                    BSc Programme</h3>
+                                                                            <a href="#0">
+                                                                                <h3 class="section__cardheadtext">
+                                                                                    Undergraduate Programmes</h3>
+                                                                                <div class="section__card">
+                                                                                    <div class="section__cardimg"
+                                                                                        role="img">
+                                                                                        <img src="./sites/default/files/card_images/ug-programmes_1_0.png"
+                                                                                            alt="Undergraduate Programmes" />
+                                                                                    </div>
+                                                                                    <p>Explore our industry-relevant
+                                                                                        Undergraduate Programs designed
+                                                                                        to empower students with
+                                                                                        knowledge, skills, innovation,
+                                                                                        and real-world career
+                                                                                        opportunities
+                                                                                    </p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <a href="#0">
+                                                                                <h3 class="section__cardheadtext">
+                                                                                    Postgraduate Programmes</h3>
+                                                                                <div class="section__card">
+                                                                                    <div class="section__cardimg"
+                                                                                        role="img">
+                                                                                        <img src="./sites/default/files/card_images/pg-programmes_1_0.png"
+                                                                                            alt="Postgraduate Programmes" />
+                                                                                    </div>
+                                                                                    <p>Pursue cutting-edge research with
+                                                                                        our PhD Programs that foster
+                                                                                        innovation, critical thinking,
+                                                                                        academic excellence, and global
+                                                                                        scholarly contributions.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <a href="#0">
+                                                                                <h3 class="section__cardheadtext">
+                                                                                    PhD Programme</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
@@ -435,129 +477,6 @@
                                                                                         programmer, proficient in
                                                                                         application development, data
                                                                                         sciences and machine learning.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/undergraduate-programmes">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Undergraduate Programmes</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/card_images/ug-programmes_1_0.png"
-                                                                                            alt="Undergraduate Programmes" />
-                                                                                    </div>
-                                                                                    <p>The B Tech programmes at IIT
-                                                                                        Madras encourage
-                                                                                        interdisciplinary studies and
-                                                                                        caters to the changing
-                                                                                        scientific and technological
-                                                                                        needs.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/postgraduate-programmes">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Postgraduate Programmes</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/card_images/pg-programmes_1_0.png"
-                                                                                            alt="Postgraduate Programmes" />
-                                                                                    </div>
-                                                                                    <p>The postgraduate programmes are
-                                                                                        specialized programmes aimed at
-                                                                                        engaging the students in
-                                                                                        learning, teaching and research.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/research-programmes">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Research Programmes</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/card_images/research-programmes_1_0.png"
-                                                                                            alt="Research Programmes" />
-                                                                                    </div>
-                                                                                    <p>IIT Madras is internationally
-                                                                                        renowned for the quality and
-                                                                                        diversity of its research;
-                                                                                        and&amp;nbsp;opportunities of
-                                                                                        active research in frontier
-                                                                                        areas.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/international-interdisciplinary-masters-program-i2mp">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    International Masters’ Program</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/card_images/innovation4.png"
-                                                                                            alt="International Masters’ Program" />
-                                                                                    </div>
-                                                                                    <p>The I2MP courses are aimed at
-                                                                                        bringing&amp;nbsp;students with
-                                                                                        diverse interests to the IIT
-                                                                                        Madras campus, and provide them
-                                                                                        the benefit of the rich teaching
-                                                                                        and research environment at
-                                                                                        IITM.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/exchange-Programmes">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Exchange Programmes</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/card_images/homepagetile%20-exchange%20program1_0_0.jpg"
-                                                                                            alt="Exchange Programmes" />
-                                                                                    </div>
-                                                                                    <p>IIT Madras encourages
-                                                                                        collaborations with foreign
-                                                                                        universities through student
-                                                                                        exchange programmes and visiting
-                                                                                        faculty.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/study-at-iitm/joint-degree-programmes">
-                                                                                <h3 class="section__cardheadtext">Joint
-                                                                                    Degree Programmes</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/card_images/homepagetile-joint%20degree%20programme_0_0.jpg"
-                                                                                            alt="Joint Degree Programmes" />
-                                                                                    </div>
-                                                                                    <p>IIT Madras is at the forefront of
-                                                                                        collaborative learning and
-                                                                                        research having Joint Ph.D.
-                                                                                        programs with 20 world-class
-                                                                                        institutions.
                                                                                     </p>
                                                                                 </div>
                                                                             </a>
@@ -576,7 +495,7 @@
 
                                     </div>
                                 </div>
-                                <section class="section__block section__block--research"
+                                {{-- <section class="section__block section__block--research"
                                     style="background-image: url(/themes/custom/iitm/assets/images/background-image/research-section-banner.jpg);">
                                     <div class="container">
                                         <h2 class="common__heading textwhite">Research</h2>
@@ -999,7 +918,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> --}}
                                 <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
@@ -1023,15 +942,13 @@
                                                                     <div
                                                                         class="hpg_departments sectionSlider owl-carousel owl-theme slider-title hpg_departments">
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-aerospace-engineering">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Aerospace Engineering</h3>
+                                                                                    Arts</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-aerospace.jpg"
+                                                                                        <img src="./images/arts.jpg"
                                                                                             width="370" height="200"
                                                                                             alt="Department of Aerospace Engineering" />
 
@@ -1046,16 +963,13 @@
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-applied-mechanics">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Applied Mechanics &amp; Biomedical
-                                                                                    Engineering</h3>
+                                                                                    Computer</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-applied%20mechanics.jpg"
+                                                                                        <img src="./images/computer.jpg"
                                                                                             width="370" height="200"
                                                                                             alt="Department of Applied Mechanics" />
 
@@ -1070,15 +984,13 @@
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-biotechnology">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Biotechnology</h3>
+                                                                                    Education</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/biotechnology.jpg"
+                                                                                        <img src="./images/education.jpg"
                                                                                             width="370" height="201"
                                                                                             alt="Department of Biotechnology" />
 
@@ -1093,15 +1005,13 @@
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-chemical-engineering">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Chemical Engineering</h3>
+                                                                                    Science</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-Chem%20dept.jpg"
+                                                                                        <img src="./images/science.jpg"
                                                                                             width="370" height="200"
                                                                                             alt="Department of Chemical Engineering" />
 
@@ -1115,268 +1025,85 @@
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-chemistry">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Chemistry</h3>
+                                                                                    Arts</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/chemistry.jpg"
-                                                                                            width="370" height="201"
-                                                                                            alt="Department of Chemistry" />
+                                                                                        <img src="./images/arts.jpg"
+                                                                                            width="370" height="200"
+                                                                                            alt="Department of Aerospace Engineering" />
 
 
                                                                                     </div>
-                                                                                    <p>The Department of Chemistry is
-                                                                                        one of the first to function
-                                                                                        after IIT Madras was founded in
-                                                                                        1959.</p>
+                                                                                    <p>Established in 1969, the
+                                                                                        Department of Aerospace
+                                                                                        Engineering stands at the
+                                                                                        forefront of fundamental and
+                                                                                        applied…</p>
                                                                                 </div>
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-civil-engineering">
-                                                                                <h3 class="section__cardheadtext"> Civil
-                                                                                    Engineering</h3>
+                                                                            <a href="#0">
+                                                                                <h3 class="section__cardheadtext">
+                                                                                    Computer</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-Civil%20dept.jpg"
+                                                                                        <img src="./images/computer.jpg"
                                                                                             width="370" height="200"
-                                                                                            alt="Department of Civil Engineering" />
+                                                                                            alt="Department of Applied Mechanics" />
 
 
                                                                                     </div>
                                                                                     <p>Since its inception in 1959, the
-                                                                                        Department of Civil Engineering
-                                                                                        has grown into a full-fledged
-                                                                                        department with…</p>
+                                                                                        Department of Applied
+                                                                                        Mechanics&amp;nbsp;&amp;amp;
+                                                                                        Biomedical Engineering has grown
+                                                                                        into a…</p>
                                                                                 </div>
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-computer-science-engineering">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Computer Science &amp; Engineering
-                                                                                </h3>
+                                                                                    Education</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-Computer%20Sciences%20Block%20IMG_7549.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Computer Science &amp; Engineering" />
-
-
-                                                                                    </div>
-                                                                                    <p>Conceived in 1973 with the
-                                                                                        acquisition of an IBM System/370
-                                                                                        (one of the most powerful
-                                                                                        computers in India at that…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-electrical-engineering">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Electrical Engineering</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-Electrical%20Sciences%20Block%20IMG_7657.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Electrical Engineering" />
-
-
-                                                                                    </div>
-                                                                                    <p>The Department of Electrical
-                                                                                        Engineering is actively involved
-                                                                                        with research from absolute
-                                                                                        fundamentals and component…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-engineering-design">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Engineering Design</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/engineering.jpg"
+                                                                                        <img src="./images/education.jpg"
                                                                                             width="370" height="201"
-                                                                                            alt="Department of Engineering Design" />
+                                                                                            alt="Department of Biotechnology" />
 
 
                                                                                     </div>
-                                                                                    <p>Established in 2006, the
-                                                                                        Department of Engineering Design
-                                                                                        at IIT Madras is the first of
-                                                                                        its kind in India.</p>
+                                                                                    <p>The Department of Biotechnology
+                                                                                        was founded in 2004 with a
+                                                                                        strong interdisciplinary
+                                                                                        research and teaching base in…
+                                                                                    </p>
                                                                                 </div>
                                                                             </a>
                                                                         </div>
                                                                         <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-humanities-and-social-sciences">
+                                                                            <a href="#0">
                                                                                 <h3 class="section__cardheadtext">
-                                                                                    Humanities and Social Sciences</h3>
+                                                                                    Science</h3>
                                                                                 <div class="section__card">
                                                                                     <div class="section__cardimg"
                                                                                         role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-humanities.jpg"
+                                                                                        <img src="./images/science.jpg"
                                                                                             width="370" height="200"
-                                                                                            alt="Department of Humanities and Social Sciences" />
+                                                                                            alt="Department of Chemical Engineering" />
 
 
                                                                                     </div>
-                                                                                    <p>The Department of Humanities and
-                                                                                        Social Sciences (HSS) is one of
-                                                                                        the oldest departments at IIT
-                                                                                        Madras.</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-management-studies">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Management Studies</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-Management.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Management Studies" />
-
-
-                                                                                    </div>
-                                                                                    <p>The Department of Management
-                                                                                        Studies was established in 2004
-                                                                                        to accommodate the popular
-                                                                                        Master in Business…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-mathematics">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Mathematics</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-Math.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Mathematics" />
-
-
-                                                                                    </div>
-                                                                                    <p>Established in 1959 along with
-                                                                                        the Institute, the Department of
-                                                                                        Mathematics has taken the
-                                                                                        responsibility of teaching…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-mechanical-engineering">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Mechanical Engineering</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-mechanical.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Mechanical Engineering" />
-
-
-                                                                                    </div>
-                                                                                    <p>The Department of Mechanical
-                                                                                        Engineering is the largest of
-                                                                                        its kind in the country and one
-                                                                                        of the largest in Asia.…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-metallurgical-and-materials-engineering">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Metallurgical and Materials
-                                                                                    Engineering</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-metallurgical.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Metallurgical and Materials Engineering" />
-
-
-                                                                                    </div>
-                                                                                    <p>The Department of Metallurgical
-                                                                                        and Materials Engineering is one
-                                                                                        of the oldest having been
-                                                                                        started in the same year…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-ocean-engineering">
-                                                                                <h3 class="section__cardheadtext"> Ocean
-                                                                                    Engineering</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-ocean%20engg.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Ocean Engineering" />
-
-
-                                                                                    </div>
-                                                                                    <p>Originally conceived as the Ocean
-                                                                                        Engineering Centre (OEC) in
-                                                                                        1977, the Department of Ocean
-                                                                                        Engineering (DOE) has…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./academics/departments/department-of-physics">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Physics</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-physics.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Department of Physics" />
-
-
-                                                                                    </div>
-                                                                                    <p>The Department of Physics is
-                                                                                        amongst the largest physics
-                                                                                        departments in the country in
-                                                                                        terms of the number of…</p>
+                                                                                    <p>Aiming to be a global centre of
+                                                                                        academic and research excellence
+                                                                                        in chemical engineering sciences
+                                                                                        and technology,…</p>
                                                                                 </div>
                                                                             </a>
                                                                         </div>
@@ -1394,7 +1121,7 @@
 
                                     </div>
                                 </div>
-                                <div class="layout layout--onecol">
+                                {{-- <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
                                         <div class="views-element-container"
@@ -1581,8 +1308,8 @@
                                         </div>
 
                                     </div>
-                                </div>
-                                <div class="layout layout--onecol">
+                                </div> --}}
+                                {{-- <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
                                         <div class="views-element-container"
@@ -1755,7 +1482,7 @@
                                         </div>
 
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
@@ -1789,7 +1516,7 @@
 
 
                                                                                         <div> <img loading="lazy"
-                                                                                                src="./sites/default/files/2022-01/Director-Best_Resized_0.png"
+                                                                                                src="https://maabhartipgcollegekota.com/jk/director.png"
                                                                                                 width="470" height="424"
                                                                                                 alt>
 
@@ -1800,96 +1527,48 @@
 
                                                                                     <p>Greetings to all!</p>
 
-                                                                                    <p>It is with great pleasure that I
-                                                                                        write this in the capacity of
-                                                                                        the Director of this prestigious
-                                                                                        institute. I thank all the
-                                                                                        faculty members, students, and
-                                                                                        staff of IIT Madras for their
-                                                                                        continuing efforts every day in
-                                                                                        keeping this distinguished
-                                                                                        institute of national importance
-                                                                                        at the top of the ranking
-                                                                                        scales, year after year.</p>
+                                                                                    <p>It gives us immense pleasure to
+                                                                                        connect with you through this
+                                                                                        heartfelt message. As pillars of
+                                                                                        support in your child’s
+                                                                                        educational journey, your role
+                                                                                        is invaluable, and we deeply
+                                                                                        appreciate the trust and
+                                                                                        confidence you have placed in
+                                                                                        our institution. At Maa Bharti
+                                                                                        P.G. College, our mission has
+                                                                                        always been clear: to empower
+                                                                                        students through holistic
+                                                                                        education — an education that
+                                                                                        not only imparts academic
+                                                                                        knowledge but also shapes
+                                                                                        individuals who are responsible,
+                                                                                        compassionate, and equipped for
+                                                                                        the challenges of the future.
+                                                                                    </p>
 
-                                                                                    <p>The role of a campus in ensuring
-                                                                                        quality learning is of great
-                                                                                        significance and IIT Madras,
-                                                                                        which already has a world-class
-                                                                                        campus, will now ensure it is
-                                                                                        further infused with the spirit
-                                                                                        of inclusivity, by celebrating
-                                                                                        the pluralism of cultures,
-                                                                                        nationalities, and personalities
-                                                                                        in a global world. We envision
-                                                                                        our campus to reflect the ethos
-                                                                                        of innovation, entrepreneurship,
-                                                                                        and dynamism of spirit. Each
-                                                                                        IITian should foster an endless,
-                                                                                        restless quest to look for
-                                                                                        solutions to real-world problems
-                                                                                        thereby contributing to the
-                                                                                        society we live in and helping
-                                                                                        our nation truly be
-                                                                                        <em>“atma-nirbhar”</em>
-                                                                                        (self-reliant). I envisage the
-                                                                                        good presence of IIT Madras to
-                                                                                        be perceptibly felt far beyond
-                                                                                        the walls of our campus, wherein
-                                                                                        every corner of our country and
-                                                                                        thereby the world, is able to
-                                                                                        tangibly feel the difference we
-                                                                                        intend to make to society with
-                                                                                        our leading innovations combined
-                                                                                        with our determined efforts to
-                                                                                        make the world a better place to
-                                                                                        live in.</p>
+                                                                                    <p>In a rapidly evolving global
+                                                                                        environment, the importance of a
+                                                                                        well-rounded education cannot be
+                                                                                        overstated. We live in times
+                                                                                        where knowledge is abundant, yet
+                                                                                        the real need is for individuals
+                                                                                        who know how to apply that
+                                                                                        knowledge meaningfully,
+                                                                                        ethically, and productively. It
+                                                                                        is our firm belief that
+                                                                                        education should go beyond
+                                                                                        textbooks and classrooms. It
+                                                                                        should nurture the mind,
+                                                                                        cultivate the spirit, and ignite
+                                                                                        the passion to create, lead, and
+                                                                                        inspire.</p>
 
-                                                                                    <p>Industry should be able to sit up
-                                                                                        and take notice of the impact we
-                                                                                        make and we should strive to
-                                                                                        ensure that our students
-                                                                                        continue to become part of
-                                                                                        global corporations and
-                                                                                        governments alike. As is said -
-                                                                                        change should be from within the
-                                                                                        system by being part of it and
-                                                                                        not exclusive to the system
-                                                                                        itself. It is also very
-                                                                                        important to bear in mind that
-                                                                                        consistency is key to
-                                                                                        maintaining excellence. The fact
-                                                                                        that we are #1 in National
-                                                                                        ranking is indeed a time to
-                                                                                        rejoice but not to relax.</p>
 
-                                                                                    <p>A parallel area of focus should
-                                                                                        also be the micro-issues that
-                                                                                        impact the immediate society
-                                                                                        around us. These could be at a
-                                                                                        local level, or perhaps even at
-                                                                                        a community level. We must
-                                                                                        invest time to work on those
-                                                                                        problems and come up with
-                                                                                        feasible solutions. Giving back
-                                                                                        to society we operate in is a
-                                                                                        crucial guiding principle we
-                                                                                        must all bear in mind at all
-                                                                                        times. I re-affirm my commitment
-                                                                                        which I’ve made to ensure
-                                                                                        enhanced focus on local issues
-                                                                                        of relevance.</p>
 
-                                                                                    <p>To conclude, I once again welcome
-                                                                                        you to this great centre of
-                                                                                        learning where the world
-                                                                                        amalgamates. Let us all continue
-                                                                                        to hold the torch high of IIT
-                                                                                        Madras as we look in to the
-                                                                                        future.</p>
-
-                                                                                    <h3 class="testimonials__name">Prof.
-                                                                                        V. Kamakoti</h3>
+                                                                                    <h3 class="testimonials__name">Mr.
+                                                                                        Dinesh
+                                                                                        Vijay</h3>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -1907,7 +1586,7 @@
 
                                     </div>
                                 </div>
-                                <div class="container layout layout--onecol">
+                                {{-- <div class="container layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
                                         <div class="views-element-container"
@@ -1982,8 +1661,8 @@
                                         </div>
 
                                     </div>
-                                </div>
-                                <div class="layout layout--onecol">
+                                </div> --}}
+                                {{-- <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
                                         <div class="views-element-container"
@@ -2095,8 +1774,8 @@
                                         </div>
 
                                     </div>
-                                </div>
-                                <div class="layout layout--onecol">
+                                </div> --}}
+                                {{-- <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
                                         <div class="views-element-container"
@@ -2212,7 +1891,7 @@
                                         </div>
 
                                     </div>
-                                </div>
+                                </div> --}}
 
                             </div>
 
@@ -2229,7 +1908,7 @@
 
         <x-Social />
 
-       <x-Footer />
+        <x-Footer />
 
 
 

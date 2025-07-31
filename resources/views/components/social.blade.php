@@ -39,11 +39,11 @@
                         </li> --}}
                         <li>
                             <a href="https://www.instagram.com/maabhartipgcollegekota/" target="_blank"
-                                title="Visit Our Instagram IITM Page (External Website that opens in a new window)"
+                                title="Visit Our Instagram MBPG Page (External Website that opens in a new window)"
                                 class="sprite icon__ins"><span class="sr-only">Instagram</span></a>
                         </li>
                         <li>
-                            <a href="https://youtube.com/user/ReachIITM" target="_blank"
+                            <a href="#0" target="_blank"
                                 title="Visit Our Youtube IITM Page (External Website that opens in a new window)"
                                 class="sprite icon__yt"><span class="sr-only">Youtube</span></a>
                         </li>

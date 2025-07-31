@@ -1,3 +1,15 @@
+<style>
+    .map{
+        width: 500%
+    }
+
+    /* for mobile device  */
+    @media (max-width: 768px) {
+        .map {
+            width: 100%;
+        }
+    }
+</style>
 <div>
     <footer class="footer">
         <div class="container">
@@ -77,60 +89,11 @@
             <!-- Departments Items -->
             <div class="footer__departments">
                 <div class="footer__deptinnersec">
-                    <p class="footer__heading">Departments</p>
+                    <p class="footer__heading">Location</p>
                     <div class="footer__deptrow clearfix">
                         <div class="footer__deptcolm">
                             <ul>
-                                <li><a href="./academics/departments/department-of-aerospace-engineering">Aerospace
-                                        Engineering</a></li>
-                                <li><a href="./academics/departments/department-of-civil-engineering">Civil
-                                        Engineering</a></li>
-                                <li><a href="./academics/departments/department-of-humanities-and-social-sciences">Humanities
-                                        and Social Sciences</a></li>
-                                <li><a href="./academics/departments/department-of-mathematics">Mathematics</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__deptcolm">
-                            <ul>
-                                <li><a href="./academics/departments/department-of-applied-mechanics">Applied
-                                        Mechanics</a></li>
-                                <li><a href="./academics/departments/department-of-computer-science-engineering">Computer
-                                        Science and Engineering</a></li>
-                                <li><a href="./academics/departments/department-of-management-studies">Management
-                                        Studies</a></li>
-                                <li><a href="./academics/departments/department-of-ocean-engineering">Ocean
-                                        Engineering</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__deptcolm">
-                            <ul>
-                                <li><a href="./academics/departments/department-of-biotechnology">Biotechnology</a>
-                                </li>
-                                <li><a href="https://dsai.iitm.ac.in/" target="_blank">Data Science & Artificial
-                                        Intelligence</a></li>
-                                <li><a href="./academics/departments/department-of-mechanical-engineering">Mechanical
-                                        Engineering</a></li>
-                                <li><a href="./academics/departments/department-of-physics">Physics</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__deptcolm">
-                            <ul>
-                                <li><a href="./academics/departments/department-of-chemical-engineering">Chemical
-                                        Engineering</a></li>
-                                <li><a href="./academics/departments/department-of-electrical-engineering">Electrical
-                                        Engineering</a></li>
-                                <li><a href="https://mst.iitm.ac.in/" target="_blank">Medical Science and
-                                        Technology</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__deptcolm">
-                            <ul>
-                                <li><a href="./academics/departments/department-of-chemistry">Chemistry</a></li>
-                                <li><a href="./academics/departments/department-of-engineering-design">Engineering
-                                        Design</a></li>
-                                <li><a
-                                        href="./academics/departments/department-of-metallurgical-and-materials-engineering">Metallurgical
-                                        and Materials Engineering</a></li>
+                                <li><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.9483694461596!2d75.83557337605305!3d25.137436334117478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f85164b2fae33%3A0x2809780229a969ea!2sMaa%20Bharti%20PG%20College%20%2C%20Kota!5e0!3m2!1sen!2sin!4v1753502066447!5m2!1sen!2sin" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
                             </ul>
                         </div>
                     </div>
@@ -139,7 +102,7 @@
             <!-- EOF-Departments Items -->
 
             <!-- Statutory links -->
-            <div class="footer__breadcrumblist footer__breadcrumblist--small">
+            {{-- <div class="footer__breadcrumblist footer__breadcrumblist--small">
                 <div>
 
                     <div id="block-statutorymenu" data-block-plugin-id="system_menu_block:statutory-menu">
@@ -178,7 +141,7 @@
 
                 </div>
 
-            </div>
+            </div> --}}
             <!-- EOF-Statutory links -->
 
             <!-- Copyright section -->
@@ -186,7 +149,7 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="footer__iitlogo" role="img" aria-label="Best College in Kota">
-                            <a href="/" title="Maa Bharti PG College"><img alt="Best College in Kota"
+                            <a href="/" width="800" title="Maa Bharti PG College"><img alt="Best College in Kota"
                                     src="{{ asset('images/logo_white.png') }}"></a>
                         </div>
                     </div>
@@ -216,10 +179,10 @@
                     </div>
                     <div class="col-sm-5 col-md-6 text-right">
                         <p>Developed by</p>
-                        <h5><a href="/" target="_blank">Jaykishan Rawat</a></h5>
+                        <h5><a href="https://maverickxjames.me" target="_blank">Jaykishan Rawat</a></h5>
 
                         <p style="padding-top : 5px; font-size:12px;">
-                            Website last updated on: 2025-04-15 20:00:02 PM
+                            Website last updated on: 2025-07-26 10:00:02 AM
                         </p>
                     </div>
                 </div>
