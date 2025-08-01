@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,6 +33,9 @@ Route::get('/e-governance', [AboutController::class, 'e_governance'])->name('e_g
 
 // Course Page Route
 Route::get('/courses', [CourseController::class,'courses'])->name('courses');
+
+// Department Page Route
+Route::get('/departments', [DepartmentController::class, 'departments'])->name('departments');
 
 
 Route::middleware('auth')->group(function () {
