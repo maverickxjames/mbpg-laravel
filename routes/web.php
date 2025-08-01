@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,6 +28,10 @@ Route::get('/swoc-analysis', [AboutController::class, 'swoc'])->name('swoc_analy
 Route::get('/perspective-plan', [AboutController::class, 'perspective'])->name('perspective_plan');
 Route::get('/organogram', [AboutController::class, 'organogram'])->name('organogram');
 Route::get('/e-governance', [AboutController::class, 'e_governance'])->name('e_governance');
+
+
+// Course Page Route
+Route::get('/courses', [CourseController::class,'courses'])->name('courses');
 
 
 Route::middleware('auth')->group(function () {
