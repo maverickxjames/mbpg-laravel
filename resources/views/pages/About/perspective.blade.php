@@ -68,7 +68,40 @@
                 <div id="block-iitm-content" data-block-plugin-id="system_main_block">
                     <div class="content block-content">
                         <div class="layout layout--onecol">
-                         
+                          <div class="layout layout--onecol">
+                                    <div class="layout__region layout__region--content">
+
+                                        <div class="views-element-container"
+                                            data-block-plugin-id="views_block:home_page-hpg_announcements">
+
+
+                                            <div class="content block-content">
+                                                <div>
+                                                    <div
+                                                        class="view view-home-page view-id-home_page view-display-id-hpg_announcements js-view-dom-id-2ea34b8837c3228202e0c7d5c811ba2eeefb16f00dabb1baaedff091b23fd0d8">
+
+
+
+
+                                                        <div class="view-content">
+                                                            <!-- Announcements Section Start -->
+                                                            <x-announcements/>
+
+                                                            <div>
+                                                                <h1 class="sr-only">No. 1 for 5 Years Running...</h1>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                         </div>
                         <div class="layout layout--onecol">
                             <div class="layout__region layout__region--content">

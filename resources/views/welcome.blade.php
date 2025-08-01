@@ -78,11 +78,6 @@
                     <div class="content block-content">
 
                         <article data-history-node-id="101">
-
-
-
-
-
                             <div>
                                 <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
@@ -101,28 +96,7 @@
 
                                                         <div class="view-content">
                                                             <!-- Announcements Section Start -->
-                                                            <div class="announcements">
-                                                                <div class="container">
-                                                                    <p class="announcements__text">Announcements</p>
-                                                                    <div class="marquee__movecotent">
-                                                                        <div id="marqueeContent"
-                                                                            class="marquee__content clearfix">
-                                                                            @php
-                                                                            $announcements =
-                                                                            DB::table('announcements')->where('status',1)->orderBy('id','DESC')->get();
-                                                                            @endphp
-                                                                            @foreach($announcements as $announcement)
-                                                                            <div class="announcements__list">
-                                                                                <a href="{{ asset($announcement->link) }}"
-                                                                                    target="_blank">{{
-                                                                                    $announcement->topic }}</a>
-                                                                            </div>
-                                                                            @endforeach
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            <x-announcements/>
 
                                                             <div>
                                                                 <h1 class="sr-only">No. 1 for 5 Years Running...</h1>

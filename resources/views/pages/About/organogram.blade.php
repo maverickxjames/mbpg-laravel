@@ -68,7 +68,40 @@
                 <div id="block-iitm-content" data-block-plugin-id="system_main_block">
                     <div class="content block-content">
                         <div class="layout layout--onecol">
-                         
+                          <div class="layout layout--onecol">
+                                    <div class="layout__region layout__region--content">
+
+                                        <div class="views-element-container"
+                                            data-block-plugin-id="views_block:home_page-hpg_announcements">
+
+
+                                            <div class="content block-content">
+                                                <div>
+                                                    <div
+                                                        class="view view-home-page view-id-home_page view-display-id-hpg_announcements js-view-dom-id-2ea34b8837c3228202e0c7d5c811ba2eeefb16f00dabb1baaedff091b23fd0d8">
+
+
+
+
+                                                        <div class="view-content">
+                                                            <!-- Announcements Section Start -->
+                                                            <x-announcements/>
+
+                                                            <div>
+                                                                <h1 class="sr-only">No. 1 for 5 Years Running...</h1>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                         </div>
                         <div class="layout layout--onecol">
                             <div class="layout__region layout__region--content">
@@ -128,90 +161,7 @@
 
 
 
-        <!-- Search Popup Model section -->
-
-
-        <div class="popup" data-popup-model="search" role="search" aria-expanded="false">
-            <div class="popup__container findinfo__search">
-                <a href="javascript:;" title="Popup Close" class="sprite popup__close" data-popup-close="close"><span
-                        class="sr-only">Close</span></a>
-                <div class="popup__body">
-                    <fieldset>
-                        <legend class="sr-only">IITM Search:</legend>
-                        <div class="findinfo__searchboxsec">
-                            <label for="keyword" class="findinfo__label">Hello. </label>
-                            <input type="text" id="keyword" name="keyword" class="findinfo__searchbox"
-                                placeholder=" What are you looking for?">
-                            <a href="javascript:;" title="IITM Search" id="header_popup_search"
-                                class="sprite findinfo__searchicon"><span class="sr-only">Search</span></a>
-                        </div>
-                        <div class="findinfo__searchshowtext">
-                            <div class="row"><span id="wrapper"></span>
-                                <div class="col-sm-4" id="popup_content"></div>
-                                <div class="col-sm-4" id="popup_location"></div>
-                                <div class="col-sm-4" id="popup_people"></div>
-                            </div>
-                        </div>
-
-                        <div class="findinfo__controls">
-                            <!--<p>More ways to search</p>-->
-                            <div class="row" id="filter_chk_box">
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="checkbox__controls">
-                                        <input type="checkbox" id="academics" name="types[]" class="popup_search_type"
-                                            value="academics">
-                                        <label for="academics">Academics</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="checkbox__controls">
-                                        <input type="checkbox" id="research" name="types[]" class="popup_search_type"
-                                            value="research">
-                                        <label for="research">Research</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="checkbox__controls">
-                                        <input type="checkbox" id="events" name="types[]" class="popup_search_type"
-                                            value="events">
-                                        <label for="events">News & Events</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="checkbox__controls">
-                                        <input type="checkbox" id="campus_life" name="types[]" class="popup_search_type"
-                                            value="campus_life">
-                                        <label for="campus_life">Campus Life</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="checkbox__controls">
-                                        <input type="checkbox" id="location" name="types[]" class="popup_search_type"
-                                            value="location">
-                                        <label for="location">Locations</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="checkbox__controls">
-                                        <input type="checkbox" id="people" name="types[]" class="popup_search_type"
-                                            value="people">
-                                        <label for="people">People</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--<div class="findinfo__morewaystext">
-                    <a href="javascript:;" title="IITM More ways to search">More ways to search</a>
-                    <span class="sprite findinfo__morewaysicon"></span>
-                </div>-->
-                    </fieldset>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="popup__overlay" data-popup-overlay="popup-overlay" role="search" aria-expanded="false"></div>
+       
 
 
         <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top"

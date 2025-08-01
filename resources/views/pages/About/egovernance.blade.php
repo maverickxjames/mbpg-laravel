@@ -21,29 +21,71 @@
         href="/sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJxdyksOwzAIANELOeZIEbFpjIo_ApzWt2_VTaRu3mI0zF6Bv2zmS7idQXD16fsxWTLp_mQH5VQ2p7f_T5kt9Yt0QW-UuoRKmREeLE4aEw7n3sJAxVNxFIOsc6DEu8TZxjyErVAOtsypwoFG4WJ6GfyMtecp9AG11UNp" />
 
     <style>
-        .chairman-section {
-            overflow: hidden;
-        }
+   
 
-        .chairman-img {
-            float: left;
-            /* margin-left: 20px; */
-            width: 300px;
-            max-height: 350px;
-            object-fit: cover;
-            border-radius: 100%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-right: 20px
-        }
 
-        @media (max-width: 767px) {
-            .chairman-img {
-                float: none;
-                display: block;
-                margin: 0 auto 20px;
-                width: 100%;
-            }
-        }
+        
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table td{
+    font-size: 16px;
+
+}
+
+
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+    border: 1px solid #000000;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:hover {
+  background-color: #141390;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
     </style>
 
 
@@ -61,9 +103,7 @@
 
 
 
-    <a href="#main-content" class="content_invisible visually-hidden focusable">
-        Skip to main content
-    </a>
+   
 
 
     <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
@@ -118,6 +158,41 @@
                                 <div data-block-plugin-id="inline_block:block_inline_image"
                                     data-inline-block-uuid="20cd9efd-dbb7-48b1-8124-3efa430bb590">
 
+                                     <div class="layout layout--onecol">
+                                    <div class="layout__region layout__region--content">
+
+                                        <div class="views-element-container"
+                                            data-block-plugin-id="views_block:home_page-hpg_announcements">
+
+
+                                            <div class="content block-content">
+                                                <div>
+                                                    <div
+                                                        class="view view-home-page view-id-home_page view-display-id-hpg_announcements js-view-dom-id-2ea34b8837c3228202e0c7d5c811ba2eeefb16f00dabb1baaedff091b23fd0d8">
+
+
+
+
+                                                        <div class="view-content">
+                                                            <!-- Announcements Section Start -->
+                                                            <x-announcements/>
+
+                                                            <div>
+                                                                <h1 class="sr-only">No. 1 for 5 Years Running...</h1>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
 
                                     <div class="content block-content">
                                         <!-- Image Section -->
@@ -133,7 +208,7 @@
                                             <div class="container relative">
                                                 <div class="page__bannerInner">
                                                     <div class="page__bannerContent">
-                                                        <h1>vision & Mission</h1>
+                                                        <h1>E-Governance</h1>
 
                                                     </div>
                                                 </div>
@@ -152,31 +227,31 @@
                                             <div data-block-plugin-id="lbk_rich_text">
                                                 <div class="content block-content">
                                                     <div class="lbk-rich-text-component container">
-                                                        <div class="view-content">
-                                                            <div class="table-responsive">
-                                                                <table class="table text-center"
-                                                                    style="border-collapse: separate; border-spacing: 0 5px;">
-                                                                    <thead
-                                                                        style="background-color: #141390; color: #fff;">
+                                                     
+                                                                <table class=" content-table "
+                                                                  >
+                                                                    <thead>
                                                                         <tr>
-                                                                            <th style="padding: 12px;">SR. NO</th>
-                                                                            <th style="padding: 12px;">E-Governance
+                                                                            <th >SR. NO</th>
+                                                                            <th >E-Governance
                                                                                 Portals</th>
-                                                                            <th style="padding: 12px;">LINK</th>
+                                                                            <th>LINK</th>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
                                                                         @foreach ($govrnanceData as $item)
                                                                         <tr
                                                                             style="background-color: {{ $loop->iteration % 2 == 0 ? '#e4e2f7' : '#f4f8fa' }};">
-                                                                            <td style="vertical-align: middle;">{{
+                                                                            <td>{{
                                                                                 $loop->iteration }}</td>
-                                                                            <td style="vertical-align: middle;">{{
+                                                                            <td>{{
                                                                                 $item->name }}</td>
                                                                             <td>
                                                                                 <a href="{{ $item->link }}"
                                                                                     target="_blank"
-                                                                                    class="btn btn-success btn-sm fw-bold px-3 rounded">
+                                                                                    class="btn btn-primary"
+                                                                                    style="color: #fff; text-decoration: none; padding: 5px 8px; border-radius: 5px; background-color: #007bff;"
+                                                                                   >
                                                                                     VIEW
                                                                                 </a>
                                                                             </td>
@@ -184,8 +259,7 @@
                                                                         @endforeach
                                                                     </tbody>
                                                                 </table>
-                                                            </div>
-                                                        </div>
+                                                          
                                                     </div>
                                                 </div>
                                             </div>
@@ -243,49 +317,7 @@
                                                                 </div>
                                                             </li>
 
-                                                            {{-- Static: Upcoming Events --}}
-                                                            <li class="rightside__spacebrk">
-                                                                <h3 class="rightside__barlisthead">
-                                                                    <span
-                                                                        class="sprite icon__calenderred"></span>Upcoming
-                                                                    Events
-                                                                </h3>
-                                                                <div
-                                                                    class="rightside__evevts rightside__evevts--border">
-                                                                    <a href="#" class="rightside__linkarrows">
-                                                                        <h4><time
-                                                                                datetime="2024-04-18">2024-04-18</time>
-                                                                        </h4>
-                                                                        <p>Some upcoming event title here</p>
-                                                                    </a>
-                                                                </div>
-                                                                <div
-                                                                    class="rightside__evevts rightside__evevts--border">
-                                                                    <a href="#" class="rightside__linkarrows">
-                                                                        <h4><time
-                                                                                datetime="2024-04-11">2024-04-11</time>
-                                                                        </h4>
-                                                                        <p>Another event title</p>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-
-                                                            {{-- Static: Directory and Map --}}
-                                                            <li class="rightside__spacebrk">
-                                                                <h3 class="rightside__barlisthead">
-                                                                    <span class="sprite icon__telephonered"></span>
-                                                                    <a href="/directory"
-                                                                        class="rightside__linkarrows">Telephone
-                                                                        Directory</a>
-                                                                </h3>
-                                                            </li>
-                                                            <li>
-                                                                <h3 class="rightside__barlisthead">
-                                                                    <span class="sprite icon__campusmapred"></span>
-                                                                    <a href="/campus-map"
-                                                                        class="rightside__linkarrows">Campus Map</a>
-                                                                </h3>
-                                                            </li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
