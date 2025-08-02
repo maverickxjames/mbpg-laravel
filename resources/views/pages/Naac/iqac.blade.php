@@ -513,7 +513,7 @@
                                                         Best Practice Topic - 2
                                                     </p>
                                                     <p
-                                                        style="color:#141390;line-height:50px;font-weight: bold;margin-top: 50px;font-size:28px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        style="color:#141390;line-height:40px;font-weight: bold;margin-top: 50px;font-size:28px;text-align: center;text-transform: uppercase;text-decoration: underline;">
                                                         Providing coaching classes for students and Pupil teachers
                                                     </p>
 
