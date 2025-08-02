@@ -162,6 +162,10 @@
                                 <div class="row" data-sticky-container>
                                     <div class="col-sm-7 col-md-12">
                                         <div class="main-region">
+                                            <p
+                                                        style="color:#141390;font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        About Us
+                                                    </p>
 
                                             <div data-block-plugin-id="lbk_rich_text">
 

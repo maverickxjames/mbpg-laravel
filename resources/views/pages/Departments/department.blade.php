@@ -194,12 +194,12 @@
                                                     </p>
 
                                                     <div class="lbk-rich-text-component container chairman-section">
-                                                        <img src="{{ asset('images/arts.jpg') }}" alt="arts" style="width: 1200px;"
-                                                            class="director-img">
+                                                        <img src="{{ asset('images/course/arts.jpg') }}" alt="arts"
+                                                            style="width: 1200px;" class="director-img">
 
                                                         <div class="content block-content" style="margin-top: 40px">
                                                             <h1>UG COURSE :- <span
-                                                                    style=" font-style: italic;margin-top: 20px;">
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
                                                                     BECHELOR OF ARTS (B.A.)
                                                                 </span></h1>
 
@@ -257,20 +257,20 @@
                                                     style="border-bottom: 1px solid #ccc;margin-top: 40px;">
                                                     <p
                                                         style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
-                                                        Computer Application
+                                                        Computer
                                                     </p>
 
                                                     <div class="lbk-rich-text-component container chairman-section">
-                                                        <img src="{{ asset('images/computer.jpg') }}" alt="arts"
+                                                        <img src="{{ asset('images/course/computer.jpg') }}" alt="computer"
                                                             class="director-img">
 
                                                         <div class="content block-content" style="margin-top: 40px">
                                                             <h1>UG COURSE :- <span
-                                                                    style=" font-style: italic;margin-top: 20px;">
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
                                                                     BECHELOR OF COMPUTER APPLICATION (BCA) - SEMESTER
                                                                 </span></h1>
 
-                                                            <ul>
+                                                            {{-- <ul>
                                                                 <li>Hindi Literature</li>
                                                                 <li>History</li>
                                                                 <li>Sanskrit</li>
@@ -283,14 +283,10 @@
                                                                 <li>Drawing & Painting</li>
                                                                 <li>Home Science</li>
                                                                 <li>Computer Application</li>
-                                                            </ul>
+                                                            </ul> --}}
 
                                                             <h1>Program Outcomes</h1>
-                                                            {{-- <p>Students can pursue career in the streams of MSW,
-                                                                MHRM, PGRD, Welfare officers, counselor, social
-                                                                mobilizers, Advocacy and social activist. Plenty of
-                                                                executive career option in Development Organizations for
-                                                                example NGO, UNICEF, UNESCO, NACO etc.</p> --}}
+                                                     
                                                             <ul>
                                                                 <li>The BCA Course aims at inculcating essential skills
                                                                     as demanded by the global software industry through
@@ -326,12 +322,12 @@
                                                     </p>
 
                                                     <div class="lbk-rich-text-component container chairman-section">
-                                                        <img src="{{ asset('images/education.jpg') }}" alt="arts"
+                                                        <img src="{{ asset('images/course/education.jpg') }}" alt="education"
                                                             class="director-img">
 
                                                         <div class="content block-content" style="margin-top: 40px">
-                                                            <h1>B.Sc. B.Ed. 4-Year Integrated Course (SEM)</h1>
-                                                            <h1>B.A. B.Ed. 4-Year Integrated Course (SEM)</h1>
+                                                            <h1 style="color: #C00404">B.Sc. B.Ed. 4-Year Integrated Course (SEM)</h1>
+                                                            <h1 style="color: #C00404">B.A. B.Ed. 4-Year Integrated Course (SEM)</h1>
 
                                                             <ul>
                                                                 <li><strong>Psychological Well-being:</strong>
@@ -389,41 +385,252 @@
                                                     </div>
 
                                                 </div>
-                                                 <div id="botany" class="content block-content"
+                                                <div id="botany" class="content block-content"
                                                     style="border-bottom: 1px solid #ccc;margin-top: 40px;">
                                                     <p
                                                         style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
-                                                        Botany
+                                                        BOTANY
                                                     </p>
 
                                                     <div class="lbk-rich-text-component container chairman-section">
-                                                        <img src="{{ asset('images/computer.jpg') }}" alt="arts"
-                                                            class="director-img">
+                                                        <img src="{{ asset('images/course/botany.png') }}" alt="botany"
+                                                           style="width: 1200px;"   class="director-img">
 
                                                         <div class="content block-content" style="margin-top: 40px">
                                                             <h1>UG COURSE :- <span
-                                                                    style=" font-style: italic;margin-top: 20px;">
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
                                                                     B.Sc. (BIOLOGY)
                                                                 </span></h1>
 
-                                                             <h1>Program Outcomes</h1>
-                                                            <p>Students get trained in various areas of plant sciences and enhance their skills. They understand the basics of botany and fundamental processes of plants. They learn to carry out practical work in the lab as well as in the field. They understand the environmental issues and their impact on society. Students learn to communicate through various electronic modes and express themselves effectively.</p>
+                                                            <h1>Program Outcomes</h1>
+                                                            <p>Students get trained in various areas of plant sciences
+                                                                and enhance their skills. They understand the basics of
+                                                                botany and fundamental processes of plants. They learn
+                                                                to carry out practical work in the lab as well as in the
+                                                                field. They understand the environmental issues and
+                                                                their impact on society. Students learn to communicate
+                                                                through various electronic modes and express themselves
+                                                                effectively.</p>
                                                             <ul>
-                                                                <li>Understand the basic concepts of Cell Biology, Ecology, Microbiology, Genetics and Plant Breeding along with Morphology, Anatomy, Embryology and Physiology of plants.</li>
-                                                                <li>Identify the plants on the basis of taxonomic characters and learn the economic importance of plants and their uses for social welfare.</li>
-                                                                <li>Learn the classification and characteristics of Algae, Fungi, Bryophyta, Pteridophyte, and Gymnosperms as well as identify plant diseases on the basis of their symptoms and learn control measures.</li>
-                                                               
+                                                                <li>Understand the basic concepts of Cell Biology,
+                                                                    Ecology, Microbiology, Genetics and Plant Breeding
+                                                                    along with Morphology, Anatomy, Embryology and
+                                                                    Physiology of plants.</li>
+                                                                <li>Identify the plants on the basis of taxonomic
+                                                                    characters and learn the economic importance of
+                                                                    plants and their uses for social welfare.</li>
+                                                                <li>Learn the classification and characteristics of
+                                                                    Algae, Fungi, Bryophyta, Pteridophyte, and
+                                                                    Gymnosperms as well as identify plant diseases on
+                                                                    the basis of their symptoms and learn control
+                                                                    measures.</li>
+
                                                             </ul>
                                                             <h1>PG COURSE :- <span
-                                                                    style=" font-style: italic;margin-top: 20px;">
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
                                                                     M.Sc. BOTANY (SEMESTER)
                                                                 </span></h1>
 
-                                                             <h1>Program Outcomes</h1>
-                                                            <p>After completing Post Graduation in Botany the students get equipped with subject domain knowledge and technical skills pertaining to plants in a holistic manner. Practical application of theoretical concepts is taught with substantial coverage of practical and field works. They have exposure to the latest technologies that are currently used in the subject. The students become competent in various analytical, molecular and technical skills related to botany and learn applications of the instrumentation. It makes them capable of performing short research projects in botany and develops scientific temperament and research aptitude. The students are able to qualify competitive exams like NET, SET and GATE.</p>
-                                                           
+                                                            <h1>Program Outcomes</h1>
+                                                            <p>After completing Post Graduation in Botany the students
+                                                                get equipped with subject domain knowledge and technical
+                                                                skills pertaining to plants in a holistic manner.
+                                                                Practical application of theoretical concepts is taught
+                                                                with substantial coverage of practical and field works.
+                                                                They have exposure to the latest technologies that are
+                                                                currently used in the subject. The students become
+                                                                competent in various analytical, molecular and technical
+                                                                skills related to botany and learn applications of the
+                                                                instrumentation. It makes them capable of performing
+                                                                short research projects in botany and develops
+                                                                scientific temperament and research aptitude. The
+                                                                students are able to qualify competitive exams like NET,
+                                                                SET and GATE.</p>
 
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div id="chemistry" class="content block-content"
+                                                    style="border-bottom: 1px solid #ccc;margin-top: 40px;">
+                                                    <p
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        CHEMISTRY
+                                                    </p>
+
+                                                    <div class="lbk-rich-text-component container chairman-section">
+                                                        <img src="{{ asset('images/course/chemistry.jpg') }}" alt="chemistry"
+                                                          style="width: 1200px;"    class="director-img">
+
+                                                        <div class="content block-content" style="margin-top: 40px">
+                                                            <h1>UG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    B.Sc. (BIO / MATHS)
+                                                                </span></h1>
+                                                            <h1>PG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    M.Sc. CHEMISTRY (SEMESTER)
+                                                                </span></h1>
+
+                                                            <h1 style="margin-top: 40px;">Program Outcomes</h1>
                                                            
+                                                            <ul>
+                                                                <li>Explain, resolve and understand all the main concepts in various disciplines of chemistry.</li>
+                                                                <li>Resolve the difficulty in various reactions and also give methods and logical reason for various reaction</li>
+                                                                <li>Utilize the scientific skills to plan, perform and analyze the product of various chemical reactions.</li>
+                                                                <li>Make an alertness about the effect of chemicals on the environment, society and surroundings.</li>
+                                                                <li>Reveal the green approach of various reactions for sustainable growth.</li>
+
+                                                            </ul>
+                                                          
+
+                                                            <h1>Career Opportunities</h1>
+                                                            <ul>
+                                                                <li>Chemical Engineer A chemical engineer's job is to design chemical processes and improve existing manufacturing systems in order to turn raw materials into useful products.</li>
+                                                                <li>Biochemist The role of biochemist is to research the biological impact of medications or chemicals on a living organism's innate biological processes.</li>
+                                                                <li>Utilize the scientific skills to plan, perform and analyze the product of various chemical reactions.</li>
+                                                                <li>Make an alertness about the effect of chemicals on the environment, society and surroundings.</li>
+                                                                <li>Reveal the green approach of various reactions for sustainable growth.</li>
+
+                                                            </ul>
+                                                            <p>Academics If you enjoy academia, you might want to pursue it as a career option. For greater employment chances, a PhD degree is preferred. Educational institutions, research institutes and laboratories, energy production, oil and gas corporations, defense and manufacturing facilities all use chemistry-based job responsibilities.</p>
+                                                            <p>Pharmacologist A pharmacologist's job entails developing and testing medications as well as analyzing their interactions with biological systems in order to assure their safety and efficacy.</p>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                 <div id="mathematics" class="content block-content"
+                                                    style="border-bottom: 1px solid #ccc;margin-top: 40px;">
+                                                    <p
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        MATHEMATICS 
+                                                    </p>
+
+                                                    <div class="lbk-rich-text-component container chairman-section">
+                                                        <img src="{{ asset('images/course/maths.jpg') }}" alt="arts"
+                                                          style="width: 1200px;"    class="director-img">
+
+                                                        <div class="content block-content" style="margin-top: 40px">
+                                                            <h1>UG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    B.Sc. MATHEMATICS (SEMESTER)
+                                                                </span></h1>
+
+                                                            <h1>Program Outcomes</h1>
+                                                          
+                                                            <ul>
+                                                                <li>Develop an attitude to consider things critically provide pupils with appropriate mathematical analytical tools for dealing with challenges and problems in mathematics and associated areas.</li>
+                                                                <li>Acquire sufficient knowledge and comprehension in advanced mathematics and statistics to tackle specific theoretical and applied problems.</li>
+                                                                <li>Provide students/learners with the necessary information and abilities to pursue future studies in mathematics and related fields.</li>
+                                                                <li>Encourage students to develop a variety of generic abilities that will be useful in the workplace, internships, and social situations.</li>
+
+                                                            </ul>
+                                                            <h1>PG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    M.Sc. MATHEMATICS (SEMESTER)
+                                                                </span></h1>
+
+                                                            <h1>Program Outcomes</h1>
+                                                            <ul>
+                                                                <li>Demonstrate an understanding of the basic concepts in various areas of mathematics and their uses in the solution of some real life problems. Provide a systematic understanding of the concepts and theories of mathematics and their applications to an advanced level and enhance career in field of mathematics</li>
+                                                                <li>Develop the ability to apply mathematical ideas to investigate complex physical problems and the use of mathematical techniques to solve them.</li>
+                                                                <li> Think critically with abstract reasoning and to develop a logically correct mathematical argument.</li>
+                                                                <li>Develop the ability to make ideas precise by formulating them mathematically, analyze and interpret technical arguments.</li>
+                                                                <li>Criticize mathematical arguments developed by themselves and others.</li>
+                                                                <li>Communicate mathematical thoughts and ideas with the community in both oral and written format, computing and graphical means.</li>
+                                                            </ul>
+
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                 <div id="physics" class="content block-content"
+                                                    style="border-bottom: 1px solid #ccc;margin-top: 40px;">
+                                                    <p
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        PHYSICS 
+                                                    </p>
+
+                                                    <div class="lbk-rich-text-component container chairman-section">
+                                                        <img src="{{ asset('images/course/physics.jpg') }}" alt="arts"
+                                                           style="width: 1200px;"   class="director-img">
+
+                                                        <div class="content block-content" style="margin-top: 40px">
+                                                            <h1>UG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    B.Sc. MATHS (SEMESTER)
+                                                                </span></h1>
+
+                                                            <h1>Program Outcomes</h1>
+                                                            <p>A graduate with Physics will be able to</p>
+                                                          
+                                                            <ul>
+                                                                <li>Demonstrate a fundamental and systematic understanding of the core academic field of Physics</li>
+                                                                <p>Explain the fundamental concepts behind the complex physical phenomenon.</p>
+                                                                <li> Apply critical thinking in framing assumptions and devising methodologies for countering any scientific problem.</li>
+                                                                <li>Formulate the solution to scientific problems with suitable data collection and graphical representation via selection of mathematical/statistical and experimental methods to draw valid conclusions. </li>
+
+                                                            </ul>
+                                                            <h1>PG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    M.Sc. PHYSICS (SEMESTER)
+                                                                </span></h1>
+
+                                                            <h1>Program Outcomes</h1>
+                                                            <p>A postgraduate in Physics will be able to:</p>
+                                                            <ul>
+                                                                <li>Develop understanding and skills in Physics for critical assessment of a wide range of ideas and complex problems and issues relating to the various subfields of Physics.</li>
+                                                                <li>Communicate effectively in terms of oral and written scientific communication to exhibit experimental results and conceptual ideas.</li>
+                                                            </ul>
+
+                                                            <h1>Career Opportunities</h1>
+                                                            <ul>
+                                                                <li>Technical Assistant (ISRO, IPR, BARC, TIFR, IUAC, IUCAA, DRDO)</li>
+                                                                <li>Scientist (ISRO, IPR, BARC, TIFR, IUAC, IUCAA)</li>
+                                                                <li>Lab Technician</li>
+                                                                <li>Research Assistant</li>
+                                                            </ul>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div id="zoology" class="content block-content"
+                                                    style="border-bottom: 1px solid #ccc;margin-top: 40px;">
+                                                    <p
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        ZOOLOGY
+                                                    </p>
+
+                                                    <div class="lbk-rich-text-component container chairman-section">
+                                                        <img src="{{ asset('images/course/zoology.jpg') }}" alt="arts"
+                                                            style="width: 1200px;"  class="director-img">
+
+                                                        <div class="content block-content" style="margin-top: 40px">
+                                                            <h1>UG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    B.Sc. BIO (SEMESTER)
+                                                                </span></h1>
+                                                            <h1>PG COURSE :- <span
+                                                                    style=" font-style: italic;margin-top: 20px;color: #C00404;">
+                                                                    M.Sc. ZOOLOGY (SEMESTER)
+                                                                </span></h1>
+
+                                                            
+
+                                                            <h1 style="margin-top: 40px;">Career Opportunities</h1>
+                                                            <p>Zoology is a science that involves the study of the animal kingdom, both living and extinct. Zoologists, as a result, are also referred to as Animal Scientists. Zoologists analyze the structure, life processes, physiology, and classification of different species in detail. They also analyze how different animals interact with each other and adapt to their environments. They conduct research on both the species and individual organisms by collecting and analyzing data in laboratories and outdoor environments.</p>
+                                                            <p>Career options after pursuing a B.Sc., M.Sc and Ph.D. in Zoology are varied. Candidates find opportunities in government departments, environmental agencies, universities, colleges, biotechnological, pharmaceutical, environmental/ecological fields.</p>
+                                                            <p>After completing the course, an individual can enter into any field of zoology and zoological research. Students also have jobs in the media or the environmental and ecosystem management sector. After post-graduation, the aspirant can work with some of the most acknowledged ventures and organizations across the globe such as Discovery, National Geographic, and others.</p>
+                                                            
+
                                                         </div>
                                                     </div>
 

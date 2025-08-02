@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\NAACController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -36,6 +37,9 @@ Route::get('/courses', [CourseController::class,'courses'])->name('courses');
 
 // Department Page Route
 Route::get('/departments', [DepartmentController::class, 'departments'])->name('departments');
+
+// NAAC Page Route
+Route::get('iqac',[NAACController::class,'iqac'])->name('iqac');
 
 
 Route::middleware('auth')->group(function () {
