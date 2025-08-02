@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta name="theme-color" content="#C00404" />
+    <meta name="theme-color" content="##141390" />
     <meta charset="utf-8" />
     <meta name="description"
         content="The Institute is proud to bear the laureate of being No.1 engineering university in India. More recently, IIT Madras has been given the title of Institute of Eminence." />

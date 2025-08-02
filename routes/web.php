@@ -40,6 +40,12 @@ Route::get('/departments', [DepartmentController::class, 'departments'])->name('
 
 // NAAC Page Route
 Route::get('iqac',[NAACController::class,'iqac'])->name('iqac');
+Route::get('institutional-distinctiveness',[NAACController::class,'institutional_distinctiveness'])->name('institutional_distinctiveness');
+Route::get('aap',[NAACController::class, 'aap'])->name('aap');
+Route::get('par',[NAACController::class, 'par'])->name('par');
+Route::get('aishe',[NAACController::class, 'aishe'])->name('aishe');
+Route::get('iiqa-dvv',[NAACController::class, 'iiqa_dvv'])->name('iiqa_dvv');
+Route::get('iqac-minutes-atr',[NAACController::class, 'iqac_minutes_atr'])->name('iqac_minutes_atr');
 
 
 Route::middleware('auth')->group(function () {
