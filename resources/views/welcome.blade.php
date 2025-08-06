@@ -1903,7 +1903,7 @@
         <div class="popup__overlay" data-popup-overlay="popup-overlay" role="search" aria-expanded="false"></div>
 
 
-        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top"
+        <span class=""><a href="javascript:;" title="MBPG Scroll to Top" class="scroll__to__top"
                 style="display: none;"><span class="sr-only">Scroll to Top</span></a></span>
 
     </div>
