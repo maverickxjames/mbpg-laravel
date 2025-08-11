@@ -50,4 +50,7 @@ class NAACController extends Controller
     public function iqac_minutes_atr(){
         return view('pages.naac.iqac-minutes'); // Assuming you have a view named 'departments.index'
     }
+     public function ncte(){
+        return view('pages.Ncte.ncte'); // Assuming you have a view named 'departments.index'
+    }
 }

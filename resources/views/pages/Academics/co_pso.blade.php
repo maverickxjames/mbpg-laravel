@@ -154,19 +154,19 @@
 
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
-                                                            <h1>MoUs AND COLLABORATIONS
+                                                            <h1>2.6 Student Performance and Learning Outcomes 2023-24
                                                             </h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="pdf-desktop-view">
                                                                 <iframe
-                                                                    src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/MoUs_AND_COLLABORATIONS2.pdf"
+                                                                    src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/2.6.1.pdf"
                                                                     width="100%" height="1200px" style="border: none;">
                                                                 </iframe>
                                                             </div>
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/MoUs_AND_COLLABORATIONS2.pdf"
+                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/2.6.1.pdf"
                                                                     target="_blank" class="view-pdf-button"
                                                                     style="color: #fff; text-decoration: none;font-weight: bold;">
                                                                     <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
