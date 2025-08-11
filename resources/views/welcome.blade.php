@@ -6,8 +6,8 @@
     <meta charset="utf-8" />
     <meta name="description"
         content="Indian Institute of Technology Madras is Best Institute for higher education in India. It is a public technical and research university located in Chennai" />
-    <link rel="shortlink" href="https://www.iitm.ac.in/" />
-    <link rel="canonical" href="https://www.iitm.ac.in/" />
+    <link rel="shortlink" href="https://maabhartipgcollegekota.com/" />
+    <link rel="canonical" href="hhttps://maabhartipgcollegekota.com/" />
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -192,7 +192,7 @@
                                                                             Activity</h2>
                                                                     </div>
                                                                     <div class="col-sm-6">
-                                                                        <a href="./happenings/IITM-in-the-news"
+                                                                        <a href="#"
                                                                             title="View All News"
                                                                             class="section__viewlink">View All</a>
                                                                     </div>
@@ -215,9 +215,8 @@
                                                                                 </div>
                                                                                 <h3 class="section__cardheading">{{
                                                                                     $activity->topic }}</h3>
-                                                                                <p>Indian Institute of Technology Madras
-                                                                                    (IIT Madras) and IITM Pravartak…
-                                                                                <ul class="clearfix divider__list">
+                                                                                <p></p>
+                                                                                    <ul class="clearfix divider__list">
                                                                                     <li
                                                                                         class="font__fontrols__style font__controls__style">
                                                                                         9 Apr 2025</li>
@@ -241,66 +240,7 @@
 
                                             </div>
                                         </div>
-                                        {{-- <div class="views-element-container"
-                                            data-block-plugin-id="views_block:home_page-hpg_events">
-
-
-                                            <div class="views-element-container">
-                                                <div
-                                                    class="view view-home-page view-id-home_page view-display-id-hpg_recent_events js-view-dom-id-e8a0b16548b7d4e818b07e0f29847ba10c1dec13d65b47960e2fde2c6f0c6e04">
-
-
-
-
-                                                    <div class="view-content">
-                                                        <!-- News & Events Section Star -->
-                                                        <div class="col-sm-12 col-md-3 events__tab__space">
-                                                            <div class="row">
-                                                                <div class="col-sm-6">
-                                                                    <h2 class="common__heading font__controls__style">
-                                                                        Recent</h2>
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <a href="./happenings/events"
-                                                                        title="Events Calendar"
-                                                                        class="section__viewlink">Calendar</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row display__flexbox">
-                                                                <!--<div class="col-md-6 ne-home-mobile">-->
-                                                                <div class="col-sm-4 col-md-12">
-                                                                    <a href="./happenings/events/spectrum-inspired-low-light-image-translation-saliency-detection"
-                                                                        class="block__element">
-                                                                        <div class="section__card">
-                                                                            <div
-                                                                                class="section__cardimg section__cardimg--shadow section__cardimg--center">
-                                                                                <img src=""
-                                                                                    alt="Spectrum Inspired Low-light Image Translation for Saliency Detection"
-                                                                                    data-noimg=1
-                                                                                    data-noimg-category=seminar_s5 />
-                                                                                <ul>
-                                                                                    <li>18 Apr</li>
-                                                                                    <li>03:30 PM</li>
-                                                                                </ul>
-                                                                            </div>
-                                                                            <h3 class="section__cardheading">Spectrum
-                                                                                Inspired Low-light Image Translation for
-                                                                                Saliency Detection</h3>
-                                                                            <p>Saliency detection methods are crucial in
-                                                                                various practical applications,…</p>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </div> --}}
+                                  
                                     </div>
                                 </div>
                                 <div class="layout layout--onecol">
@@ -397,430 +337,7 @@
 
                                     </div>
                                 </div>
-                                {{-- <section class="section__block section__block--research"
-                                    style="background-image: url(/themes/custom/iitm/assets/images/background-image/research-section-banner.jpg);">
-                                    <div class="container">
-                                        <h2 class="common__heading textwhite">Research</h2>
-                                        <div class="row" data-sticky-container>
-                                            <div class="col-sm-7 col-md-8 textwhite">
-                                                <div class="main-region">
-
-                                                    <div class="views-element-container"
-                                                        data-block-plugin-id="views_block:home_page-hpg_research_highlight">
-
-
-                                                        <div class="content block-content">
-                                                            <div>
-                                                                <div
-                                                                    class="view view-home-page view-id-home_page view-display-id-hpg_research_highlight js-view-dom-id-d68689ebbea38cc8be401213831ba7386232dacd7edb1ea97e3bd7130fec33e9">
-
-
-
-
-                                                                    <div class="view-content">
-                                                                        <div class="row">
-                                                                            <div class="col-sm-4">
-                                                                                <h3
-                                                                                    class="section__cardheadtext textwhite">
-                                                                                    Highlights</h3>
-                                                                            </div>
-                                                                            <div class="col-sm-8">
-                                                                                <a href="./research/research-highlights"
-                                                                                    class="section__viewlink section__viewlink--whitearrow">View
-                                                                                    all Research Highlights</a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-sm-6 ">
-                                                                            <a href="./research/research-highlights/how-cool-motorbikes-are-choking-indian-cities"
-                                                                                class="block__element">
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m1/public/2020-04/motor.jpg?itok=nsAfe6Bk"
-                                                                                            alt="{item.title.content|raw}}" />
-                                                                                    </div>
-                                                                                    <h4 class="section__cardheading">How
-                                                                                        cool motorbikes are choking
-                                                                                        Indian cities!</h4>
-                                                                                    <p>In a new study, the scientists
-                                                                                        from IIT Madras show that the
-                                                                                        polluting…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="col-sm-6 rh-home-mobile">
-                                                                            <a href="./research/research-highlights/why-getting-too-personal-may-harm-e-commerce"
-                                                                                class="block__element">
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m1/public/2020-04/e-commerce.jpg?itok=EXfaqCWi"
-                                                                                            alt="{item.title.content|raw}}" />
-                                                                                    </div>
-                                                                                    <h4 class="section__cardheading">Why
-                                                                                        getting too personal may harm
-                                                                                        e-Commerce!</h4>
-                                                                                    <p>Gone are the days when the only
-                                                                                        way to buy something was to go
-                                                                                        to a…</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-5 col-md-4">
-                                                <div class="sidebar-region">
-
-                                                    <div class="views-element-container"
-                                                        data-block-plugin-id="views_block:home_page-hpg_research_centres">
-
-
-                                                        <div class="content block-content">
-                                                            <div>
-                                                                <div
-                                                                    class="view view-home-page view-id-home_page view-display-id-hpg_research_centres js-view-dom-id-24f0260a819389f58c4c3daadcc31acec42db41d253dc671ec24dc5da5338d88">
-
-
-
-
-                                                                    <div class="view-content">
-                                                                        <h3 class="section__cardheadtext textwhite">
-                                                                            Centres</h3>
-                                                                        <div class="infoSlider owl-carousel owl-theme">
-                                                                            <a href="./research/institute-research-centres/centre-for-computational-brain-research"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-ccbr_0.jpg?itok=mogUlUcu"
-                                                                                            alt="Centre for Computational Brain Research" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Centre for Computational
-                                                                                            Brain Research</h4>
-                                                                                        <p>The Centre for Computational
-                                                                                            Brain Research (CCBR) is a
-                                                                                            high-level…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/centre-for-technology-and-policy"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-header%20CTAP_1.jpg?itok=fDMOs2SX"
-                                                                                            alt="Centre for Technology and Policy (CTaP)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Centre for Technology and
-                                                                                            Policy (CTaP)</h4>
-                                                                                        <p>The Centre for Technology and
-                                                                                            Policy (CTaP) provides
-                                                                                            analyses and…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/advanced-manufacturing-technology-development-centre"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-08/homepagetile-AMTDC_0.jpg?itok=ZMmchkvX"
-                                                                                            alt="Advanced Manufacturing Technology Development Centre (AMTDC)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Advanced Manufacturing
-                                                                                            Technology Development
-                                                                                            Centre (AMTDC)</h4>
-                                                                                        <p>The Advanced Manufacturing
-                                                                                            Technology Development
-                                                                                            Centre (AMTDC) is a…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/national-research-centres/national-cancer-tissue-biobank"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-cancer%20tissue%20bank.jpg?itok=LaUEp5Zk"
-                                                                                            alt="National Cancer Tissue Biobank (NCTB)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            National Cancer Tissue
-                                                                                            Biobank (NCTB)</h4>
-                                                                                        <p>National Cancer Tissue
-                                                                                            Biobank (NCTB) is a
-                                                                                            state-of-the-art non-profit…
-                                                                                        </p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/research-centres/ttk-center-rehabilitation-research-and-device-development-r2d2"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2022-04/Shailesh%202.png?itok=7qxmglk2"
-                                                                                            alt="TTK Center for Rehabilitation Research and Device Development (R2D2)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            TTK Center for
-                                                                                            Rehabilitation Research and
-                                                                                            Device Development (R2D2)
-                                                                                        </h4>
-                                                                                        <p>R2D2 is the TTK Center for
-                                                                                            Rehabilitation Research and
-                                                                                            Device…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/national-research-centres/national-technology-centre-for-ports-waterways-and-coasts"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-08/homepagetile-ntcpwc.jpg?itok=WaEsh4FW"
-                                                                                            alt="National Technology Centre for Ports, Waterways and Coasts (NTCPWC)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            National Technology Centre
-                                                                                            for Ports, Waterways and
-                                                                                            Coasts (NTCPWC)</h4>
-                                                                                        <p>The National Technology
-                                                                                            Centre for Ports, Waterways
-                                                                                            &amp;amp; Coasts (…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/robert-bosch-centre-for-data-science-and-artificial-intelligence"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-RBCDAI.jpg?itok=jQNU1dV0"
-                                                                                            alt="Robert Bosch Centre for Data Science and Artificial Intelligence" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Robert Bosch Centre for Data
-                                                                                            Science and Artificial
-                                                                                            Intelligence</h4>
-                                                                                        <p>Founded in 2017, the Robert
-                                                                                            Bosch Centre for Data
-                                                                                            Science and…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/centre-for-nems-and-nanophotonics"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-NEMS.jpg?itok=2414xqIz"
-                                                                                            alt="Centre for NEMS and Nanophotonics (CNNP)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Centre for NEMS and
-                                                                                            Nanophotonics (CNNP)</h4>
-                                                                                        <p>The Centre for
-                                                                                            Nanoelectromechanical
-                                                                                            Systems (NEMS) and
-                                                                                            Nanophotonics…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/iitm-china-studies-centre"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-08/homepagetile-China%20Studies.jpg?itok=U3B_z_T0"
-                                                                                            alt="IITM China Studies Centre" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            IITM China Studies Centre
-                                                                                        </h4>
-                                                                                        <p>IITM China Studies Centre was
-                                                                                            established in April 2011
-                                                                                            with a view to…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/centre-of-excellence-in-wireless-technology"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-08/homepagetile-Cewit.jpg?itok=zAIxIhi1"
-                                                                                            alt="Centre of Excellence in Wireless Technology (CEWiT)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Centre of Excellence in
-                                                                                            Wireless Technology (CEWiT)
-                                                                                        </h4>
-                                                                                        <p>Set up with support from the
-                                                                                            Ministry of Communication
-                                                                                            and IT and the…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/healthcare-technology-innovation-centre"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-HTIC_0.jpg?itok=t9fqpTE-"
-                                                                                            alt="Healthcare Technology Innovation Centre (HTIC)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Healthcare Technology
-                                                                                            Innovation Centre (HTIC)
-                                                                                        </h4>
-                                                                                        <p>The Healthcare Technology
-                                                                                            Innovation Centre (HTIC) is
-                                                                                            a…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/national-research-centres/indo-german-centre-for-sustainability"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-igcs.jpg?itok=d5DXk_xf"
-                                                                                            alt="Indo-German Centre for Sustainability" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Indo-German Centre for
-                                                                                            Sustainability</h4>
-                                                                                        <p>Indo German Centre for
-                                                                                            Sustainability (IGCS) was
-                                                                                            established in 2010…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/centre-for-railway-research"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-railway%20research.jpg?itok=-oUufYhz"
-                                                                                            alt="Centre for Railway Research" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            Centre for Railway Research
-                                                                                        </h4>
-                                                                                        <p>The Centre for Railway
-                                                                                            Research (CRR) was set up in
-                                                                                            2015 to develop a…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/institute-research-centres/international-centre-for-clean-water"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-08/homepagetile-iccw.jpg?itok=X-mypUbV"
-                                                                                            alt="International Centre for Clean Water (ICCW)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            International Centre for
-                                                                                            Clean Water (ICCW)</h4>
-                                                                                        <p>Established in 2018 with the
-                                                                                            objective of creating water
-                                                                                            professionals…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                            <a href="./research/national-research-centres/national-centre-for-combustion-research-and-development"
-                                                                                class="block__element">
-                                                                                <div
-                                                                                    class="section__card section__card--bgwhite">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img src="./sites/default/files/styles/img_m2/public/2020-04/homepagetile-NCCRD_0.jpg?itok=TlEC7l2d"
-                                                                                            alt="National Centre for Combustion Research and Development (NCCRD)" />
-                                                                                    </div>
-                                                                                    <div class="section__cardtext">
-                                                                                        <h4
-                                                                                            class="section__cardheading">
-                                                                                            National Centre for
-                                                                                            Combustion Research and
-                                                                                            Development (NCCRD)</h4>
-                                                                                        <p>Founded by the Combustion
-                                                                                            Institute – Indian Section
-                                                                                            and supported by…</p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section> --}}
+                              
                                 <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
@@ -1023,194 +540,7 @@
 
                                     </div>
                                 </div>
-                                {{-- <div class="layout layout--onecol">
-                                    <div class="layout__region layout__region--content">
-
-                                        <div class="views-element-container"
-                                            data-block-plugin-id="views_block:home_page-hpg_ci_list">
-
-
-                                            <div class="content block-content">
-                                                <div>
-                                                    <div
-                                                        class="view view-home-page view-id-home_page view-display-id-hpg_ci_list js-view-dom-id-8026a15987f85951bb8006ba01673777ed22d9f0b043cf06fdf676a97327143a">
-
-
-
-
-                                                        <div class="view-content">
-                                                            <!-- Consultancy & Innovation Section Start -->
-                                                            <section class="section__block section__block--bgsandal">
-                                                                <div class="container">
-                                                                    <h2 class="common__heading">Consultancy & Innovation
-                                                                    </h2>
-                                                                    <div class="sectionSlider owl-carousel owl-theme">
-
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./innovation/industrial-consultancy">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Industrial Consultancy</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/industrial-consultancy.png"
-                                                                                            width="370" height="200"
-                                                                                            alt="Industrial Consultancy" />
-
-
-                                                                                    </div>
-                                                                                    <p>The Centre for Industrial
-                                                                                        Consultancy and Sponsored
-                                                                                        Research (ICSR) was sta...</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <a href="./research-park/incubation-cell">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Incubation Cell</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-incubation%20cell.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Incubation Cell" />
-
-
-                                                                                    </div>
-                                                                                    <p>The IITM Incubation Cell (IITMIC)
-                                                                                        is India’s leading Deep-tech
-                                                                                        Startup hub....</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./research-park/iit-madras-bioincubator">
-                                                                                <h3 class="section__cardheadtext">IIT
-                                                                                    Madras Bioincubator</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-bioincubator.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="IIT Madras Bioincubator" />
-
-
-                                                                                    </div>
-                                                                                    <p>The IITM Bioincubator works to
-                                                                                        foster Indian biotech innovation
-                                                                                        and entrepr...</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./research-park/iitm-research-park">
-                                                                                <h3 class="section__cardheadtext">IITM
-                                                                                    Research Park</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-06/homepagetile-researchpark.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="IIT Madras Research PArk" />
-
-
-                                                                                    </div>
-                                                                                    <p>IIT Madras Research Park
-                                                                                        (IITMRP), India&#039;s first
-                                                                                        university-based research ...
-                                                                                    </p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <a href="./innovation/technology-transfer">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Technology Transfer</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-04/homepagetile-technology%20transfer.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="Technology Transfer" />
-
-
-                                                                                    </div>
-                                                                                    <p>IIT Madras has an array of
-                                                                                        technologies / IPR developed
-                                                                                        through Research an...</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <a
-                                                                                href="./innovation/gopalakrishnan-deshpande-centre-for-innovation-and-entrepreneurship">
-                                                                                <h3 class="section__cardheadtext">
-                                                                                    Gopalakrishnan-Deshpande Centre</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2020-08/homepagetile-gdc1.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="GDC Symposium" />
-
-
-                                                                                    </div>
-                                                                                    <p>Established in 2017 the
-                                                                                        Gopalakrishnan Deshpande Center
-                                                                                        for Innovation &amp;amp...</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="item">
-                                                                            <a href="./research-park/iitm-pravartak">
-                                                                                <h3 class="section__cardheadtext">IITM
-                                                                                    Pravartak</h3>
-                                                                                <div class="section__card">
-                                                                                    <div class="section__cardimg"
-                                                                                        role="img">
-                                                                                        <img loading="lazy"
-                                                                                            src="./sites/default/files/2024-12/single-img-16_0.jpg"
-                                                                                            width="370" height="200"
-                                                                                            alt="iitm pravartak" />
-
-
-                                                                                    </div>
-                                                                                    <p>IITM Pravartak Technologies
-                                                                                        Foundation is a section 08
-                                                                                        company housing the ...</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </section>
-
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div> --}}
+                           
                                 {{-- <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
@@ -1418,7 +748,7 @@
 
 
                                                                                         <div> <img loading="lazy"
-                                                                                                src="https://maabhartipgcollegekota.com/jk/director.png"
+                                                                                                src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/director.png"
                                                                                                 width="470" height="424"
                                                                                                 alt>
 
@@ -1488,82 +818,7 @@
 
                                     </div>
                                 </div>
-                                {{-- <div class="container layout layout--onecol">
-                                    <div class="layout__region layout__region--content">
-
-                                        <div class="views-element-container"
-                                            data-block-plugin-id="views_block:config_page_-hpg_ask_iitm">
-
-
-                                            <div class="content block-content">
-                                                <div>
-                                                    <div
-                                                        class="view view-config-page- view-id-config_page_ view-display-id-hpg_ask_iitm js-view-dom-id-cc7d3bc606b283b201766aae65f305c796c579255f3b883f350f918e2c567a12">
-
-
-
-
-                                                        <div class="view-content">
-                                                            <section class="askmadras">
-                                                                <div class="container">
-
-                                                                    <div class="clearfix">
-                                                                        <div class="row">
-                                                                            <div class="col-sm-7">
-                                                                                <h4
-                                                                                    class="common__heading font__fontrols__style">
-                                                                                    For JEE Advanced 2024 Aspirants</h4>
-                                                                            </div>
-                                                                            <div class="col-sm-5">
-                                                                                <a href="https://www.askiitm.com/"
-                                                                                    target="_blank"
-                                                                                    title="For JEE Advanced 2024 Aspirants"
-                                                                                    class="section__viewlink">Visit
-                                                                                    askiitm.com</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-sm-6">
-                                                                            <img
-                                                                                src="./sites/default/files/card_images/ask_iitm.png" />
-                                                                            <div class="media">
-                                                                                <p>The JoSAA counselling process can be
-                                                                                    tricky. Current students and alumni
-                                                                                    of IIT Madras are here to help out!
-                                                                                </p>
-
-                                                                                <p>Get your doubts cleared within 1 day.
-                                                                                    Or browse through existing answers
-                                                                                    and videos about everything there is
-                                                                                    to life at IITs.</p>
-
-                                                                            </div>
-
-                                                                        </div>
-                                                                        <div class="col-sm-6">
-                                                                            <div
-                                                                                class="video-embed-field-provider-youtube video-embed-field-responsive-video">
-                                                                                <iframe width="854" height="480"
-                                                                                    frameborder="0"
-                                                                                    allowfullscreen="allowfullscreen"
-                                                                                    src="https://www.youtube.com/embed/4ZJ6f_06gvw?autoplay=0&amp;start=0&amp;rel=0"></iframe>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </section>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div> --}}
+                               
                                 {{-- <div class="layout layout--onecol">
                                     <div class="layout__region layout__region--content">
 
@@ -1820,7 +1075,7 @@
         <!-- Search Popup Model section -->
 
 
-        <div class="popup" data-popup-model="search" role="search" aria-expanded="false">
+        {{-- <div class="popup" data-popup-model="search" role="search" aria-expanded="false">
             <div class="popup__container findinfo__search">
                 <a href="javascript:;" title="Popup Close" class="sprite popup__close" data-popup-close="close"><span
                         class="sr-only">Close</span></a>
@@ -1890,17 +1145,17 @@
                             </div>
                         </div>
 
-                        <!--<div class="findinfo__morewaystext">
+                       <div class="findinfo__morewaystext">
                     <a href="javascript:;" title="IITM More ways to search">More ways to search</a>
                     <span class="sprite findinfo__morewaysicon"></span>
-                </div>-->
+                </div>
                     </fieldset>
                 </div>
 
             </div>
         </div>
 
-        <div class="popup__overlay" data-popup-overlay="popup-overlay" role="search" aria-expanded="false"></div>
+        <div class="popup__overlay" data-popup-overlay="popup-overlay" role="search" aria-expanded="false"></div> --}}
 
 
         <span class=""><a href="javascript:;" title="MBPG Scroll to Top" class="scroll__to__top"

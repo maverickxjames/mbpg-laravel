@@ -9,7 +9,7 @@
                     <span class="sr-only">Toggle Menu</span>
                 </a>
                 <div class="header__logo" role="img" aria-label="IIT Madras">
-                    <a href="https://www.iitm.ac.in/" title="IIT Madras" rel="home"><img alt="IIT Madras"
+                    <a href="/" title="Maa Bharthi Pg College" rel="home"><img alt="Maa Bharthi Pg College"
                             src="{{ asset('images/logo.png') }}"></a>
                 </div>
             </div>
