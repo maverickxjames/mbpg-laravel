@@ -5,6 +5,7 @@ use App\Http\Controllers\AcademicsController;
 use App\Http\Controllers\AdmissionController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\ForumsController;
 use App\Http\Controllers\InfrastructureController;
 use App\Http\Controllers\NAACController;
 use App\Http\Controllers\NssController;
@@ -73,6 +74,15 @@ Route::get('nss',[NssController::class, 'nss'])->name('nss');
 
 // research
 Route::get('research-innovation',[ResearchController::class, 'research'])->name('research');
+
+// Forums
+Route::get('alumni-association',[ForumsController::class, 'alumni_association'])->name('alumni_association');
+Route::get('anti-ragging-cell',[ForumsController::class, 'anti_ragging'])->name('anti_ragging');
+Route::get('placement-cell',[ForumsController::class, 'placement'])->name('placement');
+Route::get('sveep-cell',[ForumsController::class, 'sveep'])->name('sveep');
+Route::get('special-cell',[ForumsController::class, 'special'])->name('special');
+Route::get('grievance-redressal-cell',[ForumsController::class, 'grievance_redressal'])->name('grievance_redressal');
+Route::get('women-cell',[ForumsController::class, 'women'])->name('women');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
