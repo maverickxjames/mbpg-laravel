@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AcademicsController;
+use App\Http\Controllers\AdmissionController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\NAACController;
@@ -56,6 +57,9 @@ Route::get('results', [AcademicsController::class, 'results'])->name('results');
 Route::get('activity', [AcademicsController::class, 'activity'])->name('activity');
 Route::get('achievement', [AcademicsController::class, 'achievement'])->name('achievement');
 Route::get('MoU-collabration', [AcademicsController::class, 'MoU_collaboration'])->name('MoU_collaboration');
+
+// Admission Page Route
+Route::get('/admission-process',[AdmissionController::class, 'admissionProcess'])->name('admission_process');
 
 
 Route::middleware('auth')->group(function () {
