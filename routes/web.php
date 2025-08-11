@@ -5,8 +5,11 @@ use App\Http\Controllers\AcademicsController;
 use App\Http\Controllers\AdmissionController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\InfrastructureController;
 use App\Http\Controllers\NAACController;
+use App\Http\Controllers\NssController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ResearchController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -62,6 +65,14 @@ Route::get('MoU-collabration', [AcademicsController::class, 'MoU_collaboration']
 Route::get('admission-process',[AdmissionController::class, 'admissionProcess'])->name('admission_process');
 Route::get('pay-online',[AdmissionController::class, 'payOnline'])->name('pay_online');
 
+// Infrastructure 
+Route::get('infrastructure',[InfrastructureController::class, 'infrastructure'])->name('infrastructure');
+
+// NSS
+Route::get('nss',[NssController::class, 'nss'])->name('nss');
+
+// research
+Route::get('research-innovation',[ResearchController::class, 'research'])->name('research');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
