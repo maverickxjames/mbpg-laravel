@@ -11,6 +11,7 @@ use App\Http\Controllers\NAACController;
 use App\Http\Controllers\NssController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ResearchController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -83,6 +84,12 @@ Route::get('sveep-cell',[ForumsController::class, 'sveep'])->name('sveep');
 Route::get('special-cell',[ForumsController::class, 'special'])->name('special');
 Route::get('grievance-redressal-cell',[ForumsController::class, 'grievance_redressal'])->name('grievance_redressal');
 Route::get('women-cell',[ForumsController::class, 'women'])->name('women');
+
+// Student
+Route::get('e-news',[StudentController::class, 'e_news'])->name('e_news');
+Route::get('feedback',[StudentController::class, 'feedback'])->name('feedback');
+Route::get('development',[StudentController::class, 'development'])->name('development');
+Route::get('vivarnika',[StudentController::class, 'vivarnika'])->name('vivarnika');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

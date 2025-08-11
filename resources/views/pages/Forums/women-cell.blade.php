@@ -178,21 +178,26 @@
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
                                                             <p>
-                                                                The women cell works for the welfare of girls students and female faculty. Women empowerment and girls' interest are the key ingredients to focus on for the all-round development of the girls. The cell runs different types of programs round the session.
+                                                                The women cell works for the welfare of girls students
+                                                                and female faculty. Women empowerment and girls'
+                                                                interest are the key ingredients to focus on for the
+                                                                all-round development of the girls. The cell runs
+                                                                different types of programs round the session.
 
 
                                                             </p>
                                                             <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/womencell.jpg"
                                                                 alt="alumni">
 
-                                                            <h1 style="margin-top: 50px">Women Cell and Anti-Sexual Harassment Cell Members are</h1>
+                                                            <h1 style="margin-top: 50px">Women Cell and Anti-Sexual
+                                                                Harassment Cell Members are</h1>
                                                             <ul>
-    <li>Dr. Meenakshi Sharma</li>
-    <li>Dr. Arshi Abbasi</li>
-    <li>Dr. Nivedita Sharma</li>
-    <li>Mrs. Nidhi Bhargav</li>
-    <li>Dr. Aarti Sharma</li>
-</ul>
+                                                                <li>Dr. Meenakshi Sharma</li>
+                                                                <li>Dr. Arshi Abbasi</li>
+                                                                <li>Dr. Nivedita Sharma</li>
+                                                                <li>Mrs. Nidhi Bhargav</li>
+                                                                <li>Dr. Aarti Sharma</li>
+                                                            </ul>
 
 
 
