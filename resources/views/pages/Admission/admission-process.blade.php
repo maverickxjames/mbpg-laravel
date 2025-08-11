@@ -21,71 +21,65 @@
         href="/sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJxdyksOwzAIANELOeZIEbFpjIo_ApzWt2_VTaRu3mI0zF6Bv2zmS7idQXD16fsxWTLp_mQH5VQ2p7f_T5kt9Yt0QW-UuoRKmREeLE4aEw7n3sJAxVNxFIOsc6DEu8TZxjyErVAOtsypwoFG4WJ6GfyMtecp9AG11UNp" />
 
     <style>
-   
+        .content-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
 
+        .content-table thead tr {
+            background-color: #141390;
+            color: #ffffff;
+            font-size: 20px;
+            text-align: left;
+            font-weight: bold;
+        }
 
-        
+        .content-table th {
+            background-color: #141390;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
 
-.content-table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  min-width: 400px;
-  width: 100%;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
+        .content-table td {
+            font-size: 16px;
 
-.content-table thead tr {
-  background-color: #141390;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: left;
-  font-weight: bold;
-}
-
-.content-table th {
-  background-color: #141390;
-  color: #ffffff;
-  text-align: left;
-  font-weight: bold;
-}
-
-.content-table td{
-    font-size: 16px;
-
-}
+        }
 
 
 
-.content-table th,
-.content-table td {
-  padding: 12px 15px;
-    border: 1px solid #000000;
-}
+        .content-table th,
+        .content-table td {
+            padding: 12px 15px;
+            border: 1px solid #000000;
+        }
 
-.content-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
+        .content-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
 
-.content-table tbody tr:hover {
-  background-color: #141390;
-}
+        .content-table tbody tr:hover {
+            background-color: #141390;
+        }
 
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
+        .content-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
 
-.content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
+        .content-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
 
-.content-table tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
-}
-
+        .content-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
     </style>
 
 
@@ -94,7 +88,25 @@
 
 
     <script>
-        (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-83360942-1", {"cookieDomain":"auto","allowLinker":true});ga("require", "linkid", "linkid.js");ga("require", "linker");ga("linker:autoLink", ["www.iitm.ac.in","www-test.iitm.ac.in"]);ga("set", "anonymizeIp", true);ga("send", "pageview");
+        (function(i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+        ga("create", "UA-83360942-1", {
+            "cookieDomain": "auto",
+            "allowLinker": true
+        });
+        ga("require", "linkid", "linkid.js");
+        ga("require", "linker");
+        ga("linker:autoLink", ["www.iitm.ac.in", "www-test.iitm.ac.in"]);
+        ga("set", "anonymizeIp", true);
+        ga("send", "pageview");
     </script>
 </head>
 
@@ -103,7 +115,7 @@
 
 
 
-   
+
 
 
     <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
@@ -158,40 +170,41 @@
                                 <div data-block-plugin-id="inline_block:block_inline_image"
                                     data-inline-block-uuid="20cd9efd-dbb7-48b1-8124-3efa430bb590">
 
-                                     <div class="layout layout--onecol">
-                                    <div class="layout__region layout__region--content">
+                                    <div class="layout layout--onecol">
+                                        <div class="layout__region layout__region--content">
 
-                                        <div class="views-element-container"
-                                            data-block-plugin-id="views_block:home_page-hpg_announcements">
-
-
-                                            <div class="content block-content">
-                                                <div>
-                                                    <div
-                                                        class="view view-home-page view-id-home_page view-display-id-hpg_announcements js-view-dom-id-2ea34b8837c3228202e0c7d5c811ba2eeefb16f00dabb1baaedff091b23fd0d8">
+                                            <div class="views-element-container"
+                                                data-block-plugin-id="views_block:home_page-hpg_announcements">
 
 
+                                                <div class="content block-content">
+                                                    <div>
+                                                        <div
+                                                            class="view view-home-page view-id-home_page view-display-id-hpg_announcements js-view-dom-id-2ea34b8837c3228202e0c7d5c811ba2eeefb16f00dabb1baaedff091b23fd0d8">
 
 
-                                                        <div class="view-content">
-                                                            <!-- Announcements Section Start -->
-                                                            <x-announcements/>
 
-                                                            <div>
-                                                                <h1 class="sr-only">No. 1 for 5 Years Running...</h1>
+
+                                                            <div class="view-content">
+                                                                <!-- Announcements Section Start -->
+                                                                <x-announcements />
+
+                                                                <div>
+                                                                    <h1 class="sr-only">No. 1 for 5 Years Running...
+                                                                    </h1>
+                                                                </div>
+
+
                                                             </div>
 
-
                                                         </div>
-
                                                     </div>
+
                                                 </div>
-
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
-                                </div>
 
 
                                     <div class="content block-content">
@@ -225,109 +238,137 @@
                                     <div class="col-sm-7 col-md-8">
                                         <div class="main-region">
                                             <div data-block-plugin-id="lbk_rich_text">
-                                                   <p
+                                                <p
                                                     style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;">
                                                     Available Courses
 
                                                 </p>
 
-                                               
-                                                <div class="content block-content"> 
-                                                     <p style="font-weight: bold;color:#141390;margin-top: 50px;font-size:25px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;text-decoration-thickness: 3px;">
-                                                    Under Graduate (UG) Programs
 
-                                                </p>
+                                                <div class="content block-content">
+                                                    <p
+                                                        style="font-weight: bold;color:#141390;margin-top: 50px;font-size:25px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;text-decoration-thickness: 3px;">
+                                                        Under Graduate (UG) Programs
+
+                                                    </p>
                                                     <div class="lbk-rich-text-component container">
-                                                      <h1>Courses</h1>
-                                                                <table class=" content-table "
-                                                                  >
-                                                                    <thead>
-                                                                        <tr>
-                                                                            <th >SR. NO</th>
-                                                                            <th >UG Courses
-                                                                                </th>
-                                                                            <th>INTAKE CAPICITY</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                        @foreach ($ugCourse as $item)
-                                                                        <tr
-                                                                            style="background-color: {{ $loop->iteration % 2 == 0 ? '#e4e2f7' : '#f4f8fa' }};">
-                                                                            <td>{{
-                                                                                $loop->iteration }}</td>
-                                                                            <td>{{
-                                                                                $item->name }}</td>
-                                                                            <td>
-                                                                                {{ $item->capacity }}
-                                                                            </td>
-                                                                        </tr>
-                                                                        @endforeach
-                                                                    </tbody>
-                                                                </table>
-                                                          
+                                                        <h1>Courses</h1>
+                                                        <table class=" content-table ">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>SR. NO</th>
+                                                                    <th>UG Courses
+                                                                    </th>
+                                                                    <th>INTAKE CAPICITY</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @foreach ($ugCourse as $item)
+                                                                    <tr
+                                                                        style="background-color: {{ $loop->iteration % 2 == 0 ? '#e4e2f7' : '#f4f8fa' }};">
+                                                                        <td>{{ $loop->iteration }}</td>
+                                                                        <td>{{ $item->name }}</td>
+                                                                        <td>
+                                                                            {{ $item->capacity }}
+                                                                        </td>
+                                                                    </tr>
+                                                                @endforeach
+                                                            </tbody>
+                                                        </table>
+
                                                     </div>
                                                 </div>
                                                 <div class="content block-content">
                                                     <div class="lbk-rich-text-component container">
-                                                      <h1>REQUIRED DOCUMENTS FOR ADMISSION</h1>
-                                                         <ul>
+                                                        <h1>REQUIRED DOCUMENTS FOR ADMISSION</h1>
+                                                        <ul>
                                                             <li>10th Mark Sheet</li>
                                                             <li>12th Mark Sheet</li>
                                                             <li>Transfer Certificate (TC)</li>
                                                             <li>Character Certificate</li>
                                                             <li>Passport Size Photograph - 2</li>
-                                                            <li>Migration Certificate (If Class 12th is from CBSE Board)</li>
-                                                         </ul>
-                                                          
+                                                            <li>Migration Certificate (If Class 12th is from CBSE Board)
+                                                            </li>
+                                                        </ul>
+
                                                     </div>
                                                 </div>
-                                                <div class="content block-content"> 
-                                                    <p style="font-weight: bold;color:#141390;margin-top: 50px;font-size:25px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;text-decoration-thickness: 3px;">
-                                                    Post Graduate (PG) Programs
+                                                <div class="content block-content">
+                                                    <p
+                                                        style="font-weight: bold;color:#141390;margin-top: 50px;font-size:25px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;text-decoration-thickness: 3px;">
+                                                        Post Graduate (PG) Programs
 
-                                                </p>
+                                                    </p>
                                                     <div class="lbk-rich-text-component container">
-                                                      <h1>Courses</h1>
-                                                                <table class=" content-table "
-                                                                  >
-                                                                    <thead>
-                                                                        <tr>
-                                                                            <th >SR. NO</th>
-                                                                            <th >PG Courses
-                                                                                </th>
-                                                                            <th>INTAKE CAPICITY</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                        @foreach ($pgCourse as $item)
-                                                                        <tr
-                                                                            style="background-color: {{ $loop->iteration % 2 == 0 ? '#e4e2f7' : '#f4f8fa' }};">
-                                                                            <td>{{
-                                                                                $loop->iteration }}</td>
-                                                                            <td>{{
-                                                                                $item->name }}</td>
-                                                                            <td>
-                                                                                {{ $item->capacity }}
-                                                                            </td>
-                                                                        </tr>
-                                                                        @endforeach
-                                                                    </tbody>
-                                                                </table>
-                                                          
+                                                        <h1>Courses</h1>
+                                                        <table class=" content-table ">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>SR. NO</th>
+                                                                    <th>PG Courses
+                                                                    </th>
+                                                                    <th>INTAKE CAPICITY</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @foreach ($pgCourse as $item)
+                                                                    <tr
+                                                                        style="background-color: {{ $loop->iteration % 2 == 0 ? '#e4e2f7' : '#f4f8fa' }};">
+                                                                        <td>{{ $loop->iteration }}</td>
+                                                                        <td>{{ $item->name }}</td>
+                                                                        <td>
+                                                                            {{ $item->capacity }}
+                                                                        </td>
+                                                                    </tr>
+                                                                @endforeach
+                                                            </tbody>
+                                                        </table>
+
                                                     </div>
                                                 </div>
                                                 <div class="content block-content">
                                                     <div class="lbk-rich-text-component container">
-                                                      <h1>REQUIRED DOCUMENTS FOR ADMISSION</h1>
-                                                         <ul>
+                                                        <h1>REQUIRED DOCUMENTS FOR ADMISSION</h1>
+                                                        <ul>
                                                             <li>Passport Size Photograph - 2</li>
                                                             <li>U.G. Final Mark sheet</li>
                                                             <li>Transfer Certificate (TC)</li>
                                                             <li>Character Certificate</li>
                                                             <li>Aadhar Card</li>
-                                                            <li>Migration Certificate (If UG is from a University other than UOK)</li>
-                                                         </ul>
-                                                          
+                                                            <li>Migration Certificate (If UG is from a University other
+                                                                than UOK)</li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                                <div class="content block-content">
+                                                    <p
+                                                        style="font-weight: bold;color:#141390;margin-top: 50px;font-size:25px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;text-decoration-thickness: 3px;">
+                                                        ADMISSION PROCEDURE
+                                                    </p>
+                                                    <div class="lbk-rich-text-component container">
+                                                        <h1>Step 1</h1>
+                                                       <ul>
+                                                            <li>Fill & submit the Online Admission Form</li>
+                                                            <li>Admission Form <a href="#" style="text-decoration: underline;text-decoration-thickness: 2px;font-weight: bold;">Click Here</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                                <div class="content block-content">
+                                                    <div class="lbk-rich-text-component container">
+                                                        <h1>Step 2</h1>
+                                                        <ul>
+                                                            <li>Pay Fee</li>
+                                                             <li>For Online Payment <a href="#" style="text-decoration: underline;text-decoration-thickness: 2px;font-weight: bold;">Click Here</a></li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                                <div class="content block-content">
+                                                    <div style="padding:40px 100px" class="lbk-rich-text-component container">
+                                                        <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/no-ragging-icon.png" alt="no-ragging icon" width="100" height="100">
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -354,30 +395,32 @@
                                                                         discipline, and values.
                                                                     </h6>
                                                                     @foreach ($admissionSection as $item)
-                                                                    @php
-                                                                    $children = $allItems->where('parent_id',
-                                                                    $item->id);
-                                                                    @endphp
+                                                                        @php
+                                                                            $children = $allItems->where(
+                                                                                'parent_id',
+                                                                                $item->id,
+                                                                            );
+                                                                        @endphp
 
-                                                                    @if ($children->isNotEmpty())
-                                                                    {{-- Show only children if they exist --}}
-                                                                    @foreach ($children as $child)
-                                                                    <p>
-                                                                        <a href="{{ url($child->url ?? '#') }}"
-                                                                            class="rightside__linkarrows">
-                                                                            {{ $child->title }}
-                                                                        </a>
-                                                                    </p>
-                                                                    @endforeach
-                                                                    @else
-                                                                    {{-- Show parent if no children --}}
-                                                                    <p>
-                                                                        <a href="{{ url($item->url ?? '#') }}"
-                                                                            class="rightside__linkarrows">
-                                                                            {{ $item->title }}
-                                                                        </a>
-                                                                    </p>
-                                                                    @endif
+                                                                        @if ($children->isNotEmpty())
+                                                                            {{-- Show only children if they exist --}}
+                                                                            @foreach ($children as $child)
+                                                                                <p>
+                                                                                    <a href="{{ url($child->url ?? '#') }}"
+                                                                                        class="rightside__linkarrows">
+                                                                                        {{ $child->title }}
+                                                                                    </a>
+                                                                                </p>
+                                                                            @endforeach
+                                                                        @else
+                                                                            {{-- Show parent if no children --}}
+                                                                            <p>
+                                                                                <a href="{{ url($item->url ?? '#') }}"
+                                                                                    class="rightside__linkarrows">
+                                                                                    {{ $item->title }}
+                                                                                </a>
+                                                                            </p>
+                                                                        @endif
                                                                     @endforeach
 
 
@@ -385,7 +428,7 @@
                                                                 </div>
                                                             </li>
 
-                                                            
+
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -416,8 +459,8 @@
 
 
 
-        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top" style=""><span
-                    class="sr-only">Scroll to Top</span></a></span>
+        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top"
+                style=""><span class="sr-only">Scroll to Top</span></a></span>
 
     </div>
 

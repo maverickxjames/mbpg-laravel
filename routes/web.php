@@ -59,7 +59,8 @@ Route::get('achievement', [AcademicsController::class, 'achievement'])->name('ac
 Route::get('MoU-collabration', [AcademicsController::class, 'MoU_collaboration'])->name('MoU_collaboration');
 
 // Admission Page Route
-Route::get('/admission-process',[AdmissionController::class, 'admissionProcess'])->name('admission_process');
+Route::get('admission-process',[AdmissionController::class, 'admissionProcess'])->name('admission_process');
+Route::get('pay-online',[AdmissionController::class, 'payOnline'])->name('pay_online');
 
 
 Route::middleware('auth')->group(function () {
