@@ -282,7 +282,7 @@
                                                             </p>
 
                                                         </div>
-                                                        <div class="content block-content" style="margin-top: 40px">
+                                                        <div id="others" class="content block-content" style="margin-top: 40px">
 
                                                             <h1>OTHER AMENITIES</h1>
                                                             <p>
@@ -334,7 +334,13 @@
                                                                         alt="medical" class="medical facilities"
                                                                         style="width: 35%; height: auto; margin-bottom: 20px;">
                                                                     <p style="width: 60%; line-height: 1.5;">
-                                                                       The campus is under 24 x 7 CCTV surveillance. All entry & exit points are manned by security personnel. Only registered students and staff members can enter/exit the campus premises, that too after undergoing bio-metric security checks. Visitors are required to take prior appointments and approval of the desired office.
+                                                                        The campus is under 24 x 7 CCTV surveillance.
+                                                                        All entry & exit points are manned by security
+                                                                        personnel. Only registered students and staff
+                                                                        members can enter/exit the campus premises, that
+                                                                        too after undergoing bio-metric security checks.
+                                                                        Visitors are required to take prior appointments
+                                                                        and approval of the desired office.
                                                                     </p>
 
                                                                 </div>
@@ -393,32 +399,32 @@
                                                                         discipline, and values.
                                                                     </h6>
                                                                     @foreach ($infrastructureSection as $item)
-                                                                        @php
-                                                                            $children = $allItems->where(
-                                                                                'parent_id',
-                                                                                $item->id,
-                                                                            );
-                                                                        @endphp
+                                                                    @php
+                                                                    $children = $allItems->where(
+                                                                    'parent_id',
+                                                                    $item->id,
+                                                                    );
+                                                                    @endphp
 
-                                                                        @if ($children->isNotEmpty())
-                                                                            {{-- Show only children if they exist --}}
-                                                                            @foreach ($children as $child)
-                                                                                <p>
-                                                                                    <a href="{{ url($child->url ?? '#') }}"
-                                                                                        class="rightside__linkarrows">
-                                                                                        {{ $child->title }}
-                                                                                    </a>
-                                                                                </p>
-                                                                            @endforeach
-                                                                        @else
-                                                                            {{-- Show parent if no children --}}
-                                                                            <p>
-                                                                                <a href="{{ url($item->url ?? '#') }}"
-                                                                                    class="rightside__linkarrows">
-                                                                                    {{ $item->title }}
-                                                                                </a>
-                                                                            </p>
-                                                                        @endif
+                                                                    @if ($children->isNotEmpty())
+                                                                    {{-- Show only children if they exist --}}
+                                                                    @foreach ($children as $child)
+                                                                    <p>
+                                                                        <a href="{{ url($child->url ?? '#') }}"
+                                                                            class="rightside__linkarrows">
+                                                                            {{ $child->title }}
+                                                                        </a>
+                                                                    </p>
+                                                                    @endforeach
+                                                                    @else
+                                                                    {{-- Show parent if no children --}}
+                                                                    <p>
+                                                                        <a href="{{ url($item->url ?? '#') }}"
+                                                                            class="rightside__linkarrows">
+                                                                            {{ $item->title }}
+                                                                        </a>
+                                                                    </p>
+                                                                    @endif
                                                                     @endforeach
 
 
@@ -502,8 +508,8 @@
 
 
 
-        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top"
-                style=""><span class="sr-only">Scroll to Top</span></a></span>
+        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top" style=""><span
+                    class="sr-only">Scroll to Top</span></a></span>
 
     </div>
 

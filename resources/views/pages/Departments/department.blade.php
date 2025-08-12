@@ -189,7 +189,7 @@
                                                 <div id="arts" class="content block-content"
                                                     style="border-bottom: 1px solid #ccc;">
                                                     <p
-                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;">
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;line-height: 1.5;">
                                                         ARTS
                                                     </p>
 

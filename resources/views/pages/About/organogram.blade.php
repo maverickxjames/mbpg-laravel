@@ -114,13 +114,16 @@
                                         <div class="main-region">
 
                                             <div data-block-plugin-id="lbk_rich_text">
-
+                                                     <p
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;line-height: 1.5;">
+                                                        Organogram
+                                                    </p>
 
                                                 <div class="content block-content">
 
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
-                                                            <h1>Organogram</h1>
+                                                            {{-- <h1>Organogram</h1> --}}
                                                             <p>
                                                                 The Organogram of Maa Bharti PG College, Kota, outlines the structure and hierarchy of the institution, detailing the roles and responsibilities of various departments and positions within the college.
                                                             </p>

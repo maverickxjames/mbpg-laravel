@@ -3,9 +3,11 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AcademicsController;
 use App\Http\Controllers\AdmissionController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\ForumsController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\InfrastructureController;
 use App\Http\Controllers\NAACController;
 use App\Http\Controllers\NssController;
@@ -53,7 +55,7 @@ Route::get('par',[NAACController::class, 'par'])->name('par');
 Route::get('aishe',[NAACController::class, 'aishe'])->name('aishe');
 Route::get('iiqa-dvv',[NAACController::class, 'iiqa_dvv'])->name('iiqa_dvv');
 Route::get('iqac-minutes-atr',[NAACController::class, 'iqac_minutes_atr'])->name('iqac_minutes_atr');
-Route::get('/ncte',[NAACController::class, 'ncte'])->name('ncte');
+Route::get('ncte',[NAACController::class, 'ncte'])->name('ncte');
 
 // Academics Page Route
 Route::get('/academic-calendar', [AcademicsController::class, 'academicCalendar'])->name('academic_calendar');
@@ -90,6 +92,12 @@ Route::get('e-news',[StudentController::class, 'e_news'])->name('e_news');
 Route::get('feedback',[StudentController::class, 'feedback'])->name('feedback');
 Route::get('development',[StudentController::class, 'development'])->name('development');
 Route::get('vivarnika',[StudentController::class, 'vivarnika'])->name('vivarnika');
+
+// Gallery
+Route::get('gallery',[GalleryController::class, 'gallery'])->name('gallery');
+    
+// Contact Us`
+Route::get('contact', [ContactController::class,'contact'])->name('contact');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

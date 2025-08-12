@@ -189,7 +189,7 @@
                                                     <h1>FROM THE DIRECTOR'S DESK</h1>
 
                                                     <div class="lbk-rich-text-component container chairman-section">
-                                                        <img src="{{ asset('images/director.png') }}"
+                                                        <img src="{{ asset('https://mobflix.s3.ap-south-1.amazonaws.com/mb/director.png') }}"
                                                             alt="Director Dinesh Vijay" class="director-img">
 
                                                         <div class="content block-content">

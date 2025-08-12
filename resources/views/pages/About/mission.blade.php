@@ -186,7 +186,10 @@
                                         <div class="main-region">
                                             <div data-block-plugin-id="lbk_rich_text">
                                                 <div class="content block-content">
-                                                    
+                                                     <p
+                                                        style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;line-height: 1.5;">
+                                                        Vision & Mission    
+                                                    </p>
 
                                                     <div class="lbk-rich-text-component container">
                                                       
