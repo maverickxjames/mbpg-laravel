@@ -184,14 +184,13 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/Vivarnika2024-25.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                              
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/Vivarnika2024-25.pdf"
+                                                                            target="_blank"
+                                                                            title="Vivarnika 2024-25">Vivarnika 2024-25</a></li>
+                                                                    <li></li>
+                                                                </ul>
                                                             </div>
 
 

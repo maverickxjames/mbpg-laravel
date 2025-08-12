@@ -174,6 +174,13 @@
                                                                         style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
                                                                     View PDF
                                                                 </a>
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/MoUs_AND_COLLABORATIONS2.pdf"
+                                                                            target="_blank"
+                                                                            title="MoUs AND COLLABORATIONS">MoUs AND COLLABORATIONS</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 

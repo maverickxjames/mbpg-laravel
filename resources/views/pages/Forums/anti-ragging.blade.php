@@ -20,42 +20,6 @@
     <link rel="stylesheet" media="all"
         href="/sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJxdyksOwzAIANELOeZIEbFpjIo_ApzWt2_VTaRu3mI0zF6Bv2zmS7idQXD16fsxWTLp_mQH5VQ2p7f_T5kt9Yt0QW-UuoRKmREeLE4aEw7n3sJAxVNxFIOsc6DEu8TZxjyErVAOtsypwoFG4WJ6GfyMtecp9AG11UNp" />
 
-    <style>
-        .pdf-mobile-view {
-            display: none;
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        .view-pdf-button {
-            background: linear-gradient(to right, #00c6ff, #3a4ed9);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: bold;
-            display: inline-flex;
-            align-items: center;
-            font-size: 16px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            transition: background 0.3s ease;
-        }
-
-        .view-pdf-button:hover {
-            background: linear-gradient(to right, #0090ff, #2b38a8);
-            text-decoration: none;
-        }
-
-        @media (max-width: 768px) {
-            .pdf-mobile-view {
-                display: block;
-            }
-
-            .pdf-desktop-view {
-                display: none !important;
-            }
-        }
-    </style>
 
 
 

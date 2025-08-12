@@ -21,15 +21,16 @@
         href="/sites/default/files/css/css_NsJcUKs1BuJTgwGa7PKAUN7cwj7sl9oiC5yG0kon-RA.css?delta=1&amp;language=en&amp;theme=iitm&amp;include=eJxdyksOwzAIANELOeZIEbFpjIo_ApzWt2_VTaRu3mI0zF6Bv2zmS7idQXD16fsxWTLp_mQH5VQ2p7f_T5kt9Yt0QW-UuoRKmREeLE4aEw7n3sJAxVNxFIOsc6DEu8TZxjyErVAOtsypwoFG4WJ6GfyMtecp9AG11UNp" />
 
     <style>
-        .pdf-desktop-view{
+        .pdf-desktop-view {
             display: block;
             text-align: center;
             margin: 20px 0;
         }
+
         .pdf-mobile-view {
             display: none;
             text-align: center;
-            margin: 20px 0;
+            /* margin: 20px 0; */
         }
 
         .view-pdf-button {
@@ -60,43 +61,44 @@
                 display: none !important;
             }
         }
-.link-view {
-    text-align: center;
-    margin: 20px 0;
-}
 
-.link-preview-button {
-     background: linear-gradient(to right, #00c6ff, #3a4ed9);
-    color: white;
-    padding: 12px 25px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-flex;
-    align-items: center;
-    font-size: 16px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-    transition: background 0.3s ease;
-}
+        .link-view {
+            text-align: center;
+            margin: 20px 0;
+        }
 
-.link-preview-button:hover {
-    background: linear-gradient(to right, #0090ff, #2b38a8); 
-    text-decoration: none;
-}
+        .link-preview-button {
+            background: linear-gradient(to right, #00c6ff, #3a4ed9);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            font-size: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            transition: background 0.3s ease;
+        }
 
-  .link-preview-button img {
-        width: 30px;
-        height: 30px;
-    }
+        .link-preview-button:hover {
+            background: linear-gradient(to right, #0090ff, #2b38a8);
+            text-decoration: none;
+        }
 
-@media (max-width: 768px) {
-    .link-preview-button {
-        font-size: 14px;
-        padding: 10px 20px;
-    }
+        .link-preview-button img {
+            width: 30px;
+            height: 30px;
+        }
 
-  
-}
+        @media (max-width: 768px) {
+            .link-preview-button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+
+
+        }
     </style>
 
 
@@ -221,13 +223,10 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="link-view">
-                                                                <a style="color: #fff" href="https://your-link-here.com" target="_blank"
-                                                                    class="link-preview-button">
-                                                                    Visit Now
-                                                                    <img src="https://cdn-icons-png.flaticon.com/128/5873/5873833.png"
-                                                                        alt="External Link Icon" width="20" height="20"
-                                                                        style="margin-left: 8px;">
-                                                                </a>
+
+                                                                <p style="border-top:1px solid rgba(151, 151, 151, 0.35);border-bottom:1px solid rgba(151, 151, 151, 0.35);padding:10px"><a class="readmore" href="https://www.univexam.info/"
+                                                                        target="_blank" title="Visit Now">Visit Now</a>
+                                                                </p>
                                                             </div>
 
 
@@ -239,7 +238,7 @@
 
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
-                                                            <h1>  Academic Committee</h1>
+                                                            <h1> Academic Committee</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="pdf-desktop-view">
                                                                 {{-- <iframe
@@ -247,26 +246,29 @@
                                                                     width="100%" height="800px" style="border: none;">
                                                                 </iframe> --}}
 
-                                                                 <a href="#"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/2.6.1.pdf"
+                                                                            target="_blank"
+                                                                            title="2.6 Student Performance and Learning Outcomes 2023-24">2.6
+                                                                            Student Performance and Learning Outcomes
+                                                                            2023-24</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="#"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/2.6.1.pdf"
+                                                                            target="_blank"
+                                                                            title="2.6 Student Performance and Learning Outcomes 2023-24">2.6
+                                                                            Student Performance and Learning Outcomes
+                                                                            2023-24</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -286,26 +288,24 @@
                                                                     width="100%" height="800px" style="border: none;">
                                                                 </iframe> --}}
 
-                                                                 <a href="#"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                                <ul class="document__list">
+                                                                    <li><a href="#" target="_blank"
+                                                                            title="Previous Year Results">Previous Year
+                                                                            Results</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="#"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                                <ul class="document__list">
+                                                                    <li><a href="#" target="_blank"
+                                                                            title="Previous Year Results">Previous Year
+                                                                            Results</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -313,54 +313,59 @@
                                                     </div>
 
                                                 </div>
-                                            
+
                                                 <div class="content block-content" style="margin-top: 50px">
 
-                                                      <p
-                                                    style="font-weight: bold;line-height:50px;margin-top: 20px;font-size:35px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 50px;">
-                                                   Meritorious students of the College
-                                                </p>
+                                                    <p
+                                                        style="font-weight: bold;line-height:50px;margin-top: 20px;font-size:35px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 50px;">
+                                                        Meritorious students of the College
+                                                    </p>
 
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
                                                             <h1>Session 2022-23</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="responsive-image-view">
-                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_22_23.jpg" alt="Timetable Image"
-                                                                    class="responsive-image" style="width: 100%; height: auto;">
+                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_22_23.jpg"
+                                                                    alt="Timetable Image" class="responsive-image"
+                                                                    style="width: 100%; height: auto;">
                                                             </div>
                                                             <h1>Session 2021-22</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="responsive-image-view">
-                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_21_22.jpg" alt="Timetable Image"
-                                                                    class="responsive-image" style="width: 100%; height: auto;">
+                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_21_22.jpg"
+                                                                    alt="Timetable Image" class="responsive-image"
+                                                                    style="width: 100%; height: auto;">
                                                             </div>
                                                             <h1>Session 2010-21</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="responsive-image-view">
-                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_20_21.jpg" alt="Timetable Image"
-                                                                    class="responsive-image" style="width: 100%; height: auto;">
+                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_20_21.jpg"
+                                                                    alt="Timetable Image" class="responsive-image"
+                                                                    style="width: 100%; height: auto;">
                                                             </div>
                                                             <h1>Session 2019-20</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="responsive-image-view">
-                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_19_20.jpg" alt="Timetable Image"
-                                                                    class="responsive-image" style="width: 100%; height: auto;">
+                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_19_20.jpg"
+                                                                    alt="Timetable Image" class="responsive-image"
+                                                                    style="width: 100%; height: auto;">
                                                             </div>
                                                             <h1>Session 2018-29</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="responsive-image-view">
-                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_18_19.jpg" alt="Timetable Image"
-                                                                    class="responsive-image" style="width: 100%; height: auto;">
+                                                                <img src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/result_18_19.jpg"
+                                                                    alt="Timetable Image" class="responsive-image"
+                                                                    style="width: 100%; height: auto;">
                                                             </div>
-                                                           
+
 
 
                                                         </div>
                                                     </div>
 
                                                 </div>
-                                       
+
 
                                             </div>
 

@@ -172,26 +172,26 @@
 
                                                     <div class="lbk-rich-text-component container">
                                                         <div class="content block-content">
-                                                            <h1>National Council for Teacher Education(NCTE)</h1>
+                                                            <h1>Performance Appraisal Report (PAR)</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="pdf-desktop-view">
                                                                 <iframe
                                                                     src="https://mobflix.s3.ap-south-1.amazonaws.com/mb/par.pdf"
-                                                                    width="100%" height="1200px"
-                                                                    style="border: none;">
+                                                                    width="100%" height="1200px" style="border: none;">
                                                                 </iframe>
                                                             </div>
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/par.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                             
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/par.pdf"
+                                                                            target="_blank"
+                                                                            title="Performance Appraisal Report (PAR)">Performance
+                                                                            Appraisal Report (PAR)</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -229,8 +229,8 @@
 
 
 
-        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top"
-                style=""><span class="sr-only">Scroll to Top</span></a></span>
+        <span class=""><a href="javascript:;" title="IITM Scroll to Top" class="scroll__to__top" style=""><span
+                    class="sr-only">Scroll to Top</span></a></span>
 
     </div>
 

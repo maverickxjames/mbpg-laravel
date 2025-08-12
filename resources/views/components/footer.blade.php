@@ -18,25 +18,21 @@
 
 
 
-                <ul class="clearfix">
+                 @php
+                $links = DB::table('top_headers')
+                ->where('status', 1)
+                ->orderBy('sort_order')
+                ->get();
+                @endphp
+               <ul class="header__topleftmenu">
+                    @foreach($links as $link)
                     <li>
-                        <a href="#">Home</a>
+                        <a href="{{ $link->url }}" @if(str_starts_with($link->url, 'http')) target="_blank" @endif
+                            >
+                            {{ $link->title }}
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">Research &amp; Innovation</a>
-                    </li>
-                    <li>
-                        <a href="#">NSS</a>
-                    </li>
-                    <li>
-                        <a href="#">NCTE</a>
-                    </li>
-                    <li>
-                        <a href="#">Photo Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact Us</a>
-                    </li>
+                    @endforeach
                 </ul>
             </div>
             <!-- EOF-Footer User Bar -->

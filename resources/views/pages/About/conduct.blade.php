@@ -169,15 +169,16 @@
                                                             </div>
 
                                                             <!-- Button shown only on small screens -->
+                                                           
+
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/code_of_conduct.pdf#page={{ $page }}"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/code_of_conduct.pdf#page={{ $page }}"
+                                                                            target="_blank"
+                                                                            title=" {{ $page == 8 ? 'Code of Conduct For Student' : ($page == 3 ? 'Code of Conduct For Staff' : 'CODE OF CONDUCT FOR VISITORS') }}"> {{ $page == 8 ? 'Code of Conduct For Student' : ($page == 3 ? 'Code of Conduct For Staff' : 'CODE OF CONDUCT FOR VISITORS') }}</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 

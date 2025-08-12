@@ -167,10 +167,15 @@
 
                                                         <!-- Button shown only on small screens -->
                                                         <div class="pdf-mobile-view">
-                                                              <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/ncteOrder.pdf" target="_blank" class="view-pdf-button" style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png" alt="PDF Icon" width="24" style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                View PDF
-                                                              </a>
+                                                             
+
+                                                               <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/ncteOrder.pdf"
+                                                                            target="_blank"
+                                                                            title="NCTE ORDER">NCTE ORDER</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                         </div>
 
 
@@ -196,10 +201,15 @@
 
                                                         <!-- Button shown only on small screens -->
                                                         <div class="pdf-mobile-view">
-                                                              <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/staff.pdf" target="_blank" class="view-pdf-button" style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png" alt="PDF Icon" width="24" style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                View PDF
-                                                              </a>
+                                                              
+
+                                                               <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/staff.pdf"
+                                                                            target="_blank"
+                                                                            title="Staff">Staff</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                         </div>
 
 

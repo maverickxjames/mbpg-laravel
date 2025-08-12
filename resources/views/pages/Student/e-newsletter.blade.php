@@ -188,14 +188,14 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/DEC2021.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                               
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/DEC2021.pdf"
+                                                                            target="_blank"
+                                                                            title="Newsletter December 2021">Newsletter December 2021</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -219,14 +219,16 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/JUNE2022.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                               
+
+                                                                
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/JUNE2022.pdf"
+                                                                            target="_blank"
+                                                                            title="Newsletter June 2022">Newsletter June 2022</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -250,14 +252,14 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/DECEMBER2022.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                              
+
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/DECEMBER2022.pdf"
+                                                                            target="_blank"
+                                                                            title="Newsletter December 2022">Newsletter December 2022</a></li>
+                                                                    <li></li>
+                                                                </ul>
                                                             </div>
 
 
@@ -281,14 +283,14 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/JUNE2023.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                              
+
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/JUNE2023.pdf"
+                                                                            target="_blank"
+                                                                            title="Newsletter June 2023">Newsletter June 2023</a></li>
+                                                                    <li></li>
+                                                                </ul>
                                                             </div>
 
 
@@ -312,14 +314,14 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/december2023.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                             
+
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/december2023.pdf"
+                                                                            target="_blank"
+                                                                            title="Newsletter December 2023">Newsletter December 2023</a></li>
+                                                                    <li></li>
+                                                                </ul>
                                                             </div>
 
 

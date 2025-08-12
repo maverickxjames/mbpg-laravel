@@ -167,7 +167,7 @@
 
                                             <div data-block-plugin-id="lbk_rich_text">
                                                 <p
-                                                    style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;">
+                                                    style="font-weight: bold;line-height:1.5;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;margin-bottom: 20px;">
                                                     IQAC Minutes & Action Taken Reports(ATR)
 
                                                 </p>
@@ -189,14 +189,15 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2018-2019.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                             
+
+                                                                  <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2018-2019.pdf"
+                                                                            target="_blank"
+                                                                            title="IQAC MINUTES MEETING 2018-2019">IQAC MINUTES MEETING 2018-2019</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -220,14 +221,15 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2019_2020.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                              
+
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2019_2020.pdf"
+                                                                            target="_blank"
+                                                                            title="IQAC MINUTES MEETING 2019-2020">IQAC MINUTES MEETING 2019-2020</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -251,14 +253,15 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2020_2021.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                                
+
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2020_2021.pdf"
+                                                                            target="_blank"
+                                                                            title="IQAC MINUTES MEETING 2020-2021">IQAC MINUTES MEETING 2020-2021</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -282,14 +285,15 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2021_2022.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                              
+
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2021_2022.pdf"
+                                                                            target="_blank"
+                                                                            title="IQAC MINUTES MEETING 2021-2022">IQAC MINUTES MEETING 2021-2022</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 
@@ -313,14 +317,15 @@
 
                                                             <!-- Button shown only on small screens -->
                                                             <div class="pdf-mobile-view">
-                                                                <a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2022_2023.pdf"
-                                                                    target="_blank" class="view-pdf-button"
-                                                                    style="color: #fff; text-decoration: none;font-weight: bold;">
-                                                                    <img src="https://cdn-icons-png.flaticon.com/512/136/136522.png"
-                                                                        alt="PDF Icon" width="24"
-                                                                        style="vertical-align: middle; margin-right: 8px;width:24px;height:24px;">
-                                                                    View PDF
-                                                                </a>
+                                                              
+
+                                                                 <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/IQAC_2022_2023.pdf"
+                                                                            target="_blank"
+                                                                            title="IQAC MINUTES MEETING 2022-2023">IQAC MINUTES MEETING 2022-2023</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
                                                             </div>
 
 

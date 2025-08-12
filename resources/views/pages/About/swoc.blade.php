@@ -180,6 +180,18 @@
                                                                 </a>
                                                             </div>
 
+                                                           <div class="pdf-mobile-view">
+                                                                <ul class="document__list">
+                                                                    <li><a href="https://mobflix.s3.ap-south-1.amazonaws.com/mb/swoc.pdf"
+                                                                            target="_blank"
+                                                                            title="strengths, weaknesses, opportunities and challenges"> strengths, weaknesses, opportunities and challenges</a></li>
+                                                                    <li></li>
+
+                                                                </ul>
+                                                            </div>
+
+
+
 
                                                         </div>
                                                        

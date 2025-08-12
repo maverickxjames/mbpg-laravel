@@ -192,7 +192,7 @@
                                                                             Activity</h2>
                                                                     </div>
                                                                     <div class="col-sm-6">
-                                                                        <a href="#"
+                                                                        <a href="/activity"
                                                                             title="View All News"
                                                                             class="section__viewlink">View All</a>
                                                                     </div>
@@ -211,7 +211,7 @@
                                                                                 <div class="section__cardimg section__cardimg--center"
                                                                                     role="img">
                                                                                     <img src="{{ asset($activity->thumbnail) }}"
-                                                                                        alt="IIT Madras &amp; IIT-Madras Pravartak Foundation partners with Ziroh Labs to…" />
+                                                                                        alt="{{ $activity->topic }}" />
                                                                                 </div>
                                                                                 <h3 class="section__cardheading">{{
                                                                                     $activity->topic }}</h3>
@@ -219,10 +219,10 @@
                                                                                     <ul class="clearfix divider__list">
                                                                                     <li
                                                                                         class="font__fontrols__style font__controls__style">
-                                                                                        9 Apr 2025</li>
-                                                                                    <li
+                                                                                        Published on {{ \Carbon\Carbon::parse($activity->created_at)->format('d M Y') }}</li>
+                                                                                    {{-- <li
                                                                                         class="font__fontrols__style font__controls__style">
-                                                                                        Press Release</li>
+                                                                                        Press Release</li> --}}
                                                                                 </ul>
                                                                             </div>
                                                                         </a>
