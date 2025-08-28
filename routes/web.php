@@ -5,6 +5,7 @@ use App\Http\Controllers\AcademicsController;
 use App\Http\Controllers\AdmissionController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\CriteriaController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\ForumsController;
 use App\Http\Controllers\GalleryController;
@@ -98,6 +99,15 @@ Route::get('gallery',[GalleryController::class, 'gallery'])->name('gallery');
     
 // Contact Us`
 Route::get('contact', [ContactController::class,'contact'])->name('contact');
+
+// Criteria Routes
+Route::get('criteria-1', [CriteriaController::class, 'criteria1'])->name('criteria1');
+Route::get('criteria-2', [CriteriaController::class, 'criteria2'])->name('criteria2');
+Route::get('criteria-3', [CriteriaController::class, 'criteria3'])->name('criteria3');
+Route::get('criteria-4', [CriteriaController::class, 'criteria4'])->name('criteria4');
+Route::get('criteria-5', [CriteriaController::class, 'criteria5'])->name('criteria5');
+Route::get('criteria-6', [CriteriaController::class, 'criteria6'])->name('criteria6');
+Route::get('criteria-7', [CriteriaController::class, 'criteria7'])->name('criteria7');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
