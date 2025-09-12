@@ -58,6 +58,8 @@
         .content-table td {
             padding: 12px 15px;
             border: 1px solid #000000;
+            font-size: 18px;
+            text-transform: uppercase;
         }
 
         .content-table tbody tr {
@@ -230,7 +232,7 @@
                                                     </p>
                                                     <div class="lbk-rich-text-component container">
 
-                                                        <h1>Curricular Aspects</h1>
+                                                        <h1>Teaching- Learning and Evaluation</h1>
                                                         <table class="content-table" style="text-align:center">
                                                             <thead>
                                                                 <tr>
@@ -293,6 +295,11 @@
                                                                                 target="_blank"
                                                                                 title="{{ $link->link_text }}">{{ $link->link_text }}</a>
                                                                         </p>
+                                                                         @elseif($link->link_type === 'text')
+                                                                        <p
+                                                                            style="border-bottom:1px solid rgba(151, 151, 151, 0.35);padding:10px;margin:0;font-weight:600;font-size:16px">
+                                                                            {{ $link->link_text }}
+                                                                        </p>
                                                                         @endif
 
                                                                         @endforeach
@@ -309,9 +316,6 @@
 
 
 
-
-
-                                                 
 
                                                     </div>
                                                 </div>

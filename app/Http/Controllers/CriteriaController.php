@@ -48,48 +48,48 @@ class CriteriaController extends Controller
     //             });
     //         return $c;
     //     });
-$criteria_data = DB::table('criteria')
+    $criteria_data = DB::table('criteria')
     ->where('criteria_no', 'like', '1.%')
     ->orderBy('sort_order')
     ->get();
 
-$indicators = DB::table('indicators')
+    $indicators = DB::table('indicators')
     ->whereIn('criteria_id', $criteria_data->pluck('id'))
     ->orderBy('sort_order')
     ->get();
 
-$links = DB::table('indicator_links')
+    $links = DB::table('indicator_links')
     ->whereIn('indicator_id', $indicators->pluck('id'))
     ->orderBy('link_group')
     ->orderBy('sort_order')
     ->get();
 
-// Attach grouped links to indicators & calculate rowspan
-$indicators->map(function ($indicator) use ($links) {
-    $groups = $links
-        ->where('indicator_id', $indicator->id)
-        ->groupBy('link_group')
-        ->values(); // group links by link_group
+    // Attach grouped links to indicators & calculate rowspan
+    $indicators->map(function ($indicator) use ($links) {
+        $groups = $links
+            ->where('indicator_id', $indicator->id)
+            ->groupBy('link_group')
+            ->values(); // group links by link_group
 
-    $indicator->link_groups = $groups;
+        $indicator->link_groups = $groups;
 
-    // Rowspan = number of unique link_group values (NOT total links)
-    $indicator->rowspan = $groups->count();
+        // Rowspan = number of unique link_group values (NOT total links)
+        $indicator->rowspan = $groups->count();
 
-    return $indicator;
-});
+        return $indicator;
+    });
 
-// Attach indicators to criteria
-$criteria_data->map(function ($criteria) use ($indicators) {
-    $criteria->indicators = $indicators
-        ->where('criteria_id', $criteria->id)
-        ->values();
-    return $criteria;
-});
+    // Attach indicators to criteria
+    $criteria_data->map(function ($criteria) use ($indicators) {
+        $criteria->indicators = $indicators
+            ->where('criteria_id', $criteria->id)
+            ->values();
+        return $criteria;
+    });
 
-// return $criteria_data;
+    // return $criteria_data;
 
-return view('pages.criteria.criteria_1', compact('criteria_data'));
+    return view('pages.criteria.criteria_1', compact('criteria_data'));
 
 }
 
@@ -97,71 +97,265 @@ return view('pages.criteria.criteria_1', compact('criteria_data'));
     public function criteria2()
     {
         $criteria_data = DB::table('criteria')
-    ->where('criteria_no', 'like', '2.%')
-    ->orderBy('sort_order')
-    ->get();
+            ->where('criteria_no', 'like', '2.%')
+            ->orderBy('sort_order')
+            ->get();
 
-$indicators = DB::table('indicators')
-    ->whereIn('criteria_id', $criteria_data->pluck('id'))
-    ->orderBy('sort_order')
-    ->get();
+        $indicators = DB::table('indicators')
+            ->whereIn('criteria_id', $criteria_data->pluck('id'))
+            ->orderBy('sort_order')
+            ->get();
 
-$links = DB::table('indicator_links')
-    ->whereIn('indicator_id', $indicators->pluck('id'))
-    ->orderBy('link_group')
-    ->orderBy('sort_order')
-    ->get();
+        $links = DB::table('indicator_links')
+            ->whereIn('indicator_id', $indicators->pluck('id'))
+            ->orderBy('link_group')
+            ->orderBy('sort_order')
+            ->get();
 
-// Attach grouped links to indicators & calculate rowspan
-$indicators->map(function ($indicator) use ($links) {
-    $groups = $links
-        ->where('indicator_id', $indicator->id)
-        ->groupBy('link_group')
-        ->values(); // group links by link_group
+        // Attach grouped links to indicators & calculate rowspan
+        $indicators->map(function ($indicator) use ($links) {
+            $groups = $links
+                ->where('indicator_id', $indicator->id)
+                ->groupBy('link_group')
+                ->values(); // group links by link_group
 
-    $indicator->link_groups = $groups;
+            $indicator->link_groups = $groups;
 
-    // Rowspan = number of unique link_group values (NOT total links)
-    $indicator->rowspan = $groups->count();
+            // Rowspan = number of unique link_group values (NOT total links)
+            $indicator->rowspan = $groups->count();
 
-    return $indicator;
-});
+            return $indicator;
+        });
 
-// Attach indicators to criteria
-$criteria_data->map(function ($criteria) use ($indicators) {
-    $criteria->indicators = $indicators
-        ->where('criteria_id', $criteria->id)
-        ->values();
-    return $criteria;
-});
+        // Attach indicators to criteria
+        $criteria_data->map(function ($criteria) use ($indicators) {
+            $criteria->indicators = $indicators
+                ->where('criteria_id', $criteria->id)
+                ->values();
+            return $criteria;
+        });
 
-// return $criteria_data;
 
-return view('pages.criteria.criteria_2', compact('criteria_data'));
-    }
+        return view('pages.criteria.criteria_2', compact('criteria_data'));
+}
 
     public function criteria3()
     {
-        return view('pages.criteria.criteria_3');
+        $criteria_data = DB::table('criteria')
+            ->where('criteria_no', 'like', '3.%')
+            ->orderBy('sort_order')
+            ->get();
+
+        $indicators = DB::table('indicators')
+            ->whereIn('criteria_id', $criteria_data->pluck('id'))
+            ->orderBy('sort_order')
+            ->get();
+
+        $links = DB::table('indicator_links')
+            ->whereIn('indicator_id', $indicators->pluck('id'))
+            ->orderBy('link_group')
+            ->orderBy('sort_order')
+            ->get();
+
+        // Attach grouped links to indicators & calculate rowspan
+        $indicators->map(function ($indicator) use ($links) {
+            $groups = $links
+                ->where('indicator_id', $indicator->id)
+                ->groupBy('link_group')
+                ->values(); // group links by link_group
+
+            $indicator->link_groups = $groups;
+
+            // Rowspan = number of unique link_group values (NOT total links)
+            $indicator->rowspan = $groups->count();
+
+            return $indicator;
+        });
+
+        // Attach indicators to criteria
+        $criteria_data->map(function ($criteria) use ($indicators) {
+            $criteria->indicators = $indicators
+                ->where('criteria_id', $criteria->id)
+                ->values();
+            return $criteria;
+        });
+
+        return view('pages.criteria.criteria_3', compact('criteria_data'));
     }
 
     public function criteria4()
     {
-        return view('pages.criteria.criteria_4');
+         $criteria_data = DB::table('criteria')
+            ->where('criteria_no', 'like', '4.%')
+            ->orderBy('sort_order')
+            ->get();
+
+        $indicators = DB::table('indicators')
+            ->whereIn('criteria_id', $criteria_data->pluck('id'))
+            ->orderBy('sort_order')
+            ->get();
+
+        $links = DB::table('indicator_links')
+            ->whereIn('indicator_id', $indicators->pluck('id'))
+            ->orderBy('link_group')
+            ->orderBy('sort_order')
+            ->get();
+
+        // Attach grouped links to indicators & calculate rowspan
+        $indicators->map(function ($indicator) use ($links) {
+            $groups = $links
+                ->where('indicator_id', $indicator->id)
+                ->groupBy('link_group')
+                ->values(); // group links by link_group
+
+            $indicator->link_groups = $groups;
+
+            // Rowspan = number of unique link_group values (NOT total links)
+            $indicator->rowspan = $groups->count();
+
+            return $indicator;
+        });
+
+        // Attach indicators to criteria
+        $criteria_data->map(function ($criteria) use ($indicators) {
+            $criteria->indicators = $indicators
+                ->where('criteria_id', $criteria->id)
+                ->values();
+            return $criteria;
+        });
+
+        return view('pages.criteria.criteria_4', compact('criteria_data'));
     }
 
     public function criteria5()
     {
-        return view('pages.criteria.criteria_5');
+         $criteria_data = DB::table('criteria')
+            ->where('criteria_no', 'like', '5.%')
+            ->orderBy('sort_order')
+            ->get();
+
+        $indicators = DB::table('indicators')
+            ->whereIn('criteria_id', $criteria_data->pluck('id'))
+            ->orderBy('sort_order')
+            ->get();
+
+        $links = DB::table('indicator_links')
+            ->whereIn('indicator_id', $indicators->pluck('id'))
+            ->orderBy('link_group')
+            ->orderBy('sort_order')
+            ->get();
+
+        // Attach grouped links to indicators & calculate rowspan
+        $indicators->map(function ($indicator) use ($links) {
+            $groups = $links
+                ->where('indicator_id', $indicator->id)
+                ->groupBy('link_group')
+                ->values(); // group links by link_group
+
+            $indicator->link_groups = $groups;
+
+            // Rowspan = number of unique link_group values (NOT total links)
+            $indicator->rowspan = $groups->count();
+
+            return $indicator;
+        });
+
+        // Attach indicators to criteria
+        $criteria_data->map(function ($criteria) use ($indicators) {
+            $criteria->indicators = $indicators
+                ->where('criteria_id', $criteria->id)
+                ->values();
+            return $criteria;
+        });
+
+        return view('pages.criteria.criteria_5', compact('criteria_data'));
     }
 
     public function criteria6()
     {
-        return view('pages.criteria.criteria_6');
+         $criteria_data = DB::table('criteria')
+            ->where('criteria_no', 'like', '6.%')
+            ->orderBy('sort_order')
+            ->get();
+
+        $indicators = DB::table('indicators')
+            ->whereIn('criteria_id', $criteria_data->pluck('id'))
+            ->orderBy('sort_order')
+            ->get();
+
+        $links = DB::table('indicator_links')
+            ->whereIn('indicator_id', $indicators->pluck('id'))
+            ->orderBy('link_group')
+            ->orderBy('sort_order')
+            ->get();
+
+        // Attach grouped links to indicators & calculate rowspan
+        $indicators->map(function ($indicator) use ($links) {
+            $groups = $links
+                ->where('indicator_id', $indicator->id)
+                ->groupBy('link_group')
+                ->values(); // group links by link_group
+
+            $indicator->link_groups = $groups;
+
+            // Rowspan = number of unique link_group values (NOT total links)
+            $indicator->rowspan = $groups->count();
+
+            return $indicator;
+        });
+
+        // Attach indicators to criteria
+        $criteria_data->map(function ($criteria) use ($indicators) {
+            $criteria->indicators = $indicators
+                ->where('criteria_id', $criteria->id)
+                ->values();
+            return $criteria;
+        });
+
+        return view('pages.criteria.criteria_6', compact('criteria_data'));
     }
     public function criteria7()
     {
-        return view('pages.criteria.criteria_7');
+         $criteria_data = DB::table('criteria')
+            ->where('criteria_no', 'like', '7.%')
+            ->orderBy('sort_order')
+            ->get();
+
+        $indicators = DB::table('indicators')
+            ->whereIn('criteria_id', $criteria_data->pluck('id'))
+            ->orderBy('sort_order')
+            ->get();
+
+        $links = DB::table('indicator_links')
+            ->whereIn('indicator_id', $indicators->pluck('id'))
+            ->orderBy('link_group')
+            ->orderBy('sort_order')
+            ->get();
+
+        // Attach grouped links to indicators & calculate rowspan
+        $indicators->map(function ($indicator) use ($links) {
+            $groups = $links
+                ->where('indicator_id', $indicator->id)
+                ->groupBy('link_group')
+                ->values(); // group links by link_group
+
+            $indicator->link_groups = $groups;
+
+            // Rowspan = number of unique link_group values (NOT total links)
+            $indicator->rowspan = $groups->count();
+
+            return $indicator;
+        });
+
+        // Attach indicators to criteria
+        $criteria_data->map(function ($criteria) use ($indicators) {
+            $criteria->indicators = $indicators
+                ->where('criteria_id', $criteria->id)
+                ->values();
+            return $criteria;
+        });
+
+        return view('pages.criteria.criteria_7', compact('criteria_data'));
     }
 
    
