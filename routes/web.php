@@ -12,6 +12,7 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\InfrastructureController;
 use App\Http\Controllers\NAACController;
 use App\Http\Controllers\NssController;
+use App\Http\Controllers\OtherController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ResearchController;
 use App\Http\Controllers\StudentController;
@@ -108,6 +109,9 @@ Route::get('criteria-4', [CriteriaController::class, 'criteria4'])->name('criter
 Route::get('criteria-5', [CriteriaController::class, 'criteria5'])->name('criteria5');
 Route::get('criteria-6', [CriteriaController::class, 'criteria6'])->name('criteria6');
 Route::get('criteria-7', [CriteriaController::class, 'criteria7'])->name('criteria7');
+
+// pdf view
+Route::get('/pdf/{slug}', [OtherController::class, 'pdfView'])->name('pdf_view');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

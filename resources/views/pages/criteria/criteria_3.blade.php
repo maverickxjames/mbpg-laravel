@@ -279,7 +279,7 @@
                                                                             <li class="bottom-border"
                                                                                 style="list-style:none">
 
-                                                                                <a href="{{ $link->link_url }}"
+                                                                               <a href="{{ asset('pdf/' . $link->slug) }}"
                                                                                     target="_blank"
                                                                                     class="{{ $link->link_type === 'link' ? 'readmore' : '' }}"
                                                                                     title="{{ $link->link_text }}">

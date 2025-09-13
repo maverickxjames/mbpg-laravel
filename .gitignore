@@ -21,3 +21,6 @@
 # /.nova
 # /.vscode
 # /.zed
+/public/pdf/*
+
+
