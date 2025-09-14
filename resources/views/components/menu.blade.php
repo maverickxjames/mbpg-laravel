@@ -6,11 +6,11 @@
 
             <ul class="navigation__menu">
                 @php
-                $menus = DB::table('menus')->whereNull('parent_id')->orderBy('sort_order', 'asc')->get();
+                $menus = DB::table('menus')->whereNull('parent_id')->where('status',1)->orderBy('sort_order', 'asc')->get();
                 @endphp
                 @foreach($menus as $menu)
                 @php
-                    $submenus = DB::table('menus')->where('parent_id', $menu->id)->orderBy('sort_order', 'asc')->get();
+                    $submenus = DB::table('menus')->where('parent_id', $menu->id)->where('status',1)->orderBy('sort_order', 'asc')->get();
                 @endphp
                 <li class="navigation__submenudropdown">
                     @if($submenus->isEmpty())
