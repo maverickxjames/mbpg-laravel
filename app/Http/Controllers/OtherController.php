@@ -37,6 +37,15 @@ class OtherController extends Controller
             case 'feedback':
                 $data=DB::table('feedback')->where('slug',$slug)->first();
                 break;
+            case 'student-scholarship':
+                $data=DB::table('student_supports')->where('slug',$slug)->first();
+                break;
+            case 'project-1':
+                $data=DB::table('project_1')->where('slug',$slug)->first();
+                break;
+            case 'project-2':
+                $data=DB::table('project_2')->where('slug',$slug)->first();
+                break;
             default:
                 $data=null;
             
@@ -85,5 +94,24 @@ class OtherController extends Controller
 
         return view('pages.other.feedback', compact('feedback'));
     }
+
+    public function student_scholarship()
+    {
+        $student_scholarship = DB::table('student_supports')->where('status', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('pages.other.student_scholarship', compact('student_scholarship'));
+    }
+
+    public function project_1()
+    {
+        $project_1 = DB::table('project_1')->where('status', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('pages.other.project_1', compact('project_1'));
+    }
+
+    public function project_2()
+    {
+        $project_2 = DB::table('project_2')->where('status', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('pages.other.project_2', compact('project_2'));
+    }
+
    
 }

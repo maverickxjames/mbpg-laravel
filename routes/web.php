@@ -120,6 +120,9 @@ Route::get('/addon-courses', [OtherController::class, 'addon_courses'])->name('a
 Route::get('ethics', [OtherController::class, 'ethics'])->name('ethics');
 Route::get('syllabus', [OtherController::class, 'syllabus'])->name('syllabus');
 Route::get('/feedback-system', [OtherController::class, 'feedback'])->name('feedback_system');
+Route::get('/student-scholarship', [OtherController::class, 'student_scholarship'])->name('student_scholarship');
+Route::get('project-1', [OtherController::class, 'project_1'])->name('project_1');
+Route::get('project-2', [OtherController::class, 'project_2'])->name('project_2');
 
 
 Route::middleware('auth')->group(function () {

@@ -27,7 +27,7 @@
             font-size: 0.9em;
             min-width: 400px;
             width: 100%;
-            /* border-radius: 5px 5px 0 0; */
+            border-radius: 5px 5px 0 0;
             overflow: hidden;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
         }
@@ -228,30 +228,33 @@
 
                                                     <p
                                                         style="font-weight: bold;margin-top: 20px;font-size:40px;text-align: center;text-transform: uppercase;text-decoration: underline;line-height: 1.5;">
-                                                       Criterion - I: Curricular Aspects
+                                                        Criteria 5.1
                                                     </p>
                                                     <div class="lbk-rich-text-component container">
 
-                                                        <h1>1.2.1 Number of Add on Certificate programs offered during the last 5 years</h1>
+                                                        <h1>Student Support and Progression</h1>
                                                      
 
                                                         <table class=" content-table " style="text-align: center">
                                                             <thead>
-                                                                {{-- <tr>
-                                                                    <th style="text-align: center">S.NO.</th>
-                                                                    <th style="text-align: center">CRITERION KEY
-                                                                        INDICATOR NAME
+                                                                <tr>
+                                                                    <th style="text-align: center">Student Support
                                                                     </th>
-                                                                </tr> --}}
+                                                                </tr>
                                                             </thead>
                                                             <tbody>   
-                                                               @foreach ($addon_courses as $data)
+                                                                <tr>
+                                                                    <td style="background-color:#e4e2f7;font-weight:bold">Student Support 5.1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Students benefited by scholarships and freeships provided by the Government and Non-government agencies during last five years</td>
+                                                                </tr>
+                                                               @foreach ($student_scholarship as $data)
                                                                  <tr>
-                                                                    {{-- <td>{{ $data->id }}</td> --}}
                                                                     <td>
                                                                         <ul class="document__list"
                                                                             style="padding-bottom: 0px">
-                                                                            <li style="border-bottom: 1px solid rgba(151, 151, 151, 0.35)"><a href="/pdf/addon-courses/{{ $data->slug }}" target="_blank"
+                                                                            <li style="border-bottom: 1px solid rgba(151, 151, 151, 0.35)"><a href="/pdf/student-scholarship/{{ $data->slug }}" target="_blank"
                                                                                     title="{{ $data->name }}">{{ $data->name }}</a></li>
                                                                         </ul>
                                                                     </td>
