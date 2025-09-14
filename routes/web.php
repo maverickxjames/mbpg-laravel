@@ -110,6 +110,7 @@ Route::get('criteria-5', [CriteriaController::class, 'criteria5'])->name('criter
 Route::get('criteria-6', [CriteriaController::class, 'criteria6'])->name('criteria6');
 Route::get('criteria-7', [CriteriaController::class, 'criteria7'])->name('criteria7');
 Route::get('extended-profile', [CriteriaController::class, 'extended_profile'])->name('extended_profile');
+Route::get('annexure', [CriteriaController::class, 'annexure'])->name('annexure');
 
 // pdf view
 Route::get('/pdf/{slug}', [OtherController::class, 'pdfView'])->name('pdf_view');

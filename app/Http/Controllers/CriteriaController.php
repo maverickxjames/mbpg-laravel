@@ -368,5 +368,14 @@ class CriteriaController extends Controller
         return view('pages.criteria.extended_profile', ['extended_profile' => $extended_profile]);
     }
 
+    public function annexure()
+    {
+        $annexures = DB::table('annexure')
+            ->where('status', 1)
+            ->orderBy('sort_order', 'ASC')
+            ->get();
+        return view('pages.criteria.annexure',compact('annexures'));
+    }
+
    
 }

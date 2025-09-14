@@ -158,7 +158,14 @@
 
                                                     <div class="lbk-rich-text-component container">
                                                          <div class="content block-content">
+                                                          @if ($data->name === strip_tags($data->name))
+                                                            {{-- No HTML tags found, so wrap in h1 --}}
                                                             <h1>{{ $data->name }}</h1>
+                                                        @else
+                                                            {{-- HTML tags already present, render raw --}}
+                                                           <h1>{!! $data->name !!}</h1>
+                                                        @endif
+
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="pdf-desktop-view">
                                                                 <iframe

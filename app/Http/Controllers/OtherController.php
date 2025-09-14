@@ -46,6 +46,9 @@ class OtherController extends Controller
             case 'project-2':
                 $data=DB::table('project_2')->where('slug',$slug)->first();
                 break;
+            case 'annexure':
+                $data=DB::table('annexure')->where('slug',$slug)->first();
+                break;
             default:
                 $data=null;
             
