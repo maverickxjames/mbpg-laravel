@@ -158,11 +158,11 @@
 
                                                     <div class="lbk-rich-text-component container">
                                                          <div class="content block-content">
-                                                            <h1>{{ $links->link_text }}</h1>
+                                                            <h1>{{ $data->name }}</h1>
                                                             <!-- PDF iFrame visible on large screens -->
                                                             <div class="pdf-desktop-view">
                                                                 <iframe
-                                                                    src="{{ asset('pdf/' . $data->link_url) }}#toolbar=0&navpanes=0&scrollbar=0"
+                                                                    src="{{ asset('pdf/' . $data->link) }}#toolbar=0&navpanes=0&scrollbar=0"
                                                                     width="100%" height="1200px"
                                                                     style="border: none;">
                                                                 </iframe>
@@ -182,9 +182,9 @@
 
                                                            <div class="pdf-mobile-view">
                                                                 <ul class="document__list">
-                                                                    <li><a href="{{ asset('pdf/' . $data->link_url) }}"
+                                                                    <li><a href="{{ asset('pdf/' . $data->link) }}"
                                                                             target="_blank"
-                                                                            title="{{ $data->link_text }}">{{ $data->link_text }}</a></li>
+                                                                            title="{{ $data->name }}">{{ $data->name }}</a></li>
                                                                     <li></li>
 
                                                                 </ul>

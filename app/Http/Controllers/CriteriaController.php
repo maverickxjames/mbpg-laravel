@@ -358,5 +358,15 @@ class CriteriaController extends Controller
         return view('pages.criteria.criteria_7', compact('criteria_data'));
     }
 
+
+    public function extended_profile()
+    {
+        $extended_profile = DB::table('extended_profile')
+            ->where('status', 1)
+            ->orderBy('sort_order', 'ASC')
+            ->get();
+        return view('pages.criteria.extended_profile', ['extended_profile' => $extended_profile]);
+    }
+
    
 }

@@ -109,9 +109,15 @@ Route::get('criteria-4', [CriteriaController::class, 'criteria4'])->name('criter
 Route::get('criteria-5', [CriteriaController::class, 'criteria5'])->name('criteria5');
 Route::get('criteria-6', [CriteriaController::class, 'criteria6'])->name('criteria6');
 Route::get('criteria-7', [CriteriaController::class, 'criteria7'])->name('criteria7');
+Route::get('extended-profile', [CriteriaController::class, 'extended_profile'])->name('extended_profile');
 
 // pdf view
 Route::get('/pdf/{slug}', [OtherController::class, 'pdfView'])->name('pdf_view');
+Route::get('/pdf/{type}/{slug}', [OtherController::class, 'otherpdfView'])->name('other_pdf_view');
+// Route::get('/calendar/pdf/{slug}', [OtherController::class, 'calendarPdfView'])->name('calendar_pdf_view');
+Route::get('/calendar', [OtherController::class, 'calendarView'])->name('calendar_view');
+Route::get('/uok-cia', [OtherController::class, 'uok_cia'])->name('uok_cia');
+// Route::get('/uok-cia/pdf/{slug}', [OtherController::class, 'uok_cia_pdf'])->name('uok_cia_pdf');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
