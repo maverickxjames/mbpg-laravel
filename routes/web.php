@@ -114,10 +114,13 @@ Route::get('extended-profile', [CriteriaController::class, 'extended_profile'])-
 // pdf view
 Route::get('/pdf/{slug}', [OtherController::class, 'pdfView'])->name('pdf_view');
 Route::get('/pdf/{type}/{slug}', [OtherController::class, 'otherpdfView'])->name('other_pdf_view');
-// Route::get('/calendar/pdf/{slug}', [OtherController::class, 'calendarPdfView'])->name('calendar_pdf_view');
 Route::get('/calendar', [OtherController::class, 'calendarView'])->name('calendar_view');
 Route::get('/uok-cia', [OtherController::class, 'uok_cia'])->name('uok_cia');
-// Route::get('/uok-cia/pdf/{slug}', [OtherController::class, 'uok_cia_pdf'])->name('uok_cia_pdf');
+Route::get('/addon-courses', [OtherController::class, 'addon_courses'])->name('addon_courses');
+Route::get('ethics', [OtherController::class, 'ethics'])->name('ethics');
+Route::get('syllabus', [OtherController::class, 'syllabus'])->name('syllabus');
+Route::get('/feedback-system', [OtherController::class, 'feedback'])->name('feedback_system');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -25,17 +25,23 @@ class OtherController extends Controller
             case 'extended-profile':
                 $data=DB::table('extended_profile')->where('slug',$slug)->first();
                 break;
+            case 'addon-courses':
+                $data=DB::table('addon_course')->where('slug',$slug)->first();
+                break;
+            case 'ethics':
+                $data=DB::table('ethics')->where('slug',$slug)->first();
+                break;
+            case 'syllabus':
+                $data=DB::table('syllabus')->where('slug',$slug)->first();
+                break;
+            case 'feedback':
+                $data=DB::table('feedback')->where('slug',$slug)->first();
+                break;
             default:
                 $data=null;
             
         }
         return view('pages.other.other_pdfview', ['data' => $data]);
-    }
-
-    public function calendarPdfView($slug)
-    {
-       $calendar=DB::table('calender')->where('slug',$slug)->first();
-        return view('pages.other.calendar_pdfview', ['calendar' => $calendar]);
     }
 
     public function calendarView()
@@ -50,9 +56,34 @@ class OtherController extends Controller
         return view('pages.other.uok_cia', compact('uok_cia'));
     }
 
-    public function uok_cia_pdf($slug)
+    public function addon_courses()
     {
-       $uok_cia=DB::table('uok_cia')->where('slug',$slug)->first();
-        return view('pages.other.uok_cia_pdfview', ['uok_cia' => $uok_cia]);
+        $addon_courses = DB::table('addon_course')->where('status', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('pages.other.addon_courses', compact('addon_courses'));
     }
+
+    public function ethics()
+    {
+        $ethics = DB::table('ethics')->where('status', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('pages.other.ethics', compact('ethics'));
+    }
+
+    public function syllabus()
+    {
+        $syllabus = DB::table('syllabus')->where('status', 1)->orderBy('sort_order', 'ASC')->get();
+        return view('pages.other.syllabus', compact('syllabus'));
+    }
+
+    public function feedback()
+    {
+         $feedback = DB::table('feedback')
+        ->where('status', 1)
+        ->orderBy('link_group')
+        ->orderBy('sort_order')
+        ->get()
+        ->groupBy('link_group');
+
+        return view('pages.other.feedback', compact('feedback'));
+    }
+   
 }
